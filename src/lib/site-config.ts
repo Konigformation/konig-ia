@@ -1,0 +1,21 @@
+export const siteConfig = {
+  name: "Konig IA",
+  tagline: "Audit IA gratuit & formation à l'automatisation",
+  url: "https://www.konigformation.com",
+  bookingUrl: "#diagnostic",
+  email: "contact@konigformation.com",
+};
+
+export const navLinks = [
+  { label: "Le problème", href: "#probleme" },
+  { label: "L'audit", href: "#diagnostic-ia" },
+  { label: "La formation", href: "#formation" },
+  { label: "Avis", href: "#temoignages" },
+  { label: "FAQ", href: "#faq" },
+];
+
+export const ctaCopy = {
+  primary: "Réserver mon Audit IA gratuit",
+  primaryShort: "Réserver mon Audit IA",
+  secondary: "Voir si l'automatisation a du sens pour moi",
+};
