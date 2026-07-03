@@ -70,9 +70,23 @@ export function Hero() {
             custom={1}
             className="max-w-xl text-4xl leading-[1.08] font-bold tracking-tight text-balance sm:text-6xl"
           >
-            Et si vous n&apos;aviez plus jamais besoin{" "}
-            <span className="text-gradient">d&apos;une agence marketing hors de prix ?</span>
+            L&apos;écosystème qui automatise votre prospection clients{" "}
+            <span className="text-gradient">grâce à l&apos;IA</span>
           </motion.h1>
+
+          <motion.p
+            variants={fadeUp}
+            initial="hidden"
+            animate="show"
+            custom={1.5}
+            className="mt-4 flex flex-wrap items-center justify-center gap-2 text-sm font-medium text-muted-foreground lg:justify-start sm:text-base"
+          >
+            <span>LinkedIn</span>
+            <span className="text-[var(--accent-solid)]">·</span>
+            <span>Mailing</span>
+            <span className="text-[var(--accent-solid)]">·</span>
+            <span>WhatsApp</span>
+          </motion.p>
 
           <motion.p
             variants={fadeUp}
