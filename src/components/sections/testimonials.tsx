@@ -7,12 +7,12 @@ import { Reveal } from "@/components/reveal";
 const testimonials = [
   {
     quote:
-      "L'Audit IA m'a ouvert les yeux en 30 minutes sur tout ce que je pouvais automatiser. Deux jours de formation plus tard, mon système de prospection tournait déjà seul.",
+      "L'Audit IA m'a ouvert les yeux en 30 minutes sur tout ce que je pouvais automatiser. Deux jours d'accompagnement plus tard, mon système de prospection tournait déjà seul.",
     name: "Julien Marchand",
     role: "Fondateur, cabinet de conseil en stratégie",
     initials: "JM",
     photo: "https://randomuser.me/api/portraits/men/45.jpg",
-    result: "Système opérationnel dès la sortie de formation",
+    result: "Système opérationnel dès la fin de l'accompagnement",
   },
   {
     quote:
@@ -21,11 +21,11 @@ const testimonials = [
     role: "Associée, agence marketing B2B",
     initials: "CB",
     photo: "https://randomuser.me/api/portraits/women/32.jpg",
-    result: "Zéro dépendance après la formation",
+    result: "Zéro dépendance après l'accompagnement",
   },
   {
     quote:
-      "Mon agent IA qualifie mes leads avant même que je les voie. Je l'ai configuré moi-même pendant la formation — ça change tout sur ma confiance dans l'outil.",
+      "Mon agent IA qualifie mes leads avant même que je les voie. Je l'ai configuré moi-même pendant l'accompagnement — ça change tout sur ma confiance dans l'outil.",
     name: "Sophie Lambert",
     role: "Coach indépendante",
     initials: "SL",
@@ -34,12 +34,12 @@ const testimonials = [
   },
   {
     quote:
-      "La formation était finançable via mon OPCO, ce qui a fini de me convaincre. Deux jours intenses, mais on repart avec un système en marche, pas des slides.",
+      "L'accompagnement était finançable via mon OPCO, ce qui a fini de me convaincre. Deux jours intenses, mais on repart avec un système en marche, pas des slides.",
     name: "Thomas Girard",
     role: "Dirigeant, PME industrielle",
     initials: "TG",
     photo: "https://randomuser.me/api/portraits/men/62.jpg",
-    result: "Formation prise en charge par l'OPCO",
+    result: "Accompagnement pris en charge par l'OPCO",
   },
 ];
 

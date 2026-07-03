@@ -65,7 +65,7 @@ export default async function OpengraphImage() {
           }}
         >
           Découvrez votre potentiel d&apos;automatisation, puis construisez votre
-          système en formation intensive de 2 jours
+          système avec notre accompagnement intensif de 2 jours
         </div>
       </div>
     ),

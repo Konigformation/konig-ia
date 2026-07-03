@@ -67,7 +67,7 @@ const cases = [
     title: "Automatisez vos tâches répétitives et gagnez en valeur",
     pain: "Reporting, relances, suivi administratif : une grande partie de votre journée part dans des tâches à faible valeur ajoutée.",
     outcome:
-      "Vous apprenez à automatiser ces tâches avec l'IA grâce à une formation éligible CPF, et devenez la personne de référence sur l'automatisation dans votre entreprise.",
+      "Vous êtes accompagné pour automatiser ces tâches avec l'IA grâce à un programme éligible CPF, et devenez la personne de référence sur l'automatisation dans votre entreprise.",
   },
 ];
 

@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 const title =
   "Audit IA gratuit — Ne dépendez plus d'une agence marketing | Konig IA";
 const description =
-  "Réservez votre Audit IA gratuit : nous évaluons si l'automatisation a du sens pour votre activité et ce que ça lui apporterait. Si pertinent, apprenez à construire vous-même votre système d'acquisition lors de notre formation intensive de 2 jours (Qualiopi, éligible CPF/OPCO) — sans dépendre d'une agence marketing.";
+  "Réservez votre Audit IA gratuit : nous évaluons si l'automatisation a du sens pour votre activité et ce que ça lui apporterait. Si pertinent, nous vous accompagnons pour construire votre système d'acquisition lors d'un accompagnement intensif de 2 jours (Qualiopi, éligible CPF/OPCO) — sans dépendre d'une agence marketing.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -24,8 +24,8 @@ export const metadata: Metadata = {
   description,
   keywords: [
     "audit IA gratuit",
-    "formation automatisation IA",
-    "formation IA Qualiopi",
+    "accompagnement automatisation IA",
+    "accompagnement IA Qualiopi",
     "automatisation commerciale",
     "indépendance agence marketing",
     "prospection LinkedIn IA",
@@ -79,10 +79,10 @@ const jsonLd = {
     },
     {
       "@type": "Course",
-      name: "Formation intensive : construire son système d'acquisition automatisé par IA",
+      name: "Accompagnement intensif : construire son système d'acquisition automatisé par IA",
       provider: { "@id": `${siteConfig.url}/#organization` },
       description:
-        "Formation certifiée Qualiopi de 2 jours pendant laquelle chaque participant construit lui-même son système d'acquisition automatisé par IA (prospection, agents IA, relances, workflows).",
+        "Accompagnement certifié Qualiopi de 2 jours pendant lequel chaque participant construit, avec notre soutien, son système d'acquisition automatisé par IA (prospection, agents IA, relances, workflows).",
     },
     {
       "@type": "FAQPage",
@@ -97,7 +97,7 @@ const jsonLd = {
         },
         {
           "@type": "Question",
-          name: "La formation est-elle finançable ?",
+          name: "L'accompagnement est-il finançable ?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "Notre organisme est certifié Qualiopi et peut être éligible à des financements (CPF, OPCO, France Travail, FAF) selon votre situation.",
@@ -105,7 +105,7 @@ const jsonLd = {
         },
         {
           "@type": "Question",
-          name: "Repart-on avec un système concret après la formation ?",
+          name: "Repart-on avec un système concret après l'accompagnement ?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "Oui. À l'issue des 2 jours, chaque participant repart avec son propre système d'acquisition configuré et opérationnel, pas seulement de la théorie.",

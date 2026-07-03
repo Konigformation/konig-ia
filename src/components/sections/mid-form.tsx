@@ -5,7 +5,7 @@ import { Reveal } from "@/components/reveal";
 
 export function MidForm() {
   return (
-    <section className="py-20 sm:py-28">
+    <section id="diagnostic-ia" className="py-20 sm:py-28">
       <Container className="flex flex-col items-center">
         <Reveal className="mb-10 text-center">
           <Eyebrow>Prêt à savoir où vous en êtes ?</Eyebrow>

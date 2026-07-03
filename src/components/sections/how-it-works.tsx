@@ -17,9 +17,9 @@ const steps = [
   },
   {
     number: "03",
-    title: "Formation intensive (2 jours)",
+    title: "Accompagnement intensif (2 jours)",
     description:
-      "Si le potentiel est là, vous construisez vous-même votre système : prospection, agents IA, relances, workflows.",
+      "Si le potentiel est là, nous vous accompagnons pour construire votre système : prospection, agents IA, relances, workflows.",
   },
   {
     number: "04",

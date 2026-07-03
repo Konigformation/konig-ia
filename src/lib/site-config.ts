@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Konig IA",
-  tagline: "Audit IA gratuit & formation à l'automatisation",
+  tagline: "Audit IA gratuit & accompagnement à l'automatisation",
   url: "https://www.konigformation.com",
   bookingUrl: "#diagnostic",
   email: "contact@konigformation.com",
@@ -9,7 +9,7 @@ export const siteConfig = {
 export const navLinks = [
   { label: "Le problème", href: "#probleme" },
   { label: "L'audit", href: "#diagnostic-ia" },
-  { label: "La formation", href: "#formation" },
+  { label: "Accompagnement", href: "#formation" },
   { label: "Avis", href: "#temoignages" },
   { label: "FAQ", href: "#faq" },
 ];

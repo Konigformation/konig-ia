@@ -13,7 +13,7 @@ const rows = [
   { label: "Coût mensuel récurrent", us: "0€", saas: "500-1000€+/mois", agency: "Plus de 3000€/mois" },
   { label: "Vous êtes propriétaire du système", us: true, saas: false, agency: "partial" },
   { label: "Indépendance technologique", us: true, saas: false, agency: "partial" },
-  { label: "Formation certifiée, potentiellement finançable", us: true, saas: false, agency: false },
+  { label: "Accompagnement certifié Qualiopi, potentiellement finançable", us: true, saas: false, agency: false },
   { label: "Aucune dépendance une fois formé", us: true, saas: "partial", agency: false },
 ];
 

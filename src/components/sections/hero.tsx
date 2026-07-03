@@ -60,7 +60,7 @@ export function Hero() {
       <Container className="grid gap-14 lg:grid-cols-[1.1fr_1fr] lg:items-center lg:gap-10">
         <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
           <motion.div variants={fadeUp} initial="hidden" animate="show" custom={0}>
-            <Eyebrow>Audit IA gratuit · Formation certifiée Qualiopi</Eyebrow>
+            <Eyebrow>Audit IA gratuit · Accompagnement certifié Qualiopi</Eyebrow>
           </motion.div>
 
           <motion.h1
@@ -97,8 +97,8 @@ export function Hero() {
           >
             Réservez un Audit IA gratuit de 30 minutes : nous évaluons si
             l&apos;automatisation a du sens pour votre activité, et ce que ça
-            changerait concrètement pour vous. Si oui, vous apprenez à tout
-            construire vous-même, en 2 jours de formation.
+            changerait concrètement pour vous. Si oui, nous vous accompagnons
+            pour tout construire, en 2 jours à vos côtés.
           </motion.p>
 
           <motion.p
