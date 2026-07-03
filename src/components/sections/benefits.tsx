@@ -1,6 +1,7 @@
 import { Clock3, Gauge, LineChart, Repeat, Target, Wallet } from "lucide-react";
 import { Container } from "@/components/container";
 import { SectionHeading } from "@/components/section-heading";
+import { Reveal } from "@/components/reveal";
 
 const benefits = [
   {
@@ -51,20 +52,22 @@ export function Benefits() {
           description="Nous ne vendons pas des automatisations à distance. Nous vous transmettons un système que vous maîtrisez, et les résultats qui vont avec."
         />
 
-        <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <Reveal className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {benefits.map((benefit) => (
             <div
               key={benefit.title}
-              className="rounded-2xl border border-border p-7 transition-colors hover:border-[var(--accent-solid)]/40"
+              className="rounded-2xl border border-border bg-card p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[var(--accent-solid)]/30 hover:shadow-lg"
             >
-              <benefit.icon className="size-6 text-[var(--accent-solid)]" strokeWidth={1.75} />
+              <span className="flex size-11 items-center justify-center rounded-full bg-[var(--accent-solid)]/10 text-[var(--accent-solid)]">
+                <benefit.icon className="size-5" strokeWidth={1.75} />
+              </span>
               <h3 className="mt-5 font-semibold tracking-tight">{benefit.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
                 {benefit.description}
               </p>
             </div>
           ))}
-        </div>
+        </Reveal>
       </Container>
     </section>
   );

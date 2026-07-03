@@ -23,12 +23,12 @@ export function CtaButton({
     <Link
       href={href}
       className={cn(
-        "group inline-flex shrink-0 items-center justify-center gap-2 rounded-full font-medium whitespace-nowrap transition-all duration-200 outline-none select-none focus-visible:ring-3 focus-visible:ring-[var(--accent-solid)]/40 active:translate-y-px",
+        "group inline-flex shrink-0 items-center justify-center gap-2 rounded-full font-medium whitespace-nowrap transition-all duration-250 outline-none select-none focus-visible:ring-3 focus-visible:ring-[var(--accent-solid)]/40 active:translate-y-px",
         size === "lg" ? "h-13 px-7 text-[15px]" : "h-11 px-5 text-sm",
         variant === "solid" &&
-          "bg-[var(--accent-solid)] text-[var(--accent-solid-foreground)] shadow-[0_1px_0_0_rgba(255,255,255,0.15)_inset,0_8px_24px_-8px_var(--accent-solid)] hover:brightness-110 hover:shadow-[0_1px_0_0_rgba(255,255,255,0.15)_inset,0_10px_30px_-6px_var(--accent-solid)]",
+          "bg-[var(--accent-solid)] text-[var(--accent-solid-foreground)] shadow-[0_10px_24px_-10px_color-mix(in_oklch,var(--accent-solid)_75%,transparent)] hover:-translate-y-0.5 hover:shadow-[0_16px_32px_-10px_color-mix(in_oklch,var(--accent-solid)_75%,transparent)] hover:brightness-105",
         variant === "outline" &&
-          "border border-border bg-transparent text-foreground hover:bg-muted",
+          "border border-border bg-background text-foreground hover:-translate-y-0.5 hover:border-foreground/20 hover:bg-muted/60",
         className
       )}
     >

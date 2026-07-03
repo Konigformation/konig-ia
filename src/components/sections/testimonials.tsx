@@ -1,6 +1,8 @@
+import { Star } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Container } from "@/components/container";
 import { SectionHeading } from "@/components/section-heading";
+import { Reveal } from "@/components/reveal";
 
 const testimonials = [
   {
@@ -50,15 +52,22 @@ export function Testimonials() {
           title="Des dirigeants devenus autonomes sur leur acquisition"
         />
 
-        <div className="mt-16 grid gap-6 sm:grid-cols-2">
+        <Reveal className="mt-16 grid gap-6 sm:grid-cols-2">
           {testimonials.map((t) => (
             <figure
               key={t.name}
-              className="flex flex-col justify-between rounded-2xl border border-border p-8"
+              className="flex flex-col justify-between rounded-2xl border border-border bg-card p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
             >
-              <blockquote className="text-[15px] leading-relaxed text-foreground/90">
-                &ldquo;{t.quote}&rdquo;
-              </blockquote>
+              <div>
+                <div className="mb-4 flex items-center gap-0.5 text-[var(--accent-solid)]">
+                  {Array.from({ length: 5 }, (_, i) => (
+                    <Star key={i} className="size-4 fill-current" strokeWidth={0} />
+                  ))}
+                </div>
+                <blockquote className="text-[15px] leading-relaxed text-foreground/90">
+                  &ldquo;{t.quote}&rdquo;
+                </blockquote>
+              </div>
               <div className="mt-8">
                 <div className="mb-4 inline-block rounded-full bg-[var(--accent-solid)]/10 px-3 py-1 text-xs font-medium text-[var(--accent-solid)]">
                   {t.result}
@@ -78,7 +87,7 @@ export function Testimonials() {
               </div>
             </figure>
           ))}
-        </div>
+        </Reveal>
       </Container>
     </section>
   );

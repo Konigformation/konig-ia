@@ -29,7 +29,7 @@ const stages = [
 
 export function Pipeline() {
   return (
-    <div className="relative rounded-2xl border border-border bg-card/40 p-6 sm:p-8">
+    <div className="relative rounded-2xl border border-border bg-card p-6 shadow-[0_2px_8px_-4px_rgba(0,0,0,0.06),0_24px_48px_-24px_rgba(0,0,0,0.12)] sm:p-8">
       <p className="mb-6 text-xs font-medium tracking-wide text-muted-foreground uppercase">
         Ce que vous apprendrez à construire
       </p>

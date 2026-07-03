@@ -1,6 +1,7 @@
 import { Check, Minus, X } from "lucide-react";
 import { Container } from "@/components/container";
 import { SectionHeading } from "@/components/section-heading";
+import { Reveal } from "@/components/reveal";
 
 const rows = [
   {
@@ -51,7 +52,7 @@ export function WhyUs() {
           description="Le système vous appartient dès le premier jour. Vous savez le comprendre, le construire et le faire évoluer seul — sans dépendre de nous, ni de personne d'autre."
         />
 
-        <div className="mt-16 overflow-x-auto rounded-2xl border border-border">
+        <Reveal className="mt-16 overflow-x-auto rounded-2xl border border-border bg-card shadow-sm">
           <table className="w-full min-w-[560px] border-collapse text-sm">
             <thead>
               <tr className="border-b border-border bg-muted/40">
@@ -87,7 +88,7 @@ export function WhyUs() {
               ))}
             </tbody>
           </table>
-        </div>
+        </Reveal>
 
         <div className="mt-8 grid gap-6 sm:grid-cols-3">
           {[
@@ -104,7 +105,10 @@ export function WhyUs() {
               text: "Chaque brique (LinkedIn, email, WhatsApp, IA) est indépendante : vous ajustez sans tout reconstruire.",
             },
           ].map((item) => (
-            <div key={item.title} className="rounded-xl border border-border p-6">
+            <div
+              key={item.title}
+              className="rounded-xl border border-border bg-card p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+            >
               <h3 className="font-semibold tracking-tight">{item.title}</h3>
               <p className="mt-2 text-sm text-muted-foreground">{item.text}</p>
             </div>

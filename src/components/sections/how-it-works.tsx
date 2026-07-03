@@ -1,5 +1,6 @@
 import { Container } from "@/components/container";
 import { SectionHeading } from "@/components/section-heading";
+import { Reveal } from "@/components/reveal";
 
 const steps = [
   {
@@ -44,11 +45,11 @@ export function HowItWorks() {
           description="Comprendre. Construire. Automatiser. Maîtriser. Être autonome — c'est notre seule promesse."
         />
 
-        <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-6">
+        <Reveal className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-6">
           {steps.map((step, i) => (
             <div key={step.number} className="relative">
               <div className="flex items-center gap-3 lg:flex-col lg:items-start lg:gap-0">
-                <span className="text-3xl font-semibold text-[var(--accent-solid)]/30 tabular-nums">
+                <span className="text-4xl font-bold text-[var(--accent-solid)]/25 tabular-nums">
                   {step.number}
                 </span>
                 <h3 className="font-semibold tracking-tight lg:mt-3">{step.title}</h3>
@@ -61,7 +62,7 @@ export function HowItWorks() {
               )}
             </div>
           ))}
-        </div>
+        </Reveal>
       </Container>
     </section>
   );

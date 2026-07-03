@@ -3,6 +3,7 @@ import { Container } from "@/components/container";
 import { CtaButton } from "@/components/cta-button";
 import { Eyebrow } from "@/components/section-heading";
 import { Pipeline } from "@/components/sections/pipeline";
+import { Reveal } from "@/components/reveal";
 import { ctaCopy, siteConfig } from "@/lib/site-config";
 
 const checklist = [
@@ -19,9 +20,9 @@ export function Solution() {
     <section id="diagnostic-ia" className="py-24 sm:py-32">
       <Container>
         <div className="grid gap-16 lg:grid-cols-2 lg:items-center">
-          <div>
+          <Reveal>
             <Eyebrow>L&apos;Audit IA</Eyebrow>
-            <h2 className="max-w-lg text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
+            <h2 className="max-w-lg text-3xl font-bold tracking-tight text-balance sm:text-4xl">
               30 minutes pour savoir si l&apos;automatisation a du sens pour vous
             </h2>
             <p className="mt-4 max-w-lg text-base text-muted-foreground sm:text-lg">
@@ -41,12 +42,17 @@ export function Solution() {
               ))}
             </ul>
 
-            <div className="mt-9">
+            <div className="mt-9 flex flex-wrap items-center gap-3">
               <CtaButton href={siteConfig.bookingUrl}>{ctaCopy.primary}</CtaButton>
+              <CtaButton href={siteConfig.bookingUrl} variant="outline" showArrow={false}>
+                {ctaCopy.secondary}
+              </CtaButton>
             </div>
-          </div>
+          </Reveal>
 
-          <Pipeline />
+          <Reveal delay={0.1}>
+            <Pipeline />
+          </Reveal>
         </div>
       </Container>
     </section>

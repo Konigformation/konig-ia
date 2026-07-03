@@ -6,6 +6,7 @@ import {
 } from "@/components/ui/accordion";
 import { Container } from "@/components/container";
 import { SectionHeading } from "@/components/section-heading";
+import { Reveal } from "@/components/reveal";
 
 const faqs = [
   {
@@ -56,16 +57,23 @@ export function Faq() {
       <Container className="max-w-3xl">
         <SectionHeading eyebrow="Questions fréquentes" title="Tout ce qu'il faut savoir avant de réserver" />
 
-        <Accordion className="mt-14" defaultValue={[faqs[0].question]}>
-          {faqs.map((faq) => (
-            <AccordionItem key={faq.question} value={faq.question}>
-              <AccordionTrigger className="text-base">{faq.question}</AccordionTrigger>
-              <AccordionContent className="text-muted-foreground">
-                {faq.answer}
-              </AccordionContent>
-            </AccordionItem>
-          ))}
-        </Accordion>
+        <Reveal>
+          <Accordion
+            className="mt-14 rounded-2xl border border-border bg-card px-6 shadow-sm"
+            defaultValue={[faqs[0].question]}
+          >
+            {faqs.map((faq) => (
+              <AccordionItem key={faq.question} value={faq.question}>
+                <AccordionTrigger className="py-5 text-base">
+                  {faq.question}
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  {faq.answer}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </Reveal>
       </Container>
     </section>
   );

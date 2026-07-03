@@ -91,7 +91,7 @@ export function UseCases() {
 
           {cases.map((c) => (
             <TabsContent key={c.value} value={c.value} className="mt-8">
-              <div className="mx-auto max-w-3xl rounded-2xl border border-border p-8 sm:p-10">
+              <div className="mx-auto max-w-3xl rounded-2xl border border-border bg-card p-8 shadow-sm sm:p-10">
                 <h3 className="text-xl font-semibold tracking-tight">{c.title}</h3>
                 <div className="mt-6 grid gap-6 sm:grid-cols-2">
                   <div>

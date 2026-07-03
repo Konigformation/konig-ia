@@ -124,10 +124,10 @@ function ChoiceCard({
       type="button"
       onClick={onClick}
       className={cn(
-        "flex h-full min-h-[96px] flex-col items-center justify-center gap-2 rounded-xl border px-3 py-4 text-center transition-all",
+        "flex h-full min-h-[96px] flex-col items-center justify-center gap-2 rounded-xl border px-3 py-4 text-center transition-all duration-200",
         selected
-          ? "border-[var(--accent-solid)] bg-[var(--accent-solid)]/10 text-foreground"
-          : "border-border bg-background text-muted-foreground hover:border-[var(--accent-solid)]/40 hover:text-foreground"
+          ? "border-[var(--accent-solid)] bg-[var(--accent-solid)]/10 text-foreground shadow-sm"
+          : "border-border bg-background text-muted-foreground hover:-translate-y-0.5 hover:border-[var(--accent-solid)]/40 hover:text-foreground hover:shadow-sm"
       )}
     >
       <Icon className={cn("size-5", selected && "text-[var(--accent-solid)]")} />
@@ -174,7 +174,7 @@ export function BookingForm({ className }: { className?: string }) {
     return (
       <div
         className={cn(
-          "flex flex-col items-center gap-4 rounded-2xl border border-[var(--accent-solid)]/30 bg-[var(--accent-solid)]/5 p-10 text-center",
+          "flex flex-col items-center gap-4 rounded-3xl border border-[var(--accent-solid)]/25 bg-[var(--accent-solid)]/5 p-10 text-center shadow-sm",
           className
         )}
       >
@@ -193,7 +193,7 @@ export function BookingForm({ className }: { className?: string }) {
   return (
     <div
       className={cn(
-        "rounded-2xl border border-[var(--accent-solid)]/25 bg-card/70 p-6 shadow-[0_30px_80px_-30px_rgba(79,87,227,0.35)] backdrop-blur sm:p-8",
+        "rounded-3xl border border-border bg-card p-6 shadow-[0_2px_8px_-4px_rgba(0,0,0,0.04),0_32px_64px_-24px_rgba(0,0,0,0.14)] sm:p-8",
         className
       )}
     >
@@ -301,7 +301,7 @@ export function BookingForm({ className }: { className?: string }) {
               type="button"
               disabled={!step3Valid}
               onClick={() => setStep(4)}
-              className="mt-4 flex h-12 w-full items-center justify-center gap-2 rounded-full bg-[var(--accent-solid)] px-5 text-sm font-medium text-[var(--accent-solid-foreground)] transition hover:brightness-110 disabled:opacity-40"
+              className="mt-4 flex h-12 w-full items-center justify-center gap-2 rounded-full bg-[var(--accent-solid)] px-5 text-sm font-medium text-[var(--accent-solid-foreground)] shadow-[0_8px_20px_-8px_color-mix(in_oklch,var(--accent-solid)_70%,transparent)] transition hover:-translate-y-0.5 hover:brightness-105 disabled:translate-y-0 disabled:opacity-40 disabled:shadow-none"
             >
               Continuer
               <ArrowRight className="size-4" />
@@ -350,7 +350,7 @@ export function BookingForm({ className }: { className?: string }) {
               <button
                 type="submit"
                 disabled={!step4Valid || status === "loading"}
-                className="mt-1 flex h-12 items-center justify-center gap-2 rounded-full bg-[var(--accent-solid)] px-5 text-sm font-semibold text-[var(--accent-solid-foreground)] transition hover:brightness-110 disabled:opacity-40"
+                className="mt-1 flex h-12 items-center justify-center gap-2 rounded-full bg-[var(--accent-solid)] px-5 text-sm font-semibold text-[var(--accent-solid-foreground)] shadow-[0_8px_20px_-8px_color-mix(in_oklch,var(--accent-solid)_70%,transparent)] transition hover:-translate-y-0.5 hover:brightness-105 disabled:translate-y-0 disabled:opacity-40 disabled:shadow-none"
               >
                 {status === "loading" ? (
                   <Loader2 className="size-4 animate-spin" />

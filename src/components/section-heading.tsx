@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { Reveal } from "@/components/reveal";
 
 export function Eyebrow({
   children,
@@ -10,7 +11,7 @@ export function Eyebrow({
   return (
     <div
       className={cn(
-        "mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-muted/50 px-3 py-1 text-xs font-medium tracking-wide text-muted-foreground uppercase",
+        "mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-muted/60 px-3 py-1 text-xs font-medium tracking-wide text-[var(--accent-solid)] uppercase",
         className
       )}
     >
@@ -34,7 +35,7 @@ export function SectionHeading({
   className?: string;
 }) {
   return (
-    <div
+    <Reveal
       className={cn(
         "flex flex-col",
         align === "center" ? "items-center text-center" : "items-start text-left",
@@ -42,7 +43,7 @@ export function SectionHeading({
       )}
     >
       {eyebrow && <Eyebrow>{eyebrow}</Eyebrow>}
-      <h2 className="max-w-2xl text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
+      <h2 className="max-w-2xl text-3xl font-bold tracking-tight text-balance sm:text-4xl">
         {title}
       </h2>
       {description && (
@@ -55,6 +56,6 @@ export function SectionHeading({
           {description}
         </p>
       )}
-    </div>
+    </Reveal>
   );
 }

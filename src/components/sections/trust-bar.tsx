@@ -1,4 +1,5 @@
 import { Container } from "@/components/container";
+import { Reveal } from "@/components/reveal";
 
 const stats = [
   { value: "30 min", label: "pour un Audit IA gratuit et personnalisé" },
@@ -11,12 +12,12 @@ const stack = ["Make", "n8n", "Zapier", "OpenAI", "Claude", "Brevo", "WhatsApp",
 
 export function TrustBar() {
   return (
-    <section className="border-y border-border bg-muted/30 py-12">
+    <section className="border-y border-border bg-muted/40 py-12">
       <Container>
-        <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
+        <Reveal className="grid grid-cols-2 gap-8 sm:grid-cols-4">
           {stats.map((stat) => (
             <div key={stat.label} className="text-center">
-              <div className="text-2xl font-semibold tracking-tight sm:text-3xl">
+              <div className="text-2xl font-bold tracking-tight sm:text-3xl">
                 {stat.value}
               </div>
               <div className="mt-1 text-xs text-muted-foreground sm:text-sm">
@@ -24,13 +25,13 @@ export function TrustBar() {
               </div>
             </div>
           ))}
-        </div>
+        </Reveal>
 
         <div className="mt-10 flex flex-col items-center gap-4 border-t border-border pt-8">
-          <p className="text-xs tracking-wide text-muted-foreground uppercase">
+          <p className="text-xs font-medium tracking-wide text-muted-foreground uppercase">
             Les outils que nous analysons lors de votre audit
           </p>
-          <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 opacity-70 grayscale">
+          <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-muted-foreground/70 grayscale">
             {stack.map((tool) => (
               <span key={tool} className="text-sm font-semibold tracking-tight">
                 {tool}

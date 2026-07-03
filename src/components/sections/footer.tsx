@@ -5,7 +5,7 @@ import { ctaCopy, siteConfig } from "@/lib/site-config";
 
 export function Footer() {
   return (
-    <footer className="border-t border-border py-14">
+    <footer className="border-t border-border bg-muted/30 py-14">
       <Container>
         <div className="flex flex-col gap-10 sm:flex-row sm:justify-between">
           <div className="max-w-xs">

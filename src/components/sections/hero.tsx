@@ -23,9 +23,9 @@ const fadeUp: Variants = {
 export function Hero() {
   return (
     <section id="top" className="relative overflow-hidden pt-36 pb-20 sm:pt-44 sm:pb-28">
-      <div className="bg-grid pointer-events-none absolute inset-0 -z-20 [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,black,transparent)]" />
+      <div className="bg-grid pointer-events-none absolute inset-0 -z-20 opacity-60 [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,black,transparent)]" />
       <div
-        className="pointer-events-none absolute top-0 left-1/2 -z-20 h-[480px] w-[880px] -translate-x-1/2 rounded-full opacity-20 blur-[120px]"
+        className="pointer-events-none absolute top-0 left-1/2 -z-20 h-[480px] w-[880px] -translate-x-1/2 rounded-full opacity-[0.08] blur-[120px]"
         style={{ background: "var(--accent-solid)" }}
       />
 
@@ -44,7 +44,7 @@ export function Hero() {
           return (
             <div
               key={i}
-              className="motion-safe:animate-float absolute flex size-11 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-border bg-card/80 text-muted-foreground shadow-sm backdrop-blur"
+              className="motion-safe:animate-float absolute flex size-11 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-border bg-card/90 text-muted-foreground shadow-md backdrop-blur"
               style={{
                 left: `${hub.x * 100}%`,
                 top: `${hub.y * 100}%`,
@@ -68,7 +68,7 @@ export function Hero() {
             initial="hidden"
             animate="show"
             custom={1}
-            className="max-w-xl text-4xl leading-[1.08] font-semibold tracking-tight text-balance sm:text-6xl"
+            className="max-w-xl text-4xl leading-[1.08] font-bold tracking-tight text-balance sm:text-6xl"
           >
             Et si vous n&apos;aviez plus jamais besoin{" "}
             <span className="text-gradient">d&apos;une agence marketing hors de prix ?</span>

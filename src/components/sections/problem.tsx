@@ -1,6 +1,7 @@
 import { Clock, HelpCircle, MailX, Unlock } from "lucide-react";
 import { Container } from "@/components/container";
 import { SectionHeading } from "@/components/section-heading";
+import { Reveal } from "@/components/reveal";
 
 const pains = [
   {
@@ -39,17 +40,22 @@ export function Problem() {
           description="Si vous vous reconnaissez dans au moins deux de ces situations, un audit clair changera votre façon de voir votre activité."
         />
 
-        <div className="mt-16 grid gap-px overflow-hidden rounded-2xl bg-border sm:grid-cols-2">
+        <Reveal className="mt-16 grid gap-px overflow-hidden rounded-2xl bg-border shadow-sm sm:grid-cols-2">
           {pains.map((pain) => (
-            <div key={pain.title} className="bg-background p-8 sm:p-10">
-              <pain.icon className="size-6 text-muted-foreground" strokeWidth={1.5} />
+            <div
+              key={pain.title}
+              className="bg-background p-8 transition-colors duration-300 hover:bg-muted/40 sm:p-10"
+            >
+              <span className="flex size-11 items-center justify-center rounded-full bg-[var(--accent-solid)]/10 text-[var(--accent-solid)]">
+                <pain.icon className="size-5" strokeWidth={1.75} />
+              </span>
               <h3 className="mt-5 text-lg font-semibold tracking-tight">{pain.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
                 {pain.description}
               </p>
             </div>
           ))}
-        </div>
+        </Reveal>
       </Container>
     </section>
   );

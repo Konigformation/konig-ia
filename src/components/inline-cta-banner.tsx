@@ -10,7 +10,7 @@ export function InlineCtaBanner({
   return (
     <section className="py-4">
       <Container>
-        <div className="flex flex-col items-center justify-between gap-4 rounded-2xl border border-border bg-card/40 px-6 py-6 sm:flex-row sm:px-8">
+        <div className="flex flex-col items-center justify-between gap-4 rounded-2xl border border-border bg-card px-6 py-6 shadow-sm sm:flex-row sm:px-8">
           <p className="text-center text-base font-medium text-foreground/90 sm:text-left">
             {title}
           </p>

@@ -1,11 +1,12 @@
 import { GraduationCap } from "lucide-react";
 import { Container } from "@/components/container";
+import { Reveal } from "@/components/reveal";
 
 export function Formation() {
   return (
     <section id="formation" className="py-16">
       <Container>
-        <div className="mx-auto flex max-w-2xl flex-col items-center gap-4 rounded-2xl border border-border bg-card/30 p-8 text-center sm:p-10">
+        <Reveal className="mx-auto flex max-w-2xl flex-col items-center gap-4 rounded-2xl border border-border bg-muted/40 p-8 text-center sm:p-10">
           <span className="flex size-10 items-center justify-center rounded-full bg-[var(--accent-solid)]/10 text-[var(--accent-solid)]">
             <GraduationCap className="size-5" strokeWidth={1.75} />
           </span>
@@ -20,7 +21,7 @@ export function Formation() {
             faire seul, sans jamais dépendre d&apos;une agence marketing. Mais
             commençons d&apos;abord par l&apos;audit.
           </p>
-        </div>
+        </Reveal>
       </Container>
     </section>
   );

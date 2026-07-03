@@ -35,7 +35,7 @@ export function LeadMagnet({ className }: { className?: string }) {
   return (
     <div
       className={cn(
-        "grid gap-8 overflow-hidden rounded-2xl border border-border bg-card/40 p-8 sm:grid-cols-2 sm:p-10",
+        "grid gap-8 overflow-hidden rounded-2xl border border-border bg-card p-8 shadow-sm sm:grid-cols-2 sm:p-10",
         className
       )}
     >

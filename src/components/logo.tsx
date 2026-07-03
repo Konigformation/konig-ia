@@ -7,7 +7,7 @@ import { siteConfig } from "@/lib/site-config";
 export function Logo({ className, iconOnly = false }: { className?: string; iconOnly?: boolean }) {
   const [broken, setBroken] = useState(false);
   const imgRef = useRef<HTMLImageElement>(null);
-  const src = iconOnly ? "/logo-mark.png" : "/logo.png";
+  const src = iconOnly ? "/logo-mark-dark.png" : "/logo-dark.png";
 
   useEffect(() => {
     const img = imgRef.current;
