@@ -70,7 +70,7 @@ export function Hero() {
             custom={1}
             className="max-w-xl text-4xl leading-[1.08] font-bold tracking-tight text-balance sm:text-6xl"
           >
-            L&apos;écosystème qui automatise votre prospection clients{" "}
+            Apprenez à bâtir votre machine à clients{" "}
             <span className="text-gradient">grâce à l&apos;IA</span>
           </motion.h1>
 
