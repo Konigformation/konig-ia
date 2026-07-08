@@ -14,27 +14,35 @@ const geistMono = Geist_Mono({
 });
 
 const title =
-  "Audit IA offert — Ne dépendez plus d'une agence marketing | Konig IA";
+  "Bâtissez votre machine à clients grâce à l'IA | Konig IA";
+const titleTemplate = "%s | Konig IA";
 const description =
-  "Réservez votre Audit IA offert : nous évaluons si l'automatisation a du sens pour votre activité et ce que ça lui apporterait. Si pertinent, nous vous accompagnons pour construire votre système d'acquisition lors d'un accompagnement intensif de 2 jours (Qualiopi, éligible CPF/OPCO) — sans dépendre d'une agence marketing.";
+  "Le système IA tout-en-un pour automatiser votre contenu, votre prospection et vos conversions en 48 heures. Accompagnement certifié Qualiopi (éligible CPF/OPCO) : repartez avec votre propre machine à clients — sans agence, même en partant de zéro. Audit IA offert.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
-  title,
+  applicationName: siteConfig.name,
+  title: {
+    default: title,
+    template: titleTemplate,
+  },
   description,
+  category: "Business",
   keywords: [
+    "machine à clients IA",
+    "système d'acquisition IA",
+    "automatiser sa prospection avec l'IA",
+    "générer des clients avec l'IA",
+    "agents IA prospection",
+    "prospection LinkedIn automatisée IA",
+    "acquisition client automatisée",
+    "formation IA Qualiopi CPF",
+    "IA pour indépendants et dirigeants",
     "audit IA offert",
-    "accompagnement automatisation IA",
-    "accompagnement IA Qualiopi",
-    "automatisation commerciale",
-    "indépendance agence marketing",
-    "prospection LinkedIn IA",
-    "agent IA",
-    "formation CPF automatisation",
-    "IA pour PME",
-    "IA pour indépendants",
   ],
-  authors: [{ name: siteConfig.name }],
+  authors: [{ name: siteConfig.name, url: siteConfig.url }],
+  creator: siteConfig.name,
+  publisher: siteConfig.name,
   openGraph: {
     type: "website",
     locale: "fr_FR",
@@ -51,6 +59,13 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
   alternates: {
     canonical: siteConfig.url,
@@ -61,38 +76,90 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
+      "@type": "WebSite",
+      "@id": `${siteConfig.url}/#website`,
+      url: siteConfig.url,
+      name: siteConfig.name,
+      inLanguage: "fr-FR",
+      description,
+      publisher: { "@id": `${siteConfig.url}/#organization` },
+    },
+    {
+      "@type": ["Organization", "EducationalOrganization"],
       "@id": `${siteConfig.url}/#organization`,
       name: siteConfig.name,
+      alternateName: "Konig Formation",
       url: siteConfig.url,
       email: siteConfig.email,
-      description,
+      logo: `${siteConfig.url}/logo.png`,
+      description:
+        "Konig Formation aide les indépendants, dirigeants et commerciaux à bâtir leur propre machine à clients grâce à l'IA : contenu, prospection et conversions automatisés. Organisme certifié Qualiopi.",
+      areaServed: "FR",
+      knowsAbout: [
+        "Intelligence artificielle",
+        "Automatisation commerciale",
+        "Prospection automatisée",
+        "Acquisition client",
+        "Agents IA",
+      ],
+      hasCredential: {
+        "@type": "EducationalOccupationalCredential",
+        credentialCategory: "Certification Qualiopi",
+      },
     },
     {
       "@type": "Service",
       name: "Audit IA offert",
       provider: { "@id": `${siteConfig.url}/#organization` },
       areaServed: "FR",
-      serviceType: "Audit d'automatisation commerciale par IA",
+      serviceType: "Audit d'automatisation de l'acquisition client par IA",
       description:
-        "Un appel offert de 30 minutes pour évaluer si l'automatisation a du sens pour votre activité et ce que ça lui apporterait.",
+        "Un appel offert de 30 minutes pour faire l'état des lieux de votre acquisition et identifier où l'IA peut vous faire gagner du temps et des clients.",
+      offers: {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "EUR",
+        availability: "https://schema.org/InStock",
+      },
     },
     {
       "@type": "Course",
-      name: "Accompagnement intensif : construire son système d'acquisition automatisé par IA",
+      name: "Bâtir sa machine à clients grâce à l'IA",
       provider: { "@id": `${siteConfig.url}/#organization` },
       description:
-        "Accompagnement certifié Qualiopi de 2 jours pendant lequel chaque participant construit, avec notre soutien, son système d'acquisition automatisé par IA (prospection, agents IA, relances, workflows).",
+        "Accompagnement intensif certifié Qualiopi de 48 heures (2 jours) : chaque participant repart avec son propre système IA d'acquisition — contenu automatisé, prospection multicanale (LinkedIn, e-mail, WhatsApp) et tunnel de conversion, opérationnels dès la fin de la formation.",
+      inLanguage: "fr-FR",
+      educationalCredentialAwarded: "Certification Qualiopi",
+      hasCourseInstance: {
+        "@type": "CourseInstance",
+        courseMode: "Blended",
+        courseWorkload: "PT48H",
+        location: { "@type": "Country", name: "France" },
+      },
+      offers: {
+        "@type": "Offer",
+        category: "Éligible CPF, OPCO, France Travail",
+        priceCurrency: "EUR",
+        availability: "https://schema.org/InStock",
+      },
     },
     {
       "@type": "FAQPage",
       mainEntity: [
         {
           "@type": "Question",
+          name: "Comment générer des clients avec l'IA quand on part de zéro ?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "En construisant un système simple qui enchaîne trois leviers : du contenu qui attire, une prospection automatisée par IA (LinkedIn, e-mail, WhatsApp) et un tunnel qui transforme les prospects en clients. Notre accompagnement de 48 heures vous fait bâtir ce système pas à pas, même sans compétence technique.",
+          },
+        },
+        {
+          "@type": "Question",
           name: "L'Audit IA est-il vraiment offert ?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Oui, entièrement offert et sans engagement. Nous analysons votre activité et vous montrons concrètement votre potentiel d'automatisation.",
+            text: "Oui, entièrement offert et sans engagement. Nous faisons l'état des lieux de votre acquisition et vous montrons concrètement où l'IA peut vous faire gagner du temps et des clients.",
           },
         },
         {
@@ -108,7 +175,7 @@ const jsonLd = {
           name: "Repart-on avec un système concret après l'accompagnement ?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Oui. À l'issue des 2 jours, chaque participant repart avec son propre système d'acquisition configuré et opérationnel, pas seulement de la théorie.",
+            text: "Oui. À l'issue des 48 heures, chaque participant repart avec sa propre machine à clients configurée et opérationnelle — pas seulement de la théorie.",
           },
         },
       ],

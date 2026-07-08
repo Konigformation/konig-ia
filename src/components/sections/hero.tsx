@@ -82,21 +82,7 @@ export function Hero() {
             initial="hidden"
             animate="show"
             custom={1.5}
-            className="mt-4 flex flex-wrap items-center justify-center gap-2 text-sm font-medium text-muted-foreground sm:text-base"
-          >
-            <span>LinkedIn</span>
-            <span className="text-[var(--accent-solid)]">·</span>
-            <span>Mailing</span>
-            <span className="text-[var(--accent-solid)]">·</span>
-            <span>WhatsApp</span>
-          </motion.p>
-
-          <motion.p
-            variants={fadeUp}
-            initial="hidden"
-            animate="show"
-            custom={2}
-            className="mt-6 max-w-lg text-lg text-muted-foreground text-balance sm:text-xl"
+            className="mt-6 max-w-xl text-lg text-muted-foreground text-balance sm:text-xl"
           >
             Le nouveau système IA tout-en-un pour automatiser votre{" "}
             <strong className="font-semibold text-foreground">contenu</strong>,
@@ -109,6 +95,20 @@ export function Hero() {
               conversions
             </strong>{" "}
             en seulement 48 heures.
+          </motion.p>
+
+          <motion.p
+            variants={fadeUp}
+            initial="hidden"
+            animate="show"
+            custom={2}
+            className="mt-5 flex flex-wrap items-center justify-center gap-2 text-sm font-medium text-muted-foreground sm:text-base"
+          >
+            <span>LinkedIn</span>
+            <span className="text-[var(--accent-solid)]">·</span>
+            <span>Mailing</span>
+            <span className="text-[var(--accent-solid)]">·</span>
+            <span>WhatsApp</span>
           </motion.p>
 
           <motion.div

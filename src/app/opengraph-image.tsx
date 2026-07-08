@@ -52,7 +52,7 @@ export default async function OpengraphImage() {
             textAlign: "center",
           }}
         >
-          Audit IA offert
+          Bâtissez votre machine à clients grâce à l&apos;IA
         </div>
         <div
           style={{
@@ -60,12 +60,12 @@ export default async function OpengraphImage() {
             marginTop: 18,
             fontSize: 26,
             color: "#a1a1aa",
-            maxWidth: 860,
+            maxWidth: 880,
             textAlign: "center",
           }}
         >
-          Découvrez votre potentiel d&apos;automatisation, puis construisez votre
-          système avec notre accompagnement intensif de 2 jours
+          Contenu, prospection et conversions automatisés en 48 heures ·
+          Certifié Qualiopi · Audit IA offert
         </div>
       </div>
     ),
