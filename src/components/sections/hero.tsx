@@ -98,17 +98,17 @@ export function Hero() {
             custom={2}
             className="mt-6 max-w-lg text-lg text-muted-foreground text-balance sm:text-xl"
           >
-            Les nouveaux leviers du marketing et de l&apos;IA, réunis en un
-            seul système. En 2 jours :{" "}
-            <strong className="font-semibold text-foreground">contenu</strong>,{" "}
+            Le nouveau système IA tout-en-un pour automatiser votre{" "}
+            <strong className="font-semibold text-foreground">contenu</strong>,
+            votre{" "}
             <strong className="font-semibold text-foreground">
-              prospection IA
+              prospection
             </strong>{" "}
-            et{" "}
+            et vos{" "}
             <strong className="font-semibold text-foreground">
-              tunnel de vente
-            </strong>
-            .
+              conversions
+            </strong>{" "}
+            en seulement 48 heures.
           </motion.p>
 
           <motion.div

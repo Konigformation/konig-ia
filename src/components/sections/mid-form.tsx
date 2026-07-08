@@ -23,10 +23,11 @@ export function MidForm() {
             />
             <span>
               <span className="font-medium text-foreground">
-                Attention : ce système n&apos;est pas fait pour tout le monde.
+                Attention : ce système n&apos;est pas recommandé à tous les
+                profils.
               </span>{" "}
-              L&apos;audit sert justement à vérifier, ensemble, s&apos;il est
-              pertinent pour votre activité.
+              C&apos;est précisément l&apos;objet de l&apos;audit — évaluer
+              ensemble sa pertinence pour votre activité.
             </span>
           </p>
         </Reveal>
