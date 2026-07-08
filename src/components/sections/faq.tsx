@@ -10,6 +10,21 @@ import { Reveal } from "@/components/reveal";
 
 const faqs = [
   {
+    question: "Comment générer ses premiers clients avec l'IA quand on part de zéro ?",
+    answer:
+      "En construisant un système simple qui enchaîne trois leviers : du contenu qui attire les bonnes personnes, une prospection automatisée par IA (LinkedIn, e-mail, WhatsApp) et un tunnel qui transforme les prospects en clients. Notre accompagnement de 48 heures vous fait bâtir ce système pas à pas, même sans aucune compétence technique et sans audience de départ.",
+  },
+  {
+    question: "L'IA peut-elle vraiment remplacer une agence marketing ?",
+    answer:
+      "Pour l'acquisition de clients, oui — et surtout, elle vous rend autonome. Plutôt que de payer une agence chaque mois pour un système que vous ne maîtrisez pas, vous construisez le vôtre et vous le gardez à vie. C'est justement le cœur de notre approche : vous rendre indépendant, pas dépendant.",
+  },
+  {
+    question: "En combien de temps peut-on voir des résultats ?",
+    answer:
+      "Les fondations se posent dès les 48 heures d'accompagnement : vous repartez avec un système opérationnel. Les premiers rendez-vous peuvent arriver rapidement, puis le système s'affine et monte en puissance au fil des semaines. L'objectif est un flux régulier, pas un coup de chance ponctuel.",
+  },
+  {
     question: "À quoi sert exactement l'Audit IA ?",
     answer:
       "À évaluer, avec vous, si l'automatisation a du sens pour votre activité et ce que ça lui apporterait concrètement (temps, opportunités, chiffre d'affaires). Ce n'est pas un rendez-vous commercial déguisé : si la réponse est non, nous vous le disons.",
@@ -51,9 +66,23 @@ const faqs = [
   },
 ];
 
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: { "@type": "Answer", text: faq.answer },
+  })),
+};
+
 export function Faq() {
   return (
     <section id="faq" className="py-24 sm:py-32">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <Container className="max-w-3xl">
         <SectionHeading eyebrow="Questions fréquentes" title="Tout ce qu'il faut savoir avant de reserver un audit IA" />
 

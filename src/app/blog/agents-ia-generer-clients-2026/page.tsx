@@ -226,7 +226,16 @@ export default function ArticlePage() {
                 Un « agent IA », ce n&apos;est pas un gadget. C&apos;est un assistant
                 autonome qui exécute une mission précise : identifier des prospects,
                 écrire des messages personnalisés, relancer au bon moment, qualifier les
-                réponses. Pendant que vous dormez, il remplit votre agenda.
+                réponses. Pendant que vous dormez, il remplit votre agenda. Pour
+                comprendre d&apos;où vient cette bascule, voyez notre décryptage de{" "}
+                <Link
+                  href="/blog/ia-agentique-2026"
+                  className="font-medium text-[var(--accent-solid)] underline underline-offset-2 hover:opacity-80"
+                >
+                  l&apos;IA agentique, ces systèmes qui passent de la parole à
+                  l&apos;action
+                </Link>
+                .
               </p>
 
               <h2 className="pt-4 text-2xl font-bold tracking-tight">

@@ -153,43 +153,6 @@ const jsonLd = {
         availability: "https://schema.org/InStock",
       },
     },
-    {
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "Comment générer des clients avec l'IA quand on part de zéro ?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "En construisant un système simple qui enchaîne trois leviers : du contenu qui attire, une prospection automatisée par IA (LinkedIn, e-mail, WhatsApp) et un tunnel qui transforme les prospects en clients. Notre accompagnement de 48 heures vous fait bâtir ce système pas à pas, même sans compétence technique.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "L'Audit IA est-il vraiment offert ?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Oui, entièrement offert et sans engagement. Nous faisons l'état des lieux de votre acquisition et vous montrons concrètement où l'IA peut vous faire gagner du temps et des clients.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "L'accompagnement est-il finançable ?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Notre organisme est certifié Qualiopi et peut être éligible à des financements (CPF, OPCO, France Travail, FAF) selon votre situation.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Repart-on avec un système concret après l'accompagnement ?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Oui. À l'issue des 48 heures, chaque participant repart avec sa propre machine à clients configurée et opérationnelle — pas seulement de la théorie.",
-          },
-        },
-      ],
-    },
   ],
 };
 
