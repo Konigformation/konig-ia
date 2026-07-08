@@ -151,7 +151,7 @@ export function Blog() {
         </div>
 
         <Reveal delay={0.1} className="mt-12 flex justify-center">
-          <CtaButton href="#blog" variant="outline">
+          <CtaButton href="/blog" variant="outline">
             Voir tous les articles
           </CtaButton>
         </Reveal>

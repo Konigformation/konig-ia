@@ -167,7 +167,7 @@ export default function ArticlePage() {
         <Container>
           <article className="mx-auto max-w-2xl">
             <Link
-              href="/#blog"
+              href="/blog"
               className="inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             >
               <ArrowLeft className="size-4" /> Retour au blog

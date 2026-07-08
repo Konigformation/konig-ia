@@ -70,6 +70,16 @@ export const metadata: Metadata = {
   alternates: {
     canonical: siteConfig.url,
   },
+  // Vérification Google Search Console : renseigner NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+  // (dans Vercel → Settings → Environment Variables) avec le code fourni par Google.
+  // Tant que la variable est vide, aucune balise n'est ajoutée.
+  ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+    ? {
+        verification: {
+          google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+        },
+      }
+    : {}),
 };
 
 const jsonLd = {
