@@ -1,8 +1,5 @@
 import { Star } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Container } from "@/components/container";
-import { SectionHeading } from "@/components/section-heading";
-import { Reveal } from "@/components/reveal";
 
 const testimonials = [
   {
@@ -41,54 +38,73 @@ const testimonials = [
     photo: "https://randomuser.me/api/portraits/men/62.jpg",
     result: "Accompagnement pris en charge par l'OPCO",
   },
+  {
+    quote:
+      "Fini de prospecter à froid le soir. Mon contenu attire les bons profils et mon système les relance tout seul — mon agenda se remplit sans que j'y pense.",
+    name: "Marie Dubois",
+    role: "Consultante RH indépendante",
+    initials: "MD",
+    photo: "https://randomuser.me/api/portraits/women/44.jpg",
+    result: "Agenda rempli sans prospection à froid",
+  },
+  {
+    quote:
+      "On a arrêté de dépendre de notre agence. Aujourd'hui l'équipe pilote elle-même la prospection multicanale — plus rapide, moins cher, et on garde la main.",
+    name: "Karim Benali",
+    role: "Directeur commercial, SaaS B2B",
+    initials: "KB",
+    photo: "https://randomuser.me/api/portraits/men/12.jpg",
+    result: "Prospection internalisée, agence remerciée",
+  },
 ];
+
+function TestimonialCard({ t }: { t: (typeof testimonials)[number] }) {
+  return (
+    <figure className="flex w-[280px] shrink-0 flex-col justify-between rounded-2xl border border-border bg-card p-6 shadow-sm sm:w-[336px]">
+      <div>
+        <div className="mb-4 flex items-center gap-0.5 text-[var(--accent-solid)]">
+          {Array.from({ length: 5 }, (_, i) => (
+            <Star key={i} className="size-4 fill-current" strokeWidth={0} />
+          ))}
+        </div>
+        <blockquote className="text-sm leading-relaxed text-foreground/90">
+          &ldquo;{t.quote}&rdquo;
+        </blockquote>
+      </div>
+      <div className="mt-6">
+        <div className="mb-4 inline-block rounded-full bg-[var(--accent-solid)]/10 px-3 py-1 text-xs font-medium text-[var(--accent-solid)]">
+          {t.result}
+        </div>
+        <figcaption className="flex items-center gap-3">
+          <Avatar className="size-10">
+            <AvatarImage src={t.photo} alt={t.name} />
+            <AvatarFallback className="bg-muted text-xs font-medium">
+              {t.initials}
+            </AvatarFallback>
+          </Avatar>
+          <div>
+            <div className="text-sm font-medium">{t.name}</div>
+            <div className="text-xs text-muted-foreground">{t.role}</div>
+          </div>
+        </figcaption>
+      </div>
+    </figure>
+  );
+}
 
 export function Testimonials() {
   return (
-    <section id="temoignages" className="py-24 sm:py-32">
-      <Container>
-        <SectionHeading
-          eyebrow="Ils ont pris leur Audit IA"
-          title="Des dirigeants devenus autonomes sur leur acquisition"
-        />
-
-        <Reveal className="mt-16 grid gap-6 sm:grid-cols-2">
+    <section id="temoignages" className="overflow-hidden pt-2 pb-14 sm:pt-2 sm:pb-16">
+      <div className="group relative overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_4%,black_96%,transparent)]">
+        <div className="flex w-max animate-marquee items-stretch gap-6 pl-6 [animation-duration:52s] group-hover:[animation-play-state:paused]">
           {testimonials.map((t) => (
-            <figure
-              key={t.name}
-              className="flex flex-col justify-between rounded-2xl border border-border bg-card p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
-            >
-              <div>
-                <div className="mb-4 flex items-center gap-0.5 text-[var(--accent-solid)]">
-                  {Array.from({ length: 5 }, (_, i) => (
-                    <Star key={i} className="size-4 fill-current" strokeWidth={0} />
-                  ))}
-                </div>
-                <blockquote className="text-[15px] leading-relaxed text-foreground/90">
-                  &ldquo;{t.quote}&rdquo;
-                </blockquote>
-              </div>
-              <div className="mt-8">
-                <div className="mb-4 inline-block rounded-full bg-[var(--accent-solid)]/10 px-3 py-1 text-xs font-medium text-[var(--accent-solid)]">
-                  {t.result}
-                </div>
-                <figcaption className="flex items-center gap-3">
-                  <Avatar className="size-10">
-                    <AvatarImage src={t.photo} alt={t.name} />
-                    <AvatarFallback className="bg-muted text-xs font-medium">
-                      {t.initials}
-                    </AvatarFallback>
-                  </Avatar>
-                  <div>
-                    <div className="text-sm font-medium">{t.name}</div>
-                    <div className="text-xs text-muted-foreground">{t.role}</div>
-                  </div>
-                </figcaption>
-              </div>
-            </figure>
+            <TestimonialCard key={`a-${t.name}`} t={t} />
           ))}
-        </Reveal>
-      </Container>
+          {testimonials.map((t) => (
+            <TestimonialCard key={`b-${t.name}`} t={t} />
+          ))}
+        </div>
+      </div>
     </section>
   );
 }

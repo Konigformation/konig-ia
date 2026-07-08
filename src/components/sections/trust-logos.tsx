@@ -57,6 +57,11 @@ function Badge({ b }: { b: (typeof badges)[number] }) {
 export function TrustLogos() {
   return (
     <section className="border-y border-border bg-muted/20 py-10">
+      <Container className="mb-6">
+        <p className="text-center text-xs font-medium tracking-wide text-muted-foreground uppercase sm:text-sm">
+          Formation certifiée Qualiopi, certifiante et finançable
+        </p>
+      </Container>
       <Container
         className={cn(
           "group overflow-hidden",

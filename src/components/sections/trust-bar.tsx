@@ -2,7 +2,7 @@ import { Container } from "@/components/container";
 import { Reveal } from "@/components/reveal";
 
 const stats = [
-  { value: "30 min", label: "pour un Audit IA gratuit et personnalisé" },
+  { value: "30 min", label: "pour un Audit IA offert et personnalisé" },
   { value: "0€", label: "aucun engagement, aucune carte bancaire" },
   { value: "24h", label: "de délai de réponse après votre demande" },
   { value: "100%", label: "honnête : un état des lieux, pas un argumentaire" },

@@ -52,7 +52,7 @@ export default async function OpengraphImage() {
             textAlign: "center",
           }}
         >
-          Audit IA gratuit
+          Audit IA offert
         </div>
         <div
           style={{

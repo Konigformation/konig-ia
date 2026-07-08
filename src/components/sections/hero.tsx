@@ -3,9 +3,10 @@
 import { motion, type Variants } from "framer-motion";
 import { Bot, CalendarCheck, Globe, Mail, MessageCircle } from "lucide-react";
 import { Container } from "@/components/container";
-import { BookingForm } from "@/components/booking-form";
+import { CtaButton } from "@/components/cta-button";
+import { GoogleRating } from "@/components/google-rating";
+import { ClientLogosMarquee } from "@/components/client-logos-marquee";
 import { LinkedinIcon } from "@/components/icons/linkedin";
-import { LeadMagnetTrigger } from "@/components/lead-magnet-trigger";
 import { NETWORK_HUBS, NetworkBackground } from "@/components/network-background";
 import { Eyebrow } from "@/components/section-heading";
 
@@ -22,7 +23,7 @@ const fadeUp: Variants = {
 
 export function Hero() {
   return (
-    <section id="top" className="relative overflow-hidden pt-36 pb-20 sm:pt-44 sm:pb-28">
+    <section id="top" className="relative overflow-hidden pt-36 pb-12 sm:pt-44 sm:pb-16">
       <div className="bg-grid pointer-events-none absolute inset-0 -z-20 opacity-60 [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,black,transparent)]" />
       <div
         className="pointer-events-none absolute top-0 left-1/2 -z-20 h-[480px] w-[880px] -translate-x-1/2 rounded-full opacity-[0.08] blur-[120px]"
@@ -57,10 +58,12 @@ export function Hero() {
         })}
       </div>
 
-      <Container className="grid gap-14 lg:grid-cols-[1.1fr_1fr] lg:items-center lg:gap-10">
-        <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
+      <Container className="flex flex-col items-center">
+        <div className="flex max-w-2xl flex-col items-center text-center">
+          <GoogleRating className="mb-5" />
+
           <motion.div variants={fadeUp} initial="hidden" animate="show" custom={0}>
-            <Eyebrow>Audit IA gratuit · Accompagnement certifié Qualiopi</Eyebrow>
+            <Eyebrow>Certifié Qualiopi</Eyebrow>
           </motion.div>
 
           <motion.h1
@@ -79,7 +82,7 @@ export function Hero() {
             initial="hidden"
             animate="show"
             custom={1.5}
-            className="mt-4 flex flex-wrap items-center justify-center gap-2 text-sm font-medium text-muted-foreground lg:justify-start sm:text-base"
+            className="mt-4 flex flex-wrap items-center justify-center gap-2 text-sm font-medium text-muted-foreground sm:text-base"
           >
             <span>LinkedIn</span>
             <span className="text-[var(--accent-solid)]">·</span>
@@ -95,36 +98,39 @@ export function Hero() {
             custom={2}
             className="mt-6 max-w-lg text-lg text-muted-foreground text-balance sm:text-xl"
           >
-            Réservez un Audit IA gratuit de 30 minutes : nous évaluons si
-            l&apos;automatisation a du sens pour votre activité, et ce que ça
-            changerait concrètement pour vous. Si oui, nous vous accompagnons
-            pour tout construire, en 2 jours à vos côtés.
+            Les nouveaux leviers du marketing et de l&apos;IA, réunis en un
+            seul système. En 2 jours :{" "}
+            <strong className="font-semibold text-foreground">contenu</strong>,{" "}
+            <strong className="font-semibold text-foreground">
+              prospection IA
+            </strong>{" "}
+            et{" "}
+            <strong className="font-semibold text-foreground">
+              tunnel de vente
+            </strong>
+            .
           </motion.p>
 
-          <motion.p
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            animate="show"
+            custom={2.5}
+            className="mt-8"
+          >
+            <CtaButton href="#formation">Découvrir la formation</CtaButton>
+          </motion.div>
+
+          <motion.div
             variants={fadeUp}
             initial="hidden"
             animate="show"
             custom={3}
-            className="mt-5 text-xs text-muted-foreground"
+            className="mt-10 w-full max-w-xl"
           >
-            30 min · 100% gratuit · sans engagement · réponse sous 24h
-          </motion.p>
-
-          <motion.div variants={fadeUp} initial="hidden" animate="show" custom={3.5} className="mt-4">
-            <LeadMagnetTrigger />
+            <ClientLogosMarquee />
           </motion.div>
         </div>
-
-        <motion.div
-          variants={fadeUp}
-          initial="hidden"
-          animate="show"
-          custom={2}
-          className="w-full"
-        >
-          <BookingForm />
-        </motion.div>
       </Container>
     </section>
   );

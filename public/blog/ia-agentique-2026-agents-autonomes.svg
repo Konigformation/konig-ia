@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="IA agentique 2026 : des bulles de conversation qui se transforment en actions automatisées, exécutées par un agent IA autonome au centre d'un réseau.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FBFAFF"/>
+      <stop offset="1" stop-color="#EEE8FF"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8B6BF5"/>
+      <stop offset="1" stop-color="#5A32D6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7C55F0" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7C55F0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#6B47E8" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="640" cy="315" r="300" fill="url(#glow)"/>
+
+  <!-- Cote gauche : la parole (bulles de conversation) -->
+  <g>
+    <rect x="120" y="196" width="188" height="60" rx="18" fill="#FFFFFF" stroke="#6B47E8" stroke-opacity="0.25"/>
+    <rect x="146" y="216" width="120" height="9" rx="4.5" fill="#6B47E8" fill-opacity="0.5"/>
+    <rect x="146" y="232" width="84" height="9" rx="4.5" fill="#6B47E8" fill-opacity="0.22"/>
+
+    <rect x="150" y="286" width="158" height="52" rx="18" fill="#FFFFFF" stroke="#6B47E8" stroke-opacity="0.18"/>
+    <rect x="172" y="304" width="96" height="8" rx="4" fill="#6B47E8" fill-opacity="0.4"/>
+    <rect x="172" y="318" width="62" height="8" rx="4" fill="#6B47E8" fill-opacity="0.18"/>
+
+    <rect x="128" y="366" width="180" height="52" rx="18" fill="#FFFFFF" stroke="#6B47E8" stroke-opacity="0.15"/>
+    <rect x="150" y="384" width="110" height="8" rx="4" fill="#6B47E8" fill-opacity="0.32"/>
+    <rect x="150" y="398" width="70" height="8" rx="4" fill="#6B47E8" fill-opacity="0.16"/>
+  </g>
+
+  <!-- Flux : de la parole vers l'action -->
+  <g stroke="url(#acc)" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M320 226 C 420 226, 470 300, 552 312" stroke-opacity="0.55"/>
+    <path d="M320 312 C 420 312, 480 315, 552 315" stroke-opacity="0.7"/>
+    <path d="M320 392 C 420 392, 470 330, 552 318" stroke-opacity="0.5"/>
+  </g>
+
+  <!-- Coeur : l'agent autonome -->
+  <circle cx="640" cy="315" r="86" fill="#FFFFFF" stroke="url(#acc)" stroke-width="3"/>
+  <circle cx="640" cy="315" r="60" fill="url(#acc)" fill-opacity="0.1"/>
+  <path d="M604 315 l22 22 l44 -50" stroke="url(#acc)" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="640" cy="315" r="86" fill="none" stroke="#6B47E8" stroke-opacity="0.15" stroke-width="1" stroke-dasharray="4 8"/>
+
+  <!-- Flux : de l'agent vers les actions -->
+  <g stroke="url(#acc)" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M726 300 C 800 285, 830 232, 892 220" stroke-opacity="0.6"/>
+    <path d="M726 315 C 800 315, 838 315, 900 315" stroke-opacity="0.75"/>
+    <path d="M726 330 C 800 345, 830 398, 892 410" stroke-opacity="0.55"/>
+  </g>
+
+  <!-- Cote droit : l'action (taches executees) -->
+  <g>
+    <!-- carte tache 1 -->
+    <rect x="892" y="188" width="188" height="66" rx="16" fill="#FFFFFF" stroke="#6B47E8" stroke-opacity="0.22"/>
+    <circle cx="920" cy="221" r="13" fill="url(#acc)"/>
+    <path d="M914 221 l4 4 l8 -9" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="946" y="212" width="108" height="8" rx="4" fill="#1A1626" fill-opacity="0.55"/>
+    <rect x="946" y="228" width="72" height="8" rx="4" fill="#1A1626" fill-opacity="0.2"/>
+
+    <!-- carte tache 2 (engrenage = execution) -->
+    <rect x="900" y="282" width="200" height="66" rx="16" fill="url(#acc)"/>
+    <g transform="translate(932,315)" fill="#FFFFFF">
+      <path d="M0 -17 a17 17 0 0 1 0 34 a17 17 0 0 1 0 -34 Z M0 -9 a9 9 0 0 0 0 18 a9 9 0 0 0 0 -18 Z"/>
+      <g stroke="#FFFFFF" stroke-width="4" stroke-linecap="round">
+        <line x1="0" y1="-22" x2="0" y2="-16"/><line x1="0" y1="16" x2="0" y2="22"/>
+        <line x1="-22" y1="0" x2="-16" y2="0"/><line x1="16" y1="0" x2="22" y2="0"/>
+        <line x1="-15" y1="-15" x2="-11" y2="-11"/><line x1="11" y1="11" x2="15" y2="15"/>
+        <line x1="15" y1="-15" x2="11" y2="-11"/><line x1="-11" y1="11" x2="-15" y2="15"/>
+      </g>
+    </g>
+    <rect x="962" y="308" width="116" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.9"/>
+    <rect x="962" y="324" width="80" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.5"/>
+
+    <!-- carte tache 3 (eclair = action instantanee) -->
+    <rect x="892" y="376" width="188" height="66" rx="16" fill="#FFFFFF" stroke="#6B47E8" stroke-opacity="0.22"/>
+    <path d="M922 396 l-12 18 h10 l-4 16 l14 -20 h-10 z" fill="url(#acc)"/>
+    <rect x="946" y="400" width="108" height="8" rx="4" fill="#1A1626" fill-opacity="0.55"/>
+    <rect x="946" y="416" width="66" height="8" rx="4" fill="#1A1626" fill-opacity="0.2"/>
+  </g>
+
+  <!-- petits noeuds satellites -->
+  <g fill="#6B47E8">
+    <circle cx="640" cy="150" r="6" fill-opacity="0.5"/>
+    <circle cx="640" cy="480" r="6" fill-opacity="0.5"/>
+    <circle cx="466" cy="150" r="4" fill-opacity="0.3"/>
+    <circle cx="812" cy="480" r="4" fill-opacity="0.3"/>
+  </g>
+  <g stroke="#6B47E8" stroke-opacity="0.2" stroke-width="1.5">
+    <line x1="640" y1="229" x2="640" y2="156"/>
+    <line x1="640" y1="401" x2="640" y2="474"/>
+  </g>
+
+  <!-- badge marque -->
+  <g transform="translate(96,540)">
+    <rect x="0" y="0" width="150" height="40" rx="20" fill="#1A1626"/>
+    <circle cx="24" cy="20" r="9" fill="none" stroke="#8B6BF5" stroke-width="2.5"/>
+    <path d="M20 20 l3 3 l6 -7" stroke="#8B6BF5" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="44" y="26" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Konig IA</text>
+  </g>
+  <text x="1104" y="566" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#6B47E8" fill-opacity="0.9">IA agentique 2026</text>
+</svg>

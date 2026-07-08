@@ -15,7 +15,7 @@ const faqs = [
       "À évaluer, avec vous, si l'automatisation a du sens pour votre activité et ce que ça lui apporterait concrètement (temps, opportunités, chiffre d'affaires). Ce n'est pas un rendez-vous commercial déguisé : si la réponse est non, nous vous le disons.",
   },
   {
-    question: "L'Audit IA est-il vraiment gratuit ?",
+    question: "L'Audit IA est-il vraiment offert ?",
     answer:
       "Oui, entièrement offert et sans engagement. Nous analysons votre activité et vous montrons concrètement votre potentiel d'automatisation, que vous poursuiviez avec nous ou non.",
   },
@@ -55,7 +55,7 @@ export function Faq() {
   return (
     <section id="faq" className="py-24 sm:py-32">
       <Container className="max-w-3xl">
-        <SectionHeading eyebrow="Questions fréquentes" title="Tout ce qu'il faut savoir avant de réserver" />
+        <SectionHeading eyebrow="Questions fréquentes" title="Tout ce qu'il faut savoir avant de reserver un audit IA" />
 
         <Reveal>
           <Accordion

@@ -134,7 +134,7 @@ export default function MentionsLegales() {
               <p className="mt-3">
                 Le traitement des données à caractère personnel collectées via le Site
                 (formulaire de réservation d&apos;Audit IA, téléchargement du guide
-                gratuit) est décrit en détail dans notre{" "}
+                offert) est décrit en détail dans notre{" "}
                 <a href="/confidentialite" className="underline underline-offset-2">
                   politique de confidentialité
                 </a>

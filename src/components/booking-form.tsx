@@ -136,7 +136,13 @@ function ChoiceCard({
   );
 }
 
-export function BookingForm({ className }: { className?: string }) {
+export function BookingForm({
+  className,
+  title = "Réservez votre Audit IA offert",
+}: {
+  className?: string;
+  title?: string;
+}) {
   const [step, setStep] = useState<1 | 2 | 3 | 4>(1);
   const [form, setForm] = useState<FormState>(initialState);
   const [status, setStatus] = useState<"idle" | "loading" | "done" | "error">("idle");
@@ -183,7 +189,7 @@ export function BookingForm({ className }: { className?: string }) {
           <p className="text-lg font-semibold">Votre demande d&apos;Audit est envoyée !</p>
           <p className="mt-1 max-w-sm text-sm text-muted-foreground">
             Nous revenons vers vous sous 24h pour fixer le créneau de votre Audit
-            IA gratuit. Vérifiez aussi vos spams par précaution.
+            IA offert. Vérifiez aussi vos spams par précaution.
           </p>
         </div>
       </div>
@@ -199,7 +205,7 @@ export function BookingForm({ className }: { className?: string }) {
     >
       <div className="mb-2 flex items-center gap-2">
         <Sparkles className="size-4 text-[var(--accent-solid)]" />
-        <p className="text-sm font-semibold tracking-tight">Réservez votre Audit IA gratuit</p>
+        <p className="text-sm font-semibold tracking-tight">{title}</p>
       </div>
       <p className="mb-5 text-xs text-muted-foreground">
         30 secondes pour répondre, 30 minutes pour tout comprendre. Sans engagement.
@@ -357,7 +363,7 @@ export function BookingForm({ className }: { className?: string }) {
                 ) : (
                   <Zap className="size-4" />
                 )}
-                Réserver mon Audit IA gratuit
+                Réserver mon Audit IA offert
               </button>
               {status === "error" && (
                 <p className="text-xs text-destructive">

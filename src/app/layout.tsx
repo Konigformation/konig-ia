@@ -14,16 +14,16 @@ const geistMono = Geist_Mono({
 });
 
 const title =
-  "Audit IA gratuit — Ne dépendez plus d'une agence marketing | Konig IA";
+  "Audit IA offert — Ne dépendez plus d'une agence marketing | Konig IA";
 const description =
-  "Réservez votre Audit IA gratuit : nous évaluons si l'automatisation a du sens pour votre activité et ce que ça lui apporterait. Si pertinent, nous vous accompagnons pour construire votre système d'acquisition lors d'un accompagnement intensif de 2 jours (Qualiopi, éligible CPF/OPCO) — sans dépendre d'une agence marketing.";
+  "Réservez votre Audit IA offert : nous évaluons si l'automatisation a du sens pour votre activité et ce que ça lui apporterait. Si pertinent, nous vous accompagnons pour construire votre système d'acquisition lors d'un accompagnement intensif de 2 jours (Qualiopi, éligible CPF/OPCO) — sans dépendre d'une agence marketing.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title,
   description,
   keywords: [
-    "audit IA gratuit",
+    "audit IA offert",
     "accompagnement automatisation IA",
     "accompagnement IA Qualiopi",
     "automatisation commerciale",
@@ -70,12 +70,12 @@ const jsonLd = {
     },
     {
       "@type": "Service",
-      name: "Audit IA gratuit",
+      name: "Audit IA offert",
       provider: { "@id": `${siteConfig.url}/#organization` },
       areaServed: "FR",
       serviceType: "Audit d'automatisation commerciale par IA",
       description:
-        "Un appel gratuit de 30 minutes pour évaluer si l'automatisation a du sens pour votre activité et ce que ça lui apporterait.",
+        "Un appel offert de 30 minutes pour évaluer si l'automatisation a du sens pour votre activité et ce que ça lui apporterait.",
     },
     {
       "@type": "Course",
@@ -89,7 +89,7 @@ const jsonLd = {
       mainEntity: [
         {
           "@type": "Question",
-          name: "L'Audit IA est-il vraiment gratuit ?",
+          name: "L'Audit IA est-il vraiment offert ?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "Oui, entièrement offert et sans engagement. Nous analysons votre activité et vous montrons concrètement votre potentiel d'automatisation.",

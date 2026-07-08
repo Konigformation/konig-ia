@@ -36,7 +36,7 @@ export function ExitIntent() {
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent className="sm:max-w-xl" showCloseButton>
         <DialogTitle className="sr-only">
-          Avant de partir, téléchargez notre guide gratuit
+          Avant de partir, téléchargez notre guide offert
         </DialogTitle>
         <LeadMagnet className="border-none p-0 sm:p-0" />
       </DialogContent>

@@ -5,7 +5,7 @@ import { Reveal } from "@/components/reveal";
 const steps = [
   {
     number: "01",
-    title: "Audit IA gratuit",
+    title: "Audit IA offert",
     description:
       "30 minutes pour cartographier votre activité et identifier ce qui peut réellement être automatisé chez vous.",
   },

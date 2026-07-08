@@ -31,7 +31,7 @@ export function LeadMagnetTrigger({
         }
       >
         <FileDown className="size-4" />
-        {children ?? "Pas encore prêt ? Téléchargez notre guide gratuit"}
+        {children ?? "Pas encore prêt ? Téléchargez notre guide offert"}
       </DialogTrigger>
       <DialogContent className="sm:max-w-xl" showCloseButton>
         <DialogTitle className="sr-only">

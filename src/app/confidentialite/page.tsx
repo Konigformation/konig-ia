@@ -13,10 +13,10 @@ const dataTable = [
   {
     source: "Formulaire « Audit IA » (réservation)",
     data: "Nom, prénom, email, téléphone, situation professionnelle, objectif / commentaire libre",
-    purpose: "Prise de contact, qualification et organisation de l'Audit IA gratuit",
+    purpose: "Prise de contact, qualification et organisation de l'Audit IA offert",
   },
   {
-    source: "Formulaire « Guide gratuit »",
+    source: "Formulaire « Guide offert »",
     data: "Prénom, email",
     purpose: "Envoi du guide au format PDF et, avec votre accord, d'e-mails de suivi",
   },
@@ -59,7 +59,7 @@ export default function Confidentialite() {
                 27 avril 2016 (« RGPD ») et à la loi n° 78-17 du 6 janvier 1978 modifiée,
                 la manière dont nous collectons, utilisons, conservons et protégeons vos
                 données personnelles lorsque vous visitez le Site, réservez un Audit IA
-                ou téléchargez notre guide gratuit.
+                ou téléchargez notre guide offert.
               </p>
             </section>
 
@@ -110,7 +110,7 @@ export default function Confidentialite() {
                   votre demande (article 6.1.b du RGPD).
                 </li>
                 <li>
-                  <strong className="text-foreground">Vous envoyer le guide gratuit</strong>
+                  <strong className="text-foreground">Vous envoyer le guide offert</strong>
                   {" "}et, le cas échéant, des contenus liés à l&apos;automatisation par
                   IA : base légale — consentement (article 6.1.a), révocable à tout
                   moment.
@@ -169,7 +169,7 @@ export default function Confidentialite() {
                   supprimées ou anonymisées.
                 </li>
                 <li>
-                  Données issues du téléchargement du guide gratuit : conservées jusqu&apos;à
+                  Données issues du téléchargement du guide offert : conservées jusqu&apos;à
                   votre désinscription, et au maximum 3 ans à compter du dernier contact.
                 </li>
                 <li>
@@ -299,7 +299,7 @@ export default function Confidentialite() {
 
             <p className="rounded-lg border border-border bg-muted/30 p-4 text-xs">
               Cette politique reflète les traitements de données actuellement mis en
-              œuvre par le Site (formulaires d&apos;Audit IA et de guide gratuit). Elle
+              œuvre par le Site (formulaires d&apos;Audit IA et de guide offert). Elle
               devra être mise à jour si de nouveaux outils sont ajoutés (mesure
               d&apos;audience, publicité, nouveau CRM...) et gagnera à être relue par un
               professionnel du droit avant la mise en ligne publique du Site.

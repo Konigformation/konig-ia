@@ -42,7 +42,7 @@ export function LeadMagnet({ className }: { className?: string }) {
       <div>
         <div className="inline-flex items-center gap-2 rounded-full border border-border bg-muted/50 px-3 py-1 text-xs font-medium tracking-wide text-muted-foreground uppercase">
           <FileText className="size-3.5 text-[var(--accent-solid)]" />
-          Guide gratuit
+          Guide offert
         </div>
         <h3 className="mt-4 text-2xl font-semibold tracking-tight text-balance">
           Le guide pour identifier votre potentiel d&apos;automatisation IA
@@ -107,7 +107,7 @@ export function LeadMagnet({ className }: { className?: string }) {
               ) : (
                 <Download className="size-4" />
               )}
-              Recevoir le guide gratuitement
+              Recevoir le guide offert
             </button>
             {status === "error" && (
               <p className="text-xs text-destructive">
