@@ -27,9 +27,19 @@ export function Hero() {
       />
 
       {/* Anneaux : carré, centré sur le titre, débordant hors du viewport comme dans la refonte. */}
-      <div className="pointer-events-none absolute top-1/2 left-1/2 -z-10 aspect-square w-[min(1180px,150vw)] -translate-x-1/2 -translate-y-1/2">
+      <div className="pointer-events-none absolute top-1/2 left-1/2 -z-10 aspect-square w-[min(1300px,160vw)] -translate-x-1/2 -translate-y-1/2">
         <RingsBackground variant="hero" />
       </div>
+
+      {/* Voile radial par-dessus les anneaux : les estompe derrière le texte,
+          sans quoi ils rentrent en concurrence avec le titre. Cf. .hero::after. */}
+      <div
+        className="pointer-events-none absolute inset-0 -z-[5]"
+        style={{
+          background:
+            "radial-gradient(ellipse 60% 50% at 50% 45%, rgba(120,148,246,.28), transparent 70%)",
+        }}
+      />
 
       <Container className="flex flex-col items-center">
         <div className="flex max-w-2xl flex-col items-center text-center">
