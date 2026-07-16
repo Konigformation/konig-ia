@@ -23,12 +23,13 @@ export function CtaButton({
     <Link
       href={href}
       className={cn(
-        "group inline-flex shrink-0 items-center justify-center gap-2 rounded-full font-medium whitespace-nowrap transition-all duration-250 outline-none select-none focus-visible:ring-3 focus-visible:ring-[var(--accent-solid)]/40 active:translate-y-px",
-        size === "lg" ? "h-13 px-7 text-[15px]" : "h-11 px-5 text-sm",
+        // capitales espacées, angles droits — cf. .btn de la refonte
+        "group inline-flex shrink-0 items-center justify-center gap-3 border border-transparent font-bold tracking-[0.22em] whitespace-nowrap uppercase transition-all duration-200 outline-none select-none focus-visible:ring-3 focus-visible:ring-[var(--accent-solid)]/40 active:translate-y-px",
+        size === "lg" ? "px-8 pt-[17px] pb-[15px] text-xs" : "px-6 pt-3.5 pb-3 text-[11px]",
         variant === "solid" &&
-          "bg-[var(--accent-solid)] text-[var(--accent-solid-foreground)] shadow-[0_10px_24px_-10px_color-mix(in_oklch,var(--accent-solid)_75%,transparent)] hover:-translate-y-0.5 hover:shadow-[0_16px_32px_-10px_color-mix(in_oklch,var(--accent-solid)_75%,transparent)] hover:brightness-105",
+          "bg-[var(--accent-solid)] text-[var(--accent-solid-foreground)] hover:-translate-y-0.5 hover:bg-foreground",
         variant === "outline" &&
-          "border border-border bg-background text-foreground hover:-translate-y-0.5 hover:border-foreground/20 hover:bg-muted/60",
+          "border-[var(--line-strong)] bg-transparent text-foreground hover:-translate-y-0.5 hover:border-[var(--accent-solid)] hover:text-[var(--accent-solid)]",
         className
       )}
     >

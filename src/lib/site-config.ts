@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Konig IA",
   tagline: "Audit IA offert & accompagnement à l'automatisation",
-  url: "https://www.konigformation.com",
+  url: "https://konigia.com",
   bookingUrl: "#diagnostic-ia",
   email: "contact@konigformation.com",
 };

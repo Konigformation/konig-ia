@@ -1,10 +1,21 @@
 import type { Metadata } from "next";
-import { Inter, Geist_Mono } from "next/font/google";
+import { Mukta_Mahee, Playfair_Display, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { siteConfig } from "@/lib/site-config";
 
-const inter = Inter({
+// Charte Konig : Mukta Mahee pour le texte, Didot pour les titres.
+// Didot n'est pas une webfont et n'existe que sur Apple — Playfair Display est
+// son substitut Google Fonts (même squelette Didone, fort contraste, italique vraie).
+const mukta = Mukta_Mahee({
   variable: "--font-sans",
+  weight: ["400", "600", "700"],
+  subsets: ["latin"],
+});
+
+const playfair = Playfair_Display({
+  variable: "--font-heading",
+  weight: ["400", "500"],
+  style: ["normal", "italic"],
   subsets: ["latin"],
 });
 
@@ -164,7 +175,7 @@ export default function RootLayout({
   return (
     <html
       lang="fr"
-      className={`${inter.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${mukta.variable} ${playfair.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <script
