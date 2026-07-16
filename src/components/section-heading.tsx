@@ -25,12 +25,13 @@ export function SectionHeading({
   eyebrow,
   title,
   description,
-  align = "center",
+  align = "left",
   className,
 }: {
   eyebrow?: string;
   title: React.ReactNode;
   description?: React.ReactNode;
+  /** La refonte aligne tous ses sec-head à gauche ; le centrage reste possible au cas par cas. */
   align?: "center" | "left";
   className?: string;
 }) {

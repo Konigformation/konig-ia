@@ -70,7 +70,11 @@ export function Method() {
       <Container>
         <SectionHeading
           eyebrow="Le programme"
-          title="Ce que vous apprendrez"
+          title={
+            <>
+              Ce que vous <em>apprendrez</em>
+            </>
+          }
           description="Construire et maîtriser un système qui tourne en pilote automatique."
         />
 

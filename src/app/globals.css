@@ -119,6 +119,27 @@
   background-size: 64px 64px;
 }
 
+/* Carte hairline de la refonte : angles droits, filet fin, et un second filet
+   en retrait de 10px qui donne le côté « planche gravée ». Cf. .carte. */
+@utility carte {
+  position: relative;
+  border: 1px solid var(--border);
+  background: var(--card);
+  transition: border-color 0.25s ease;
+
+  &:hover {
+    border-color: var(--line-strong);
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 10px;
+    border: 1px solid rgb(41 70 200 / 0.07);
+    pointer-events: none;
+  }
+}
+
 @utility text-gradient {
   background: linear-gradient(120deg, var(--foreground) 45%, var(--accent-solid) 100%);
   background-clip: text;

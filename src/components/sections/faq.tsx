@@ -84,7 +84,14 @@ export function Faq() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <Container className="max-w-3xl">
-        <SectionHeading eyebrow="Questions fréquentes" title="Tout ce qu'il faut savoir avant de reserver un audit IA" />
+        <SectionHeading
+          eyebrow="Questions fréquentes"
+          title={
+            <>
+              Tout ce qu&apos;il faut savoir avant de réserver un <em>audit IA</em>
+            </>
+          }
+        />
 
         <Reveal>
           <Accordion
