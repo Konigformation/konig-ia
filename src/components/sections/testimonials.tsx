@@ -1,5 +1,7 @@
 import { Star } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Container } from "@/components/container";
+import { SectionHeading } from "@/components/section-heading";
 
 const testimonials = [
   {
@@ -60,7 +62,7 @@ const testimonials = [
 
 function TestimonialCard({ t }: { t: (typeof testimonials)[number] }) {
   return (
-    <figure className="flex w-[280px] shrink-0 flex-col justify-between rounded-2xl border border-border bg-card p-6 shadow-sm sm:w-[336px]">
+    <figure className="carte flex w-[280px] shrink-0 flex-col justify-between p-7 sm:w-[336px]">
       <div>
         <div className="mb-4 flex items-center gap-0.5 text-[var(--accent-solid)]">
           {Array.from({ length: 5 }, (_, i) => (
@@ -72,7 +74,7 @@ function TestimonialCard({ t }: { t: (typeof testimonials)[number] }) {
         </blockquote>
       </div>
       <div className="mt-6">
-        <div className="mb-4 inline-block rounded-full bg-[var(--accent-solid)]/10 px-3 py-1 text-xs font-medium text-[var(--accent-solid)]">
+        <div className="mb-4 text-[10px] font-bold tracking-[0.18em] text-[var(--accent-solid)] uppercase">
           {t.result}
         </div>
         <figcaption className="flex items-center gap-3">
@@ -94,7 +96,20 @@ function TestimonialCard({ t }: { t: (typeof testimonials)[number] }) {
 
 export function Testimonials() {
   return (
-    <section id="temoignages" className="overflow-hidden pt-2 pb-14 sm:pt-2 sm:pb-16">
+    <section id="temoignages" className="overflow-hidden pt-20 pb-14 sm:pt-24 sm:pb-16">
+      <Container>
+        <SectionHeading
+          eyebrow="Avis vérifiés"
+          title={
+            <>
+              Ils ont repris la main sur <em>leur acquisition</em>
+            </>
+          }
+          description="Des indépendants, dirigeants et équipes commerciales qui pilotent aujourd'hui leur propre système — sans agence."
+          className="mb-14"
+        />
+      </Container>
+
       <div className="group relative overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_4%,black_96%,transparent)]">
         <div className="flex w-max animate-marquee items-stretch gap-6 pl-6 [animation-duration:52s] group-hover:[animation-play-state:paused]">
           {testimonials.map((t) => (

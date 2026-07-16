@@ -94,7 +94,11 @@ export function Blog() {
       <Container>
         <SectionHeading
           eyebrow="Le blog"
-          title="Les dernières actualités IA pour booster votre business"
+          title={
+            <>
+              Les dernières actualités IA pour <em>booster</em> votre business
+            </>
+          }
           description="Tendances, outils et stratégies concrètes — décryptés pour que vous gardiez toujours une longueur d'avance."
         />
 

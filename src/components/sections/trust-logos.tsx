@@ -57,10 +57,20 @@ function Badge({ b }: { b: (typeof badges)[number] }) {
 export function TrustLogos() {
   return (
     <section className="border-y border-border bg-muted/20 py-10">
-      <Container className="mb-6">
-        <p className="text-center text-xs font-medium tracking-wide text-muted-foreground uppercase sm:text-sm">
-          Formation certifiée Qualiopi, certifiante et finançable
-        </p>
+      {/* Bandeau de confiance en trois temps — cf. .trust de la refonte. */}
+      <Container className="mb-8">
+        <div className="flex flex-col items-center gap-3 text-center sm:flex-row sm:justify-between sm:gap-6 sm:text-left">
+          <span className="text-[10px] font-bold tracking-[0.22em] text-[var(--dim)] uppercase">
+            Ils nous font confiance
+          </span>
+          <span className="text-sm text-muted-foreground">
+            <em className="font-heading text-lg text-[var(--accent-solid)] not-italic">+100</em>{" "}
+            commerciaux, dirigeants et équipes dans toute la France
+          </span>
+          <span className="text-[10px] font-bold tracking-[0.22em] text-[var(--dim)] uppercase">
+            Formation certifiante · Finançable
+          </span>
+        </div>
       </Container>
       <Container
         className={cn(

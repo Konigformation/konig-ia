@@ -74,7 +74,11 @@ export function Audience() {
       <Container>
         <SectionHeading
           eyebrow="Pour qui"
-          title="À qui s'adresse cette formation ?"
+          title={
+            <>
+              À qui s&apos;adresse cette <em>formation</em> ?
+            </>
+          }
           description="Cinq profils, un même déclic : arrêter de courir après les clients pour enfin les attirer en automatique."
         />
 

@@ -11,11 +11,11 @@ export function Eyebrow({
   return (
     <div
       className={cn(
-        "mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-muted/60 px-3 py-1 text-xs font-medium tracking-wide text-[var(--accent-solid)] uppercase",
+        "mb-4 inline-flex items-center gap-3.5 text-[11px] leading-none font-bold tracking-[0.34em] text-[var(--accent-solid)] uppercase",
+        "before:h-px before:w-[34px] before:bg-[var(--line-strong)] before:content-['']",
         className
       )}
     >
-      <span className="size-1.5 rounded-full bg-[var(--accent-solid)]" />
       {children}
     </div>
   );
@@ -25,12 +25,13 @@ export function SectionHeading({
   eyebrow,
   title,
   description,
-  align = "center",
+  align = "left",
   className,
 }: {
   eyebrow?: string;
   title: React.ReactNode;
   description?: React.ReactNode;
+  /** La refonte aligne tous ses sec-head à gauche ; le centrage reste possible au cas par cas. */
   align?: "center" | "left";
   className?: string;
 }) {
@@ -42,8 +43,13 @@ export function SectionHeading({
         className
       )}
     >
-      {eyebrow && <Eyebrow>{eyebrow}</Eyebrow>}
-      <h2 className="max-w-2xl text-3xl font-bold tracking-tight text-balance sm:text-4xl">
+      {eyebrow && (
+        <Eyebrow className={align === "center" ? "after:h-px after:w-[34px] after:bg-[var(--line-strong)] after:content-['']" : ""}>
+          {eyebrow}
+        </Eyebrow>
+      )}
+      {/* Titre Didone : graisse normale, italique bleu sur les <em> — cf. h2.sec-title */}
+      <h2 className="font-heading max-w-2xl text-[clamp(1.875rem,4.4vw,2.875rem)] leading-[1.14] font-normal tracking-[0.005em] text-balance [&_em]:text-[var(--accent-solid)] [&_em]:italic">
         {title}
       </h2>
       {description && (

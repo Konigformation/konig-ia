@@ -9,7 +9,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-sans);
   --font-mono: var(--font-geist-mono);
-  --font-heading: var(--font-sans);
+  --font-heading: var(--font-heading);
   --color-accent-solid: var(--accent-solid);
   --color-accent-solid-foreground: var(--accent-solid-foreground);
   --color-sidebar-ring: var(--sidebar-ring);
@@ -50,41 +50,49 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
+/* Palette « clair bleu roi », reprise de la refonte konig-refonte-v2-clair-bleu.
+   Équivalences : --noir #F4F5F9 (fond), --blanc #14182B (encre),
+   --sauge #2946C8 (bleu roi), --foret #1B31A0, --panel #FBFCFE. */
 :root {
-  --background: oklch(0.995 0.002 275);
-  --foreground: oklch(0.18 0.016 275);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.18 0.016 275);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.18 0.016 275);
-  --primary: oklch(0.18 0.016 275);
-  --primary-foreground: oklch(0.99 0 0);
-  --secondary: oklch(0.96 0.004 275);
-  --secondary-foreground: oklch(0.18 0.016 275);
-  --muted: oklch(0.966 0.004 275);
-  --muted-foreground: oklch(0.48 0.014 275);
-  --accent: oklch(0.96 0.004 275);
-  --accent-foreground: oklch(0.18 0.016 275);
+  --background: #f4f5f9;
+  --foreground: #14182b;
+  --card: #fbfcfe;
+  --card-foreground: #14182b;
+  --popover: #fbfcfe;
+  --popover-foreground: #14182b;
+  --primary: #14182b;
+  --primary-foreground: #f4f5f9;
+  --secondary: #eaedf5;
+  --secondary-foreground: #14182b;
+  --muted: #eaedf5;
+  --muted-foreground: #4e5670;
+  --accent: #eaedf5;
+  --accent-foreground: #14182b;
   --destructive: oklch(0.58 0.21 25);
-  --border: oklch(0 0 0 / 8%);
-  --input: oklch(0 0 0 / 10%);
-  --ring: oklch(0.58 0.19 275 / 45%);
-  --chart-1: oklch(0.58 0.19 275);
-  --chart-2: oklch(0.7 0.15 275);
-  --chart-3: oklch(0.5 0 0);
-  --chart-4: oklch(0.65 0 0);
-  --chart-5: oklch(0.8 0 0);
+  --border: rgb(41 70 200 / 0.18);
+  --input: rgb(41 70 200 / 0.28);
+  --ring: rgb(41 70 200 / 0.45);
+  --chart-1: #2946c8;
+  --chart-2: #1b31a0;
+  --chart-3: #4e5670;
+  --chart-4: #7a8199;
+  --chart-5: #eaedf5;
   --radius: 1rem;
-  --sidebar: oklch(1 0 0);
-  --sidebar-foreground: oklch(0.18 0.016 275);
-  --sidebar-primary: oklch(0.58 0.19 275);
-  --sidebar-primary-foreground: oklch(0.99 0 0);
-  --sidebar-accent: oklch(0.96 0.004 275);
-  --sidebar-accent-foreground: oklch(0.18 0.016 275);
-  --sidebar-border: oklch(0 0 0 / 8%);
-  --sidebar-ring: oklch(0.58 0.19 275 / 45%);
-  --accent-solid: oklch(0.565 0.196 275);
-  --accent-solid-foreground: oklch(0.99 0 0);
+  --sidebar: #fbfcfe;
+  --sidebar-foreground: #14182b;
+  --sidebar-primary: #2946c8;
+  --sidebar-primary-foreground: #f4f5f9;
+  --sidebar-accent: #eaedf5;
+  --sidebar-accent-foreground: #14182b;
+  --sidebar-border: rgb(41 70 200 / 0.18);
+  --sidebar-ring: rgb(41 70 200 / 0.45);
+  --accent-solid: #2946c8;
+  --accent-solid-foreground: #f4f5f9;
+  /* décor : filets et halo bleu, cf. --line / --line-strong / --sauge-glow */
+  --line-strong: rgb(41 70 200 / 0.45);
+  --sauge-glow: rgb(41 70 200 / 0.15);
+  --dim: #7a8199;
+  --foret: #1b31a0;
 }
 
 @layer base {
@@ -109,6 +117,27 @@
     linear-gradient(to right, var(--border) 1px, transparent 1px),
     linear-gradient(to bottom, var(--border) 1px, transparent 1px);
   background-size: 64px 64px;
+}
+
+/* Carte hairline de la refonte : angles droits, filet fin, et un second filet
+   en retrait de 10px qui donne le côté « planche gravée ». Cf. .carte. */
+@utility carte {
+  position: relative;
+  border: 1px solid var(--border);
+  background: var(--card);
+  transition: border-color 0.25s ease;
+
+  &:hover {
+    border-color: var(--line-strong);
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 10px;
+    border: 1px solid rgb(41 70 200 / 0.07);
+    pointer-events: none;
+  }
 }
 
 @utility text-gradient {

@@ -23,7 +23,11 @@ export function WhySystem() {
       <Container>
         <SectionHeading
           eyebrow="L'approche"
-          title="Pourquoi bâtir votre propre système ?"
+          title={
+            <>
+              Pourquoi bâtir votre <em>propre</em> système ?
+            </>
+          }
           description="Tant que quelqu'un d'autre contrôle votre acquisition, vous ne contrôlez pas votre business. Voici la différence."
         />
 
