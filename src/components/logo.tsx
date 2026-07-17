@@ -1,20 +1,22 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { siteConfig } from "@/lib/site-config";
 
+// Dimensions d'AFFICHAGE (2× pour les écrans retina), pas les dimensions
+// intrinsèques : le logo se rend en h-8/h-7 (~32/28 px de haut), inutile de
+// demander à l'optimiseur une version 1920 px. Le ratio des fichiers est
+// respecté (929/375 ≈ 2.48, 500/180 ≈ 2.78) pour éviter tout décalage.
+const DIMS = {
+  full: { src: "/logo-dark.png", width: 161, height: 65 },
+  mark: { src: "/logo-mark-dark.png", width: 156, height: 56 },
+};
+
 export function Logo({ className, iconOnly = false }: { className?: string; iconOnly?: boolean }) {
   const [broken, setBroken] = useState(false);
-  const imgRef = useRef<HTMLImageElement>(null);
-  const src = iconOnly ? "/logo-mark-dark.png" : "/logo-dark.png";
-
-  useEffect(() => {
-    const img = imgRef.current;
-    if (img && img.complete && img.naturalWidth === 0) {
-      setBroken(true);
-    }
-  }, []);
+  const { src, width, height } = iconOnly ? DIMS.mark : DIMS.full;
 
   if (broken) {
     return (
@@ -28,11 +30,12 @@ export function Logo({ className, iconOnly = false }: { className?: string; icon
   }
 
   return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img
-      ref={imgRef}
+    <Image
       src={src}
       alt={siteConfig.name}
+      width={width}
+      height={height}
+      priority
       className={cn(iconOnly ? "h-7 w-auto" : "h-8 w-auto", className)}
       onError={() => setBroken(true)}
     />

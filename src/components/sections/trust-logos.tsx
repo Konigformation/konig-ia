@@ -1,28 +1,29 @@
+import Image from "next/image";
 import { Container } from "@/components/container";
 import { cn } from "@/lib/utils";
 
 const badges = [
   {
-    src: "/partners/qualiopi.png?v=4",
+    src: "/partners/qualiopi.png",
     alt: "Qualiopi — processus certifié",
     href: "/partners/qualiopi-certificat.jpg",
     width: 120,
     height: 40,
   },
   {
-    src: "/partners/opco.png?v=4",
+    src: "/partners/opco.png",
     alt: "OPCO — opérateurs de compétences",
     width: 90,
     height: 52,
   },
   {
-    src: "/partners/france-travail.png?v=4",
+    src: "/partners/france-travail.png",
     alt: "France Travail",
     width: 130,
     height: 62,
   },
   {
-    src: "/partners/faf.png?v=4",
+    src: "/partners/faf.png",
     alt: "FAF — Fonds d'Assurance Formation",
     width: 70,
     height: 52,
@@ -35,8 +36,13 @@ function Badge({ b }: { b: (typeof badges)[number] }) {
       className="flex shrink-0 items-center justify-center grayscale transition-all duration-300 hover:grayscale-0"
       style={{ width: b.width, height: b.height }}
     >
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={b.src} alt={b.alt} className="h-full w-full object-contain" />
+      <Image
+        src={b.src}
+        alt={b.alt}
+        width={b.width}
+        height={b.height}
+        className="h-full w-full object-contain"
+      />
     </span>
   );
   return b.href ? (
