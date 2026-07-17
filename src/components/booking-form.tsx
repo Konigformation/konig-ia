@@ -188,8 +188,8 @@ export function BookingForm({
         <div>
           <p className="text-lg font-semibold">Votre demande d&apos;Audit est envoyée !</p>
           <p className="mt-1 max-w-sm text-sm text-muted-foreground">
-            Nous revenons vers vous sous 24h pour fixer le créneau de votre Audit
-            IA offert. Vérifiez aussi vos spams par précaution.
+            Nous revenons vers vous sous 24&nbsp;h pour fixer le créneau de votre
+            Audit IA offert. Vérifiez aussi vos spams par précaution.
           </p>
         </div>
       </div>
@@ -377,7 +377,7 @@ export function BookingForm({
 
       <p className="mt-5 flex items-center justify-center gap-1.5 text-xs text-muted-foreground">
         <ShieldCheck className="size-3.5" />
-        Réponse sous 24h · Données confidentielles, jamais partagées.
+        Réponse sous 24&nbsp;h · Données confidentielles, jamais partagées.
       </p>
     </div>
   );
