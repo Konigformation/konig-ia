@@ -35,6 +35,11 @@ const faqs = [
       "Oui, entièrement offert et sans engagement. Nous analysons votre activité et vous montrons concrètement votre potentiel d'automatisation, que vous poursuiviez avec nous ou non.",
   },
   {
+    question: "Combien coûte l'accompagnement ?",
+    answer:
+      "Le tarif dépend de votre parcours et de votre financement. Comme notre organisme est certifié Qualiopi, l'accompagnement est éligible au CPF, à votre OPCO, à France Travail ou au FAF — selon votre statut, votre reste à charge peut être nul. Nous établissons le montant exact et votre éligibilité pendant l'Audit IA offert, sans engagement.",
+  },
+  {
     question: "L'accompagnement est-il finançable ?",
     answer:
       "Notre organisme est certifié Qualiopi. Selon votre statut, votre accompagnement peut être éligible à un financement via le CPF, votre OPCO, France Travail ou le FAF. Nous faisons le point sur votre éligibilité pendant l'Audit.",
