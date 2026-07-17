@@ -50,7 +50,7 @@ const faqs = [
       "Non. Notre accompagnement est conçu pour des dirigeants et indépendants sans compétence technique préalable. Vous êtes accompagné pas à pas pour construire votre système de A à Z.",
   },
   {
-    question: "Puis-je garder mes outils actuels (CRM, emailing...) ?",
+    question: "Puis-je garder mes outils actuels (CRM, emailing…) ?",
     answer:
       "Dans la grande majorité des cas, oui. Nous vous apprenons à connecter votre système à vos outils existants via API plutôt que d'imposer une nouvelle plateforme fermée.",
   },
