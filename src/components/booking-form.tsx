@@ -8,6 +8,7 @@ import {
   Bot,
   Briefcase,
   Building2,
+  CalendarCheck,
   CheckCircle2,
   Clock3,
   Landmark,
@@ -23,6 +24,7 @@ import {
   Zap,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { siteConfig } from "@/lib/site-config";
 
 const situations = [
   { value: "Consultant / indépendant", icon: Briefcase },
@@ -188,10 +190,20 @@ export function BookingForm({
         <div>
           <p className="text-lg font-semibold">Votre demande d&apos;Audit est envoyée !</p>
           <p className="mt-1 max-w-sm text-sm text-muted-foreground">
-            Nous revenons vers vous sous 24&nbsp;h pour fixer le créneau de votre
-            Audit IA offert. Vérifiez aussi vos spams par précaution.
+            Réservez dès maintenant votre créneau de 30&nbsp;minutes, ou nous
+            revenons vers vous sous 24&nbsp;h. Vérifiez aussi vos spams par
+            précaution.
           </p>
         </div>
+        <a
+          href={siteConfig.calendlyUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group inline-flex items-center justify-center gap-3 border border-transparent bg-[var(--accent-solid)] px-8 pt-[17px] pb-[15px] text-xs font-bold tracking-[0.22em] text-[var(--accent-solid-foreground)] uppercase transition-all duration-200 hover:-translate-y-0.5 hover:bg-foreground"
+        >
+          <CalendarCheck className="size-4" />
+          Réserver mon créneau
+        </a>
       </div>
     );
   }

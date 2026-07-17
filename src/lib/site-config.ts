@@ -2,8 +2,11 @@ export const siteConfig = {
   name: "Konig IA",
   tagline: "Audit IA offert & accompagnement à l'automatisation",
   url: "https://konigia.com",
+  // Ancre vers le formulaire de qualification sur la page d'accueil.
   bookingUrl: "#diagnostic-ia",
-  email: "contact@konigformation.com",
+  // Prise de rendez-vous directe (après qualification via le formulaire).
+  calendlyUrl: "https://calendly.com/contact-konigia/30min",
+  email: "contact@konigia.com",
 };
 
 export const navLinks = [
