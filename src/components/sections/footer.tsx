@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/container";
 import { Logo } from "@/components/logo";
@@ -83,10 +84,11 @@ export function Footer() {
             className="flex items-center gap-2 text-xs text-muted-foreground hover:text-foreground"
             title="Voir le certificat"
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/partners/qualiopi.png?v=4"
+            <Image
+              src="/partners/qualiopi.png"
               alt="Qualiopi — processus certifié"
+              width={72}
+              height={24}
               className="h-6 w-auto object-contain opacity-90"
             />
             Formation certifiée Qualiopi
