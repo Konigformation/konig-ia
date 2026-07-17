@@ -115,6 +115,13 @@ const jsonLd = {
       logo: `${siteConfig.url}/logo.png`,
       description:
         "Konig Formation aide les indépendants, dirigeants et commerciaux à bâtir leur propre machine à clients grâce à l'IA : contenu, prospection et conversions automatisés. Organisme certifié Qualiopi.",
+      sameAs: ["https://www.linkedin.com/company/konig-ia/"],
+      founder: {
+        "@type": "Person",
+        "@id": `${siteConfig.url}/#founder`,
+        name: "Alexis Romito",
+        sameAs: ["https://www.linkedin.com/in/alexis-romito-88b81b205"],
+      },
       areaServed: "FR",
       knowsAbout: [
         "Intelligence artificielle",
