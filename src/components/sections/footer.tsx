@@ -37,6 +37,15 @@ export function Footer() {
                     {ctaCopy.primaryShort}
                   </Link>
                 </li>
+                <li>
+                  {/* Lien persistant vers le blog depuis chaque page (maillage, règle 5). */}
+                  <Link
+                    href="/blog"
+                    className="text-sm text-muted-foreground hover:text-foreground"
+                  >
+                    Blog
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
