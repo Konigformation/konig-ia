@@ -235,7 +235,14 @@ export default function ArticlePage() {
                   l&apos;IA agentique, ces systèmes qui passent de la parole à
                   l&apos;action
                 </Link>
-                .
+                . Et si vous hésitez à vous former, notre guide pour{" "}
+                <Link
+                  href="/blog/comment-choisir-formation-ia"
+                  className="font-medium text-[var(--accent-solid)] underline underline-offset-2 hover:opacity-80"
+                >
+                  bien choisir sa formation IA
+                </Link>{" "}
+                passe en revue les cinq critères qui comptent.
               </p>
 
               <h2 className="pt-4 text-2xl font-bold tracking-tight">

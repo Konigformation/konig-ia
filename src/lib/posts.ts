@@ -15,6 +15,20 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "comment-choisir-formation-ia",
+    title:
+      "Formation IA : comment bien la choisir quand on est indépendant ou dirigeant ?",
+    excerpt:
+      "Toutes les formations IA ne se valent pas. Cinq critères concrets pour distinguer un accompagnement qui vous rend autonome d'un catalogue de vidéos que vous ne finirez jamais.",
+    category: "Guide",
+    date: "2026-07-18",
+    dateLabel: "18 juillet 2026",
+    readTime: "7 min",
+    image: "/blog/comment-choisir-formation-ia.svg",
+    imageAlt:
+      "Comment choisir sa formation IA : une liste de critères cochés (Qualiopi, finançable, pratique, autonomie) menant au monogramme Konig IA — illustration Konig IA.",
+  },
+  {
     slug: "agents-ia-generer-clients-2026",
     title:
       "Agents IA en 2026 : générez vos premiers clients en pilote automatique",

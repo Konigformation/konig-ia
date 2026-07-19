@@ -45,10 +45,7 @@ export default function MentionsLegales() {
                   compétent. Cet enregistrement ne vaut pas agrément de l&apos;État.
                 </li>
                 <li>Numéro de TVA intracommunautaire : [à préciser]</li>
-                <li>
-                  Directeur de la publication : [nom et qualité du représentant légal à
-                  préciser]
-                </li>
+                <li>Directeur de la publication : Alexis Romito, gérant</li>
                 <li>
                   Contact :{" "}
                   <a href={`mailto:${siteConfig.email}`} className="underline underline-offset-2">
@@ -73,9 +70,18 @@ export default function MentionsLegales() {
               </h2>
               <p className="mt-3">Le Site est hébergé par :</p>
               <ul className="mt-3 flex flex-col gap-1.5">
-                <li>[Raison sociale de l&apos;hébergeur à préciser]</li>
-                <li>[Adresse de l&apos;hébergeur à préciser]</li>
-                <li>[Contact de l&apos;hébergeur à préciser]</li>
+                <li>Vercel Inc.</li>
+                <li>440 N Barranca Ave #4133, Covina, CA 91723, États-Unis</li>
+                <li>
+                  <a
+                    href="https://vercel.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline underline-offset-2"
+                  >
+                    vercel.com
+                  </a>
+                </li>
               </ul>
             </section>
 
