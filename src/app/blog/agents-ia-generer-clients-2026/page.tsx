@@ -28,7 +28,7 @@ const url = `${siteConfig.url}/blog/${article.slug}`;
 const imageUrl = `${siteConfig.url}${article.image}`;
 
 export const metadata: Metadata = {
-  title: `${article.title} | Konig IA`,
+  title: article.title,
   description: article.description,
   keywords: [
     "agents IA 2026",
