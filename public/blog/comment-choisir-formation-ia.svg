@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Comment choisir sa formation IA : une liste de critères cochés menant vers un système d'acquisition, illustration Konig IA.">
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="cacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="cglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#cbg)"/>
+  <circle cx="880" cy="315" r="360" fill="url(#cglow)"/>
+
+  <!-- anneaux concentriques, rappel de la charte -->
+  <g stroke="#2946C8" fill="none" opacity="0.18">
+    <circle cx="880" cy="315" r="150"/>
+    <circle cx="880" cy="315" r="220" stroke-dasharray="2 10"/>
+    <circle cx="880" cy="315" r="290" stroke-dasharray="1 16"/>
+  </g>
+
+  <!-- checklist de critères -->
+  <g transform="translate(150 175)">
+    <g font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#14182B" font-size="26">
+      <!-- ligne 1 -->
+      <rect x="0" y="0" width="40" height="40" rx="10" fill="url(#cacc)"/>
+      <path d="M11 20 l7 7 l12 -15" stroke="#F4F5F9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <text x="58" y="28">Certifié Qualiopi</text>
+      <!-- ligne 2 -->
+      <rect x="0" y="70" width="40" height="40" rx="10" fill="url(#cacc)"/>
+      <path d="M11 90 l7 7 l12 -15" stroke="#F4F5F9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <text x="58" y="98">Finançable</text>
+      <!-- ligne 3 -->
+      <rect x="0" y="140" width="40" height="40" rx="10" fill="url(#cacc)"/>
+      <path d="M11 160 l7 7 l12 -15" stroke="#F4F5F9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <text x="58" y="168">Pratique, pas théorique</text>
+      <!-- ligne 4 -->
+      <rect x="0" y="210" width="40" height="40" rx="10" fill="url(#cacc)"/>
+      <path d="M11 230 l7 7 l12 -15" stroke="#F4F5F9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <text x="58" y="238">Vous rend autonome</text>
+    </g>
+  </g>
+
+  <!-- monogramme au centre des anneaux -->
+  <g transform="translate(880 315)" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" fill="#14182B">
+    <text y="8" font-size="88" font-weight="400">K·K</text>
+  </g>
+
+  <!-- filet + label marque -->
+  <g transform="translate(150 500)">
+    <rect x="0" y="0" width="64" height="3" fill="#2946C8"/>
+    <text x="0" y="34" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#4E5670" letter-spacing="1">KONIG IA — GUIDE</text>
+  </g>
+</svg>
