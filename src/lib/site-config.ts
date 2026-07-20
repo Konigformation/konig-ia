@@ -15,6 +15,7 @@ export const navLinks = [
   { label: "Accompagnement", href: "#formation" },
   { label: "Avis", href: "#temoignages" },
   { label: "FAQ", href: "#faq" },
+  { label: "Blog", href: "/blog" },
 ];
 
 export const ctaCopy = {
