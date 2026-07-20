@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Générer des clients avec l'IA, le guide complet 2026 : un système relie contenu, prospection et conversion pour produire un flux de clients — illustration Konig IA.">
+  <defs>
+    <linearGradient id="ggbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="ggacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="ggglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#ggbg)"/>
+  <circle cx="935" cy="330" r="360" fill="url(#ggglow)"/>
+
+  <!-- anneaux concentriques, rappel de la charte -->
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="935" cy="330" r="160"/>
+    <circle cx="935" cy="330" r="230"/>
+    <circle cx="935" cy="330" r="300"/>
+  </g>
+
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <!-- trois entrees du systeme -->
+    <g>
+      <rect x="600" y="196" width="150" height="60" rx="14" fill="#FFFFFF" stroke="#2946C8" stroke-opacity="0.25"/>
+      <text x="675" y="232" font-size="19" font-weight="600" fill="#1B2559" text-anchor="middle">Contenu</text>
+    </g>
+    <g>
+      <rect x="600" y="300" width="150" height="60" rx="14" fill="#FFFFFF" stroke="#2946C8" stroke-opacity="0.25"/>
+      <text x="675" y="336" font-size="19" font-weight="600" fill="#1B2559" text-anchor="middle">Prospection</text>
+    </g>
+    <g>
+      <rect x="600" y="404" width="150" height="60" rx="14" fill="#FFFFFF" stroke="#2946C8" stroke-opacity="0.25"/>
+      <text x="675" y="440" font-size="19" font-weight="600" fill="#1B2559" text-anchor="middle">Conversion</text>
+    </g>
+
+    <!-- connexions vers le hub -->
+    <g stroke="#2946C8" stroke-opacity="0.4" stroke-width="3" fill="none">
+      <path d="M750 226 C 830 226, 850 300, 905 322" stroke-dasharray="9 10"/>
+      <path d="M750 330 H 905" stroke-dasharray="9 10"/>
+      <path d="M750 434 C 830 434, 850 360, 905 338" stroke-dasharray="9 10"/>
+    </g>
+
+    <!-- hub central : flux de clients -->
+    <circle cx="960" cy="330" r="72" fill="#FFFFFF" stroke="#2946C8" stroke-opacity="0.25" stroke-width="2"/>
+    <circle cx="960" cy="330" r="52" fill="url(#ggacc)"/>
+    <!-- petite silhouette client -->
+    <circle cx="960" cy="315" r="14" fill="#FFFFFF"/>
+    <path d="M936 356 a24 20 0 0 1 48 0 Z" fill="#FFFFFF"/>
+    <text x="960" y="440" font-size="18" font-weight="700" fill="#1B2559" text-anchor="middle">Flux de clients</text>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="46" font-weight="800" fill="#111A3D">Générer des clients</text>
+    <text x="90" y="205" font-size="46" font-weight="800" fill="#111A3D">avec l&apos;IA</text>
+    <text x="90" y="256" font-size="27" font-weight="600" fill="#2946C8">Le guide complet — 2026</text>
+    <text x="90" y="298" font-size="19" font-weight="500" fill="#5A6488">Définition · méthode · prix · erreurs</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>
