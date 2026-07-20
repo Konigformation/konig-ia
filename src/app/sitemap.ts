@@ -18,6 +18,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${siteConfig.url}/blog/prospection-automatisee-guide-complet-2026`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${siteConfig.url}/blog/formation-ia-guide-complet-2026`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
       url: `${siteConfig.url}/blog/comment-choisir-formation-ia`,
       lastModified: now,
       changeFrequency: "monthly",

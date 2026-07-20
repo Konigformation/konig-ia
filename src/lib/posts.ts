@@ -15,6 +15,32 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "prospection-automatisee-guide-complet-2026",
+    title: "Prospection automatisée : le guide complet (2026)",
+    excerpt:
+      "Définition, méthode en 5 étapes, budgets réels et erreurs à éviter — dont le cadre légal que l'automatisation ne dispense pas de respecter.",
+    category: "Guide",
+    date: "2026-07-20",
+    dateLabel: "20 juillet 2026",
+    readTime: "10 min",
+    image: "/blog/prospection-automatisee-guide-complet-2026.svg",
+    imageAlt:
+      "Prospection automatisée : des prospects bruts entrent dans une séquence de messages et de relances automatisées, et ressortent en rendez-vous qualifiés dans un agenda — illustration Konig IA.",
+  },
+  {
+    slug: "formation-ia-guide-complet-2026",
+    title: "Formation IA : le guide complet (2026)",
+    excerpt:
+      "Définition, méthode en 5 étapes, fourchettes de prix et erreurs à éviter — tout ce qu'il faut savoir avant de choisir une formation IA quand on cherche des clients.",
+    category: "Guide",
+    date: "2026-07-20",
+    dateLabel: "20 juillet 2026",
+    readTime: "9 min",
+    image: "/blog/formation-ia-guide-complet-2026.svg",
+    imageAlt:
+      "Formation IA, le guide complet 2026 : un parcours en cinq étapes — diagnostic, fondations, contenu, prospection — menant à une machine à clients automatisée — illustration Konig IA.",
+  },
+  {
     slug: "comment-choisir-formation-ia",
     title:
       "Formation IA : comment bien la choisir quand on est indépendant ou dirigeant ?",

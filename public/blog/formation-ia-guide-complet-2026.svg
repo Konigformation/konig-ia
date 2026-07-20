@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Formation IA, le guide complet 2026 : un parcours en cinq étapes menant à un système d'acquisition automatisé, illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="930" cy="315" r="360" fill="url(#gglow)"/>
+
+  <!-- anneaux concentriques, rappel de la charte -->
+  <g stroke="#2946C8" fill="none" opacity="0.18">
+    <circle cx="930" cy="315" r="150"/>
+    <circle cx="930" cy="315" r="215"/>
+    <circle cx="930" cy="315" r="280"/>
+  </g>
+
+  <!-- parcours en cinq etapes -->
+  <path d="M120 470 C 240 470, 240 360, 360 360 S 480 250, 600 250 S 720 190, 800 190"
+        stroke="#2946C8" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 12"/>
+
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <!-- etape 1 -->
+    <circle cx="120" cy="470" r="27" fill="url(#gacc)"/>
+    <text x="120" y="479" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+    <text x="120" y="527" font-size="18" font-weight="600" fill="#1B2559" text-anchor="middle">Diagnostic</text>
+
+    <!-- etape 2 -->
+    <circle cx="360" cy="360" r="27" fill="url(#gacc)"/>
+    <text x="360" y="369" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+    <text x="360" y="417" font-size="18" font-weight="600" fill="#1B2559" text-anchor="middle">Fondations</text>
+
+    <!-- etape 3 -->
+    <circle cx="600" cy="250" r="27" fill="url(#gacc)"/>
+    <text x="600" y="259" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+    <text x="600" y="307" font-size="18" font-weight="600" fill="#1B2559" text-anchor="middle">Contenu</text>
+
+    <!-- etape 4 -->
+    <circle cx="800" cy="190" r="27" fill="url(#gacc)"/>
+    <text x="800" y="199" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+    <text x="800" y="247" font-size="18" font-weight="600" fill="#1B2559" text-anchor="middle">Prospection</text>
+  </g>
+
+  <!-- etape 5 : le systeme qui tourne -->
+  <g>
+    <circle cx="930" cy="315" r="86" fill="#FFFFFF" stroke="#2946C8" stroke-opacity="0.25" stroke-width="2"/>
+    <circle cx="930" cy="315" r="62" fill="url(#gacc)"/>
+    <path d="M902 315 l18 19 l38 -40" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <text x="930" y="435" font-size="19" font-weight="700" fill="#1B2559" text-anchor="middle"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Machine à clients</text>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="130" font-size="52" font-weight="800" fill="#111A3D">Formation IA</text>
+    <text x="90" y="186" font-size="30" font-weight="600" fill="#2946C8">Le guide complet — 2026</text>
+    <text x="90" y="232" font-size="20" font-weight="500" fill="#5A6488">Définition · méthode · prix · erreurs à éviter</text>
+  </g>
+
+  <!-- signature -->
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>
