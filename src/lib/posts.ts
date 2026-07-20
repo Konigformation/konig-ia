@@ -15,6 +15,19 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "generer-clients-ia-guide-complet-2026",
+    title: "Générer des clients avec l'IA : le guide complet (2026)",
+    excerpt:
+      "Contenu, prospection, conversion : comment relier ces trois briques en un seul système d'acquisition. Méthode en 5 étapes, budgets réels et erreurs à éviter.",
+    category: "Guide",
+    date: "2026-07-20",
+    dateLabel: "20 juillet 2026",
+    readTime: "10 min",
+    image: "/blog/generer-clients-ia-guide-complet-2026.svg",
+    imageAlt:
+      "Générer des clients avec l'IA : un système relie contenu, prospection et conversion pour produire un flux de clients régulier — illustration Konig IA.",
+  },
+  {
     slug: "prospection-automatisee-guide-complet-2026",
     title: "Prospection automatisée : le guide complet (2026)",
     excerpt:
