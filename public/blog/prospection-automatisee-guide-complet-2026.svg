@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Prospection automatisée, le guide complet 2026 : un flux de prospects filtré par des séquences automatisées jusqu'à un agenda de rendez-vous qualifiés, illustration Konig IA.">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="pacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="pglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#pbg)"/>
+  <circle cx="940" cy="360" r="330" fill="url(#pglow)"/>
+
+  <!-- anneaux concentriques, rappel de la charte -->
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="940" cy="360" r="170"/>
+    <circle cx="940" cy="360" r="240"/>
+    <circle cx="940" cy="360" r="310"/>
+  </g>
+
+  <!-- colonne 1 : prospects bruts, dispersés -->
+  <g fill="#2946C8" opacity="0.30">
+    <circle cx="110" cy="270" r="13"/>
+    <circle cx="158" cy="330" r="13"/>
+    <circle cx="104" cy="392" r="13"/>
+    <circle cx="162" cy="452" r="13"/>
+    <circle cx="112" cy="512" r="13"/>
+    <circle cx="160" cy="212" r="13"/>
+  </g>
+  <text x="134" y="570" font-size="17" font-weight="600" fill="#5A6488" text-anchor="middle"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Prospects bruts</text>
+
+  <!-- flux convergent vers la sequence -->
+  <g stroke="#2946C8" stroke-opacity="0.28" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M182 212 C 280 250, 320 330, 400 360"/>
+    <path d="M182 330 C 280 345, 320 355, 400 360"/>
+    <path d="M182 452 C 280 435, 320 385, 400 360"/>
+    <path d="M182 512 C 290 470, 330 395, 400 360"/>
+  </g>
+
+  <!-- sequence automatisee : trois etages de relance -->
+  <g>
+    <rect x="404" y="286" width="196" height="46" rx="12" fill="#FFFFFF" stroke="#2946C8" stroke-opacity="0.30" stroke-width="2"/>
+    <rect x="404" y="342" width="196" height="46" rx="12" fill="#FFFFFF" stroke="#2946C8" stroke-opacity="0.30" stroke-width="2"/>
+    <rect x="404" y="398" width="196" height="46" rx="12" fill="#FFFFFF" stroke="#2946C8" stroke-opacity="0.30" stroke-width="2"/>
+    <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="17" font-weight="600" fill="#1B2559">
+      <text x="502" y="315" text-anchor="middle">Message ciblé</text>
+      <text x="502" y="371" text-anchor="middle">Relance 1</text>
+      <text x="502" y="427" text-anchor="middle">Relance 2</text>
+    </g>
+  </g>
+  <text x="502" y="570" font-size="17" font-weight="600" fill="#5A6488" text-anchor="middle"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Séquence automatisée</text>
+
+  <!-- filtrage vers les reponses qualifiees -->
+  <path d="M604 360 C 680 360, 700 360, 760 360" stroke="#2946C8" stroke-opacity="0.45" stroke-width="3"
+        stroke-linecap="round" stroke-dasharray="9 11"/>
+
+  <!-- agenda rempli -->
+  <g>
+    <rect x="836" y="256" width="208" height="208" rx="24" fill="#FFFFFF" stroke="#2946C8" stroke-opacity="0.25" stroke-width="2"/>
+    <rect x="836" y="256" width="208" height="46" rx="24" fill="url(#pacc)"/>
+    <rect x="836" y="284" width="208" height="18" fill="url(#pacc)"/>
+    <g fill="#2946C8" opacity="0.16">
+      <rect x="862" y="322" width="70" height="22" rx="6"/>
+      <rect x="948" y="322" width="70" height="22" rx="6"/>
+      <rect x="862" y="356" width="70" height="22" rx="6"/>
+      <rect x="948" y="356" width="70" height="22" rx="6"/>
+      <rect x="862" y="390" width="70" height="22" rx="6"/>
+      <rect x="948" y="390" width="70" height="22" rx="6"/>
+      <rect x="862" y="424" width="70" height="22" rx="6"/>
+    </g>
+    <rect x="948" y="424" width="70" height="22" rx="6" fill="url(#pacc)"/>
+  </g>
+  <text x="940" y="514" font-size="19" font-weight="700" fill="#1B2559" text-anchor="middle"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Rendez-vous qualifiés</text>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="106" font-size="48" font-weight="800" fill="#111A3D">Prospection automatisée</text>
+    <text x="90" y="156" font-size="28" font-weight="600" fill="#2946C8">Le guide complet — 2026</text>
+  </g>
+
+  <!-- signature -->
+  <text x="1110" y="590" font-size="19" font-weight="700" fill="#1B2559" text-anchor="end"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>
