@@ -11,7 +11,7 @@ export function Footer() {
         <div className="flex flex-col gap-10 sm:flex-row sm:justify-between">
           <div className="max-w-xs">
             <Link href="#top">
-              <Logo />
+              <Logo className="h-14" />
             </Link>
           </div>
 
