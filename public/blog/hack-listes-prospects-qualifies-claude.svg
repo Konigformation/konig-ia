@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Le hack pour sortir des listes de prospects qualifiés avec Claude : une liste brute filtrée par signal ressort en prospects prioritaires — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="940" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="940" cy="315" r="150"/>
+    <circle cx="940" cy="315" r="215"/>
+    <circle cx="940" cy="315" r="280"/>
+  </g>
+
+  <!-- liste brute -->
+  <g>
+    <rect x="720" y="180" width="120" height="270" rx="12" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="2"/>
+    <g fill="#B7BECF">
+      <rect x="740" y="205" width="80" height="10" rx="5"/>
+      <rect x="740" y="235" width="80" height="10" rx="5"/>
+      <rect x="740" y="265" width="80" height="10" rx="5"/>
+      <rect x="740" y="295" width="80" height="10" rx="5"/>
+      <rect x="740" y="325" width="80" height="10" rx="5"/>
+      <rect x="740" y="355" width="80" height="10" rx="5"/>
+      <rect x="740" y="385" width="80" height="10" rx="5"/>
+      <rect x="740" y="415" width="80" height="10" rx="5"/>
+    </g>
+    <text x="780" y="475" font-size="15" font-weight="600" fill="#8A93AC" text-anchor="middle"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Liste brute</text>
+  </g>
+
+  <!-- entonnoir / signal -->
+  <g>
+    <path d="M868 235 L1012 235 L964 315 L964 385 L916 405 L916 315 Z" fill="url(#gacc)" opacity="0.9"/>
+    <text x="940" y="470" font-size="15" font-weight="600" fill="#2946C8" text-anchor="middle"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Signal</text>
+  </g>
+
+  <!-- prospects qualifies -->
+  <g>
+    <rect x="1050" y="255" width="70" height="120" rx="12" fill="#FFFFFF" stroke="#2946C8" stroke-opacity="0.35" stroke-width="2"/>
+    <g fill="#2946C8">
+      <rect x="1065" y="278" width="40" height="9" rx="4.5"/>
+      <rect x="1065" y="305" width="40" height="9" rx="4.5"/>
+      <rect x="1065" y="332" width="40" height="9" rx="4.5"/>
+    </g>
+    <text x="1085" y="400" font-size="14" font-weight="600" fill="#2946C8" text-anchor="middle"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Qualifiés</text>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Hack · Prospection</text>
+    <text x="90" y="214" font-size="50" font-weight="800" fill="#111A3D">Des prospects</text>
+    <text x="90" y="270" font-size="50" font-weight="800" fill="#111A3D">qualifiés</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">avec Claude, en 15 minutes.</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">5× plus de réponses.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

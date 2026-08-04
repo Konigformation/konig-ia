@@ -15,6 +15,62 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "arreter-poster-tous-les-jours-linkedin",
+    title:
+      "Arrête de poster tous les jours sur LinkedIn : ça tue ton acquisition (la preuve chiffrée)",
+    excerpt:
+      "Pièce maîtresse du mois. « Poste tous les jours » est le mauvais objectif : ce que disent vraiment les données LinkedIn 2026, la psychologie du mythe, et ce qui ramène des clients à la place.",
+    category: "Contre-tendance",
+    date: "2026-08-04",
+    dateLabel: "4 août 2026",
+    readTime: "11 min",
+    image: "/blog/arreter-poster-tous-les-jours-linkedin.svg",
+    imageAlt:
+      "Arrête de poster tous les jours sur LinkedIn : un calendrier saturé de posts quotidiens face à un seul post de qualité qui capte l'attention — illustration Konig IA.",
+  },
+  {
+    slug: "claude-opus-5-plus-de-clients",
+    title:
+      "Claude Opus 5 vient de sortir : voici comment l'utiliser pour ramener plus de clients",
+    excerpt:
+      "Anthropic a sorti Claude Opus 5 le 24 juillet 2026. Trois usages concrets pour transformer cette mise à jour en clients, sans agence et même en partant de zéro.",
+    category: "Actualité IA",
+    date: "2026-08-04",
+    dateLabel: "4 août 2026",
+    readTime: "6 min",
+    image: "/blog/claude-opus-5-plus-de-clients.svg",
+    imageAlt:
+      "Claude Opus 5 : la mise à jour d'Anthropic transformée en machine à clients — illustration Konig IA.",
+  },
+  {
+    slug: "hack-listes-prospects-qualifies-claude",
+    title:
+      "Le hack ultime pour sortir des listes de prospects qualifiés avec Claude (en 15 min)",
+    excerpt:
+      "La méthode « signal-based » pour sortir des listes de prospects qualifiés avec Claude et passer de 2 % à 15 % de réponses. Tuto pas à pas, prompts inclus.",
+    category: "Hack",
+    date: "2026-08-04",
+    dateLabel: "4 août 2026",
+    readTime: "7 min",
+    image: "/blog/hack-listes-prospects-qualifies-claude.svg",
+    imageAlt:
+      "Le hack pour sortir des listes de prospects qualifiés avec Claude : une liste brute filtrée par signal ressort en prospects prioritaires — illustration Konig IA.",
+  },
+  {
+    slug: "systeme-prospection-multicanale-automatisee",
+    title:
+      "Le système en 3 étapes pour automatiser ta prospection multicanale de A à Z",
+    excerpt:
+      "Le plan complet pour automatiser ta prospection multicanale LinkedIn + email et générer +40 % d'engagement. Séquence, cadence jour par jour et automatisation.",
+    category: "Système",
+    date: "2026-08-03",
+    dateLabel: "3 août 2026",
+    readTime: "8 min",
+    image: "/blog/systeme-prospection-multicanale-automatisee.svg",
+    imageAlt:
+      "Le système en 3 étapes pour automatiser la prospection multicanale : LinkedIn et email convergent vers un agenda de rendez-vous — illustration Konig IA.",
+  },
+  {
     slug: "generer-clients-ia-guide-complet-2026",
     title: "Générer des clients avec l'IA : le guide complet (2026)",
     excerpt:

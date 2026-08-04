@@ -1,8 +1,8 @@
 import {
+  Flame,
   Sparkles,
-  Bot,
-  PenLine,
-  TrendingUp,
+  Filter,
+  Share2,
   Clock,
   ArrowRight,
   type LucideIcon,
@@ -23,41 +23,41 @@ type Post = {
 };
 
 const featured: Post = {
-  category: "Tendance 2026",
+  category: "Contre-tendance",
   title:
-    "Agents IA en 2026 : générez vos premiers clients en pilote automatique",
+    "Arrête de poster tous les jours sur LinkedIn : ça tue ton acquisition (la preuve chiffrée)",
   excerpt:
-    "La tendance que les indépendants les plus rapides exploitent déjà — des agents IA qui prospectent et remplissent leur agenda, sans agence et même en partant de zéro.",
-  readTime: "8 min",
-  date: "Juil. 2026",
-  icon: Sparkles,
-  href: "/blog/agents-ia-generer-clients-2026",
+    "Pièce maîtresse du mois. « Poste tous les jours » est le mauvais objectif : ce que disent vraiment les données LinkedIn 2026, la psychologie du mythe, et ce qui ramène des clients à la place.",
+  readTime: "11 min",
+  date: "Août 2026",
+  icon: Flame,
+  href: "/blog/arreter-poster-tous-les-jours-linkedin",
 };
 
 const posts: Post[] = [
   {
-    category: "Outils",
-    title: "GPT, Claude, agents IA : lequel choisir pour votre acquisition ?",
-    readTime: "4 min",
-    date: "Juil. 2026",
-    icon: Bot,
-    href: "#",
+    category: "Actualité IA",
+    title: "Claude Opus 5 vient de sortir : comment l'utiliser pour ramener plus de clients",
+    readTime: "6 min",
+    date: "Août 2026",
+    icon: Sparkles,
+    href: "/blog/claude-opus-5-plus-de-clients",
   },
   {
-    category: "Contenu",
-    title: "Le contenu généré par IA qui convertit vraiment",
-    readTime: "5 min",
-    date: "Juil. 2026",
-    icon: PenLine,
-    href: "#",
-  },
-  {
-    category: "Stratégie",
-    title: "Arrêter de dépendre d'une agence : le plan en 4 étapes",
+    category: "Hack",
+    title: "Le hack ultime pour sortir des listes de prospects qualifiés avec Claude",
     readTime: "7 min",
-    date: "Juin 2026",
-    icon: TrendingUp,
-    href: "#",
+    date: "Août 2026",
+    icon: Filter,
+    href: "/blog/hack-listes-prospects-qualifies-claude",
+  },
+  {
+    category: "Système",
+    title: "Le système en 3 étapes pour automatiser ta prospection multicanale",
+    readTime: "8 min",
+    date: "Août 2026",
+    icon: Share2,
+    href: "/blog/systeme-prospection-multicanale-automatisee",
   },
 ];
 

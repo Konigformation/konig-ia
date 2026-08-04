@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Claude Opus 5 : la mise à jour d'Anthropic transformée en machine à clients — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="930" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.18">
+    <circle cx="930" cy="315" r="150"/>
+    <circle cx="930" cy="315" r="215"/>
+    <circle cx="930" cy="315" r="280"/>
+  </g>
+
+  <!-- badge modele -->
+  <g>
+    <circle cx="930" cy="285" r="92" fill="#FFFFFF" stroke="#2946C8" stroke-opacity="0.25" stroke-width="2"/>
+    <circle cx="930" cy="285" r="66" fill="url(#gacc)"/>
+    <text x="930" y="309" font-size="72" font-weight="800" fill="#FFFFFF" text-anchor="middle"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">5</text>
+  </g>
+  <text x="930" y="415" font-size="20" font-weight="700" fill="#1B2559" text-anchor="middle"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Claude Opus 5</text>
+
+  <!-- etincelles -->
+  <g fill="#2946C8" opacity="0.55">
+    <path d="M1055 190 l7 18 l18 7 l-18 7 l-7 18 l-7 -18 l-18 -7 l18 -7 z"/>
+    <path d="M812 150 l5 13 l13 5 l-13 5 l-5 13 l-5 -13 l-13 -5 l13 -5 z"/>
+    <path d="M1058 430 l5 13 l13 5 l-13 5 l-5 13 l-5 -13 l-13 -5 l13 -5 z"/>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Actualité IA · 24 juil. 2026</text>
+    <text x="90" y="214" font-size="52" font-weight="800" fill="#111A3D">Claude Opus 5</text>
+    <text x="90" y="270" font-size="34" font-weight="700" fill="#111A3D">est sorti.</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">Comment en faire ta machine</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">à prospects — sans agence.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Arrête de poster tous les jours sur LinkedIn : un calendrier saturé de posts quotidiens face à un seul post de qualité qui capte l'attention — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="945" cy="315" r="380" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.14">
+    <circle cx="945" cy="315" r="160"/>
+    <circle cx="945" cy="315" r="230"/>
+    <circle cx="945" cy="315" r="300"/>
+  </g>
+
+  <!-- flagship tag -->
+  <g>
+    <rect x="90" y="70" width="196" height="34" rx="17" fill="url(#gacc)"/>
+    <text x="188" y="93" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">PIÈCE MAÎTRESSE</text>
+  </g>
+
+  <!-- calendrier sature de posts barres -->
+  <g>
+    <rect x="700" y="205" width="200" height="220" rx="16" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="2"/>
+    <g stroke="#C3C9DC" stroke-width="1.5" opacity="0.8">
+      <line x1="700" y1="250" x2="900" y2="250"/>
+      <line x1="700" y1="294" x2="900" y2="294"/>
+      <line x1="700" y1="338" x2="900" y2="338"/>
+      <line x1="700" y1="382" x2="900" y2="382"/>
+      <line x1="750" y1="250" x2="750" y2="425"/>
+      <line x1="800" y1="250" x2="800" y2="425"/>
+      <line x1="850" y1="250" x2="850" y2="425"/>
+    </g>
+    <!-- petites croix = posts quotidiens perdus -->
+    <g stroke="#B7BECF" stroke-width="3" stroke-linecap="round">
+      <path d="M718 262 l16 16 M734 262 l-16 16"/>
+      <path d="M768 262 l16 16 M784 262 l-16 16"/>
+      <path d="M818 262 l16 16 M834 262 l-16 16"/>
+      <path d="M868 262 l16 16 M884 262 l-16 16"/>
+      <path d="M718 306 l16 16 M734 306 l-16 16"/>
+      <path d="M768 306 l16 16 M784 306 l-16 16"/>
+      <path d="M818 306 l16 16 M834 306 l-16 16"/>
+      <path d="M718 350 l16 16 M734 350 l-16 16"/>
+      <path d="M768 350 l16 16 M784 350 l-16 16"/>
+    </g>
+    <text x="800" y="192" font-size="15" font-weight="600" fill="#8A93AC" text-anchor="middle"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Poster tous les jours</text>
+  </g>
+
+  <!-- un seul post de qualite, mis en avant -->
+  <g>
+    <rect x="928" y="262" width="150" height="106" rx="16" fill="url(#gacc)"/>
+    <path d="M985 300 l14 15 l30 -32" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text x="1003" y="352" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">1 post utile</text>
+    <text x="1003" y="400" font-size="15" font-weight="600" fill="#2946C8" text-anchor="middle"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">= sauvegardé</text>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="185" font-size="30" font-weight="600" fill="#2946C8">Contre-tendance · LinkedIn</text>
+    <text x="90" y="252" font-size="52" font-weight="800" fill="#111A3D">Arrête de poster</text>
+    <text x="90" y="310" font-size="52" font-weight="800" fill="#111A3D">tous les jours.</text>
+    <text x="90" y="362" font-size="22" font-weight="500" fill="#5A6488">Ça tue ton acquisition —</text>
+    <text x="90" y="392" font-size="22" font-weight="500" fill="#5A6488">la preuve chiffrée (2026).</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>
