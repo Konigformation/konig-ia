@@ -113,13 +113,13 @@ export default function BlogIndexPage() {
             href={`/blog/${featured.slug}`}
             className="group mt-12 grid overflow-hidden rounded-3xl border border-border bg-card shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[var(--accent-solid)]/40 hover:shadow-xl lg:grid-cols-2"
           >
-            <div className="relative aspect-[16/10] lg:aspect-auto">
+            <div className="relative aspect-[16/10] lg:aspect-auto lg:min-h-[340px] bg-[#EEF1F7]">
               <Image
                 src={featured.image}
                 alt={featured.imageAlt}
                 fill
                 sizes="(max-width: 1024px) 100vw, 600px"
-                className="object-cover"
+                className="object-contain"
               />
               <span className="absolute top-4 left-4 inline-flex items-center rounded-full bg-background/85 px-3 py-1 text-xs font-semibold text-[var(--accent-solid)] shadow-sm backdrop-blur">
                 {featured.category}
