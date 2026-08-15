@@ -15,6 +15,62 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "ia-ne-remplacera-pas-tes-commerciaux",
+    title:
+      "Non, l'IA ne remplacera pas tes commerciaux — et croire le contraire tue ton acquisition",
+    excerpt:
+      "Les « AI SDR » promettent des clients en pilote automatique. Les données 2026 prouvent l'inverse : le robot qui spamme fait chuter tes réponses. Ce qui marche vraiment à la place.",
+    category: "Contre-tendance",
+    date: "2026-08-14",
+    dateLabel: "14 août 2026",
+    readTime: "9 min",
+    image: "/blog/ia-ne-remplacera-pas-tes-commerciaux.svg",
+    imageAlt:
+      "L'IA ne remplacera pas tes commerciaux : un robot qui envoie en masse fait chuter les taux de réponse, face à un système pensé qui gagne — illustration Konig IA.",
+  },
+  {
+    slug: "chatgpt-ads-nouveau-canal-acquisition",
+    title:
+      "ChatGPT lance ses pubs (100 M$ en 6 semaines) : comment en profiter pour ramener des clients",
+    excerpt:
+      "OpenAI a ouvert son Ads Manager en 2026. Ce que ChatGPT Ads change pour ton acquisition, et 3 actions concrètes à lancer dès aujourd'hui.",
+    category: "Actualité IA",
+    date: "2026-08-14",
+    dateLabel: "14 août 2026",
+    readTime: "6 min",
+    image: "/blog/chatgpt-ads-nouveau-canal-acquisition.svg",
+    imageAlt:
+      "ChatGPT Ads, un nouveau canal d'acquisition : une réponse d'IA avec un encart sponsorisé et une courbe de revenus en hausse — illustration Konig IA.",
+  },
+  {
+    slug: "hack-reactiver-prospects-dormants-ia",
+    title:
+      "Le hack pour signer sans prospecter à froid : réveille ta base dormante avec l'IA",
+    excerpt:
+      "Réactive tes prospects dormants avec l'IA : 15-30 % de conversion, 5-7× moins cher que l'acquisition à froid. Tuto pas à pas, prompts inclus.",
+    category: "Hack",
+    date: "2026-08-13",
+    dateLabel: "13 août 2026",
+    readTime: "7 min",
+    image: "/blog/hack-reactiver-prospects-dormants-ia.svg",
+    imageAlt:
+      "Réactiver ses prospects dormants avec l'IA : des contacts endormis se réveillent et deviennent des rendez-vous — illustration Konig IA.",
+  },
+  {
+    slug: "systeme-tunnel-vente-automatise-3-etapes",
+    title:
+      "Le système en 3 étapes pour un tunnel de vente automatisé (et arrêter le tunnel qui fuit)",
+    excerpt:
+      "79 % des leads ne convertissent jamais. Le système en 3 étapes pour un tunnel de vente automatisé qui capte, relance et convertit à ta place.",
+    category: "Système",
+    date: "2026-08-12",
+    dateLabel: "12 août 2026",
+    readTime: "8 min",
+    image: "/blog/systeme-tunnel-vente-automatise-3-etapes.svg",
+    imageAlt:
+      "Le système en 3 étapes pour un tunnel de vente automatisé : des leads entrent, les fuites sont colmatées, des clients ressortent — illustration Konig IA.",
+  },
+  {
     slug: "arreter-poster-tous-les-jours-linkedin",
     title:
       "Arrête de poster tous les jours sur LinkedIn : ça tue ton acquisition (la preuve chiffrée)",

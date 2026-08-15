@@ -18,6 +18,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${siteConfig.url}/blog/ia-ne-remplacera-pas-tes-commerciaux`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${siteConfig.url}/blog/chatgpt-ads-nouveau-canal-acquisition`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${siteConfig.url}/blog/hack-reactiver-prospects-dormants-ia`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${siteConfig.url}/blog/systeme-tunnel-vente-automatise-3-etapes`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: `${siteConfig.url}/blog/arreter-poster-tous-les-jours-linkedin`,
       lastModified: now,
       changeFrequency: "weekly",

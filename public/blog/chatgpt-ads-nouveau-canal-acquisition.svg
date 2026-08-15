@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="ChatGPT Ads, un nouveau canal d'acquisition : une réponse d'IA avec un encart sponsorisé et une courbe de revenus en hausse — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="940" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="940" cy="315" r="150"/>
+    <circle cx="940" cy="315" r="215"/>
+    <circle cx="940" cy="315" r="280"/>
+  </g>
+
+  <!-- reponse IA -->
+  <g>
+    <rect x="720" y="150" width="300" height="150" rx="16" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="2"/>
+    <g fill="#B7BECF">
+      <rect x="744" y="178" width="250" height="11" rx="5.5"/>
+      <rect x="744" y="204" width="250" height="11" rx="5.5"/>
+      <rect x="744" y="230" width="170" height="11" rx="5.5"/>
+    </g>
+    <text x="744" y="278" font-size="15" font-weight="600" fill="#8A93AC"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Réponse ChatGPT</text>
+  </g>
+
+  <!-- encart sponsorise -->
+  <g>
+    <rect x="720" y="322" width="300" height="96" rx="14" fill="#EAF0FF" stroke="#2946C8" stroke-width="2"/>
+    <rect x="740" y="340" width="86" height="20" rx="10" fill="url(#gacc)"/>
+    <text x="783" y="355" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">SPONSORISÉ</text>
+    <g fill="#2946C8" opacity="0.6">
+      <rect x="740" y="374" width="230" height="10" rx="5"/>
+      <rect x="740" y="394" width="150" height="10" rx="5"/>
+    </g>
+  </g>
+
+  <!-- courbe revenus -->
+  <path d="M735 470 L800 452 L865 458 L930 420 L995 400 L1010 372"
+        stroke="#2946C8" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1010 372 l-22 4 M1010 372 l4 22" stroke="#2946C8" stroke-width="4" stroke-linecap="round"/>
+  <text x="735" y="502" font-size="15" font-weight="600" fill="#2946C8"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">100 M$ en 6 semaines</text>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Actualité IA · Acquisition</text>
+    <text x="90" y="214" font-size="50" font-weight="800" fill="#111A3D">ChatGPT lance</text>
+    <text x="90" y="270" font-size="50" font-weight="800" fill="#111A3D">ses pubs.</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">Un nouveau canal d'acquisition —</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">comment en profiter dès maintenant.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

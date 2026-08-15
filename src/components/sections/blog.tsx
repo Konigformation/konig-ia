@@ -1,8 +1,8 @@
 import {
   Flame,
-  Sparkles,
+  Megaphone,
+  BellRing,
   Filter,
-  Share2,
   Clock,
   ArrowRight,
   type LucideIcon,
@@ -25,39 +25,39 @@ type Post = {
 const featured: Post = {
   category: "Contre-tendance",
   title:
-    "Arrête de poster tous les jours sur LinkedIn : ça tue ton acquisition (la preuve chiffrée)",
+    "Non, l'IA ne remplacera pas tes commerciaux — et croire le contraire tue ton acquisition",
   excerpt:
-    "Pièce maîtresse du mois. « Poste tous les jours » est le mauvais objectif : ce que disent vraiment les données LinkedIn 2026, la psychologie du mythe, et ce qui ramène des clients à la place.",
-  readTime: "11 min",
+    "Les « AI SDR » promettent des clients en pilote automatique. Les données 2026 prouvent l'inverse : le robot qui spamme fait chuter tes réponses. Ce qui marche vraiment à la place.",
+  readTime: "9 min",
   date: "Août 2026",
   icon: Flame,
-  href: "/blog/arreter-poster-tous-les-jours-linkedin",
+  href: "/blog/ia-ne-remplacera-pas-tes-commerciaux",
 };
 
 const posts: Post[] = [
   {
     category: "Actualité IA",
-    title: "Claude Opus 5 vient de sortir : comment l'utiliser pour ramener plus de clients",
+    title: "ChatGPT lance ses pubs : comment en profiter pour ramener des clients",
     readTime: "6 min",
     date: "Août 2026",
-    icon: Sparkles,
-    href: "/blog/claude-opus-5-plus-de-clients",
+    icon: Megaphone,
+    href: "/blog/chatgpt-ads-nouveau-canal-acquisition",
   },
   {
     category: "Hack",
-    title: "Le hack ultime pour sortir des listes de prospects qualifiés avec Claude",
+    title: "Réveille ta base dormante avec l'IA : signe sans prospecter à froid",
     readTime: "7 min",
     date: "Août 2026",
-    icon: Filter,
-    href: "/blog/hack-listes-prospects-qualifies-claude",
+    icon: BellRing,
+    href: "/blog/hack-reactiver-prospects-dormants-ia",
   },
   {
     category: "Système",
-    title: "Le système en 3 étapes pour automatiser ta prospection multicanale",
+    title: "Le système en 3 étapes pour un tunnel de vente automatisé",
     readTime: "8 min",
     date: "Août 2026",
-    icon: Share2,
-    href: "/blog/systeme-prospection-multicanale-automatisee",
+    icon: Filter,
+    href: "/blog/systeme-tunnel-vente-automatise-3-etapes",
   },
 ];
 

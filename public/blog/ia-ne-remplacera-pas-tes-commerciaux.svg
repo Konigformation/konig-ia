@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="L'IA ne remplacera pas tes commerciaux : un robot qui envoie en masse fait chuter les taux de réponse, face à un système pensé qui gagne — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="945" cy="315" r="380" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.14">
+    <circle cx="945" cy="315" r="160"/>
+    <circle cx="945" cy="315" r="230"/>
+    <circle cx="945" cy="315" r="300"/>
+  </g>
+
+  <!-- tag contre-tendance -->
+  <g>
+    <rect x="90" y="70" width="150" height="34" rx="17" fill="url(#gacc)"/>
+    <text x="165" y="93" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">CONTRE-TENDANCE</text>
+  </g>
+
+  <!-- robot qui spamme (barre) -->
+  <g>
+    <rect x="710" y="230" width="120" height="100" rx="18" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="2.5"/>
+    <circle cx="742" cy="278" r="11" fill="#B7BECF"/>
+    <circle cx="798" cy="278" r="11" fill="#B7BECF"/>
+    <rect x="748" y="304" width="44" height="8" rx="4" fill="#C3C9DC"/>
+    <line x1="770" y1="210" x2="770" y2="230" stroke="#C3C9DC" stroke-width="3"/>
+    <circle cx="770" cy="204" r="6" fill="#C3C9DC"/>
+    <!-- salves d'emails -->
+    <g fill="#C3C9DC">
+      <rect x="838" y="238" width="26" height="18" rx="3"/>
+      <rect x="838" y="264" width="26" height="18" rx="3"/>
+      <rect x="838" y="290" width="26" height="18" rx="3"/>
+    </g>
+    <!-- croix rouge/bleue = spam -->
+    <path d="M700 220 l140 120 M840 220 l-140 120" stroke="#2946C8" stroke-width="4" stroke-linecap="round" opacity="0.75"/>
+    <text x="770" y="366" font-size="14" font-weight="600" fill="#8A93AC" text-anchor="middle"
+          font-family="system-ui, sans-serif">Robot qui spamme</text>
+    <text x="770" y="388" font-size="13" font-weight="700" fill="#2946C8" text-anchor="middle"
+          font-family="system-ui, sans-serif">réponses ↓ 30-50 %</text>
+  </g>
+
+  <!-- systeme pense (gagne) -->
+  <g>
+    <circle cx="990" cy="300" r="70" fill="url(#gacc)"/>
+    <g stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round">
+      <circle cx="990" cy="300" r="30"/>
+      <path d="M990 270 v-16 M990 346 v-16 M960 300 h-16 M1036 300 h-16"/>
+    </g>
+    <circle cx="990" cy="300" r="9" fill="#FFFFFF"/>
+    <text x="990" y="400" font-size="15" font-weight="700" fill="#1B2559" text-anchor="middle"
+          font-family="system-ui, sans-serif">Système pensé</text>
+    <text x="990" y="422" font-size="13" font-weight="700" fill="#2946C8" text-anchor="middle"
+          font-family="system-ui, sans-serif">signal = 5-18 %</text>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="185" font-size="30" font-weight="600" fill="#2946C8">Le mensonge des « AI SDR »</text>
+    <text x="90" y="252" font-size="48" font-weight="800" fill="#111A3D">L'IA ne remplacera</text>
+    <text x="90" y="308" font-size="48" font-weight="800" fill="#111A3D">pas tes commerciaux.</text>
+    <text x="90" y="360" font-size="22" font-weight="500" fill="#5A6488">Le bouton magique fait BAISSER</text>
+    <text x="90" y="390" font-size="22" font-weight="500" fill="#5A6488">tes réponses. La preuve chiffrée.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>
