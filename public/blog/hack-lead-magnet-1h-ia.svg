@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Créer un lead magnet qui convertit en 1 heure avec l'IA : un aimant attire des emails de prospects — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <linearGradient id="gmag" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#3D5AE0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="945" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="945" cy="315" r="150"/>
+    <circle cx="945" cy="315" r="215"/>
+    <circle cx="945" cy="315" r="280"/>
+  </g>
+
+  <!-- aimant en U -->
+  <g>
+    <path d="M905 250 a70 70 0 0 1 140 0 v70 a70 70 0 0 1 -140 0 z" fill="none" stroke="url(#gmag)" stroke-width="34"/>
+    <rect x="888" y="245" width="34" height="30" fill="#E23B3B"/>
+    <rect x="1028" y="245" width="34" height="30" fill="#E23B3B"/>
+    <rect x="888" y="330" width="34" height="30" fill="#FFFFFF" stroke="#2946C8" stroke-width="2"/>
+    <rect x="1028" y="330" width="34" height="30" fill="#FFFFFF" stroke="#2946C8" stroke-width="2"/>
+  </g>
+
+  <!-- emails attires -->
+  <g>
+    <g transform="translate(770,225)">
+      <rect x="0" y="0" width="52" height="36" rx="6" fill="#FFFFFF" stroke="#2946C8" stroke-width="2.5"/>
+      <path d="M4 5 l22 17 l22 -17" fill="none" stroke="#2946C8" stroke-width="2.5"/>
+    </g>
+    <g transform="translate(760,300)">
+      <rect x="0" y="0" width="52" height="36" rx="6" fill="#FFFFFF" stroke="#2946C8" stroke-width="2.5"/>
+      <path d="M4 5 l22 17 l22 -17" fill="none" stroke="#2946C8" stroke-width="2.5"/>
+    </g>
+    <g transform="translate(778,378)">
+      <rect x="0" y="0" width="52" height="36" rx="6" fill="#FFFFFF" stroke="#2946C8" stroke-width="2.5"/>
+      <path d="M4 5 l22 17 l22 -17" fill="none" stroke="#2946C8" stroke-width="2.5"/>
+    </g>
+  </g>
+  <!-- lignes d'attraction -->
+  <g stroke="#2946C8" stroke-width="2.5" stroke-dasharray="6 8" opacity="0.5">
+    <line x1="826" y1="243" x2="895" y2="255"/>
+    <line x1="816" y1="318" x2="890" y2="315"/>
+    <line x1="834" y1="396" x2="895" y2="360"/>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Hack · Capture</text>
+    <text x="90" y="214" font-size="50" font-weight="800" fill="#111A3D">Ton lead magnet,</text>
+    <text x="90" y="270" font-size="50" font-weight="800" fill="#111A3D">en 1 heure.</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">Avec l'IA — et une checklist qui</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">convertit 5× mieux qu'un ebook.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

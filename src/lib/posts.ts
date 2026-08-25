@@ -15,6 +15,62 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "plus-de-leads-nest-pas-mieux",
+    title:
+      "« Plus de leads = mieux » ? Non — courir après le volume est en train de tuer ton acquisition",
+    excerpt:
+      "85 % des leads ne convertissent jamais. Pourquoi la course au volume te ruine en temps et en argent, et ce qui marche vraiment à la place.",
+    category: "Contre-tendance",
+    date: "2026-08-21",
+    dateLabel: "21 août 2026",
+    readTime: "9 min",
+    image: "/blog/plus-de-leads-nest-pas-mieux.svg",
+    imageAlt:
+      "Plus de leads n'est pas mieux : une masse de leads barrés face à quelques leads qualifiés en or — illustration Konig IA.",
+  },
+  {
+    slug: "claude-computer-use-skills-automatiser-acquisition",
+    title:
+      "Claude peut maintenant piloter ton navigateur : comment l'utiliser pour automatiser ton acquisition",
+    excerpt:
+      "Anthropic a rendu le « computer use », la Skills API et la Files API accessibles à tous. Ce que ça change, et 3 façons d'en faire un levier de clients.",
+    category: "Actualité IA",
+    date: "2026-08-21",
+    dateLabel: "21 août 2026",
+    readTime: "6 min",
+    image: "/blog/claude-computer-use-skills-automatiser-acquisition.svg",
+    imageAlt:
+      "Claude computer use : un agent IA qui pilote un navigateur et des fichiers pour automatiser l'acquisition — illustration Konig IA.",
+  },
+  {
+    slug: "hack-lead-magnet-1h-ia",
+    title:
+      "Le hack pour créer un lead magnet qui convertit en 1 heure avec l'IA",
+    excerpt:
+      "Crée un lead magnet qui capture des emails en 1 heure avec l'IA. Pourquoi une checklist (24-42 %) écrase un ebook (4-8 %), et la méthode pas à pas.",
+    category: "Hack",
+    date: "2026-08-20",
+    dateLabel: "20 août 2026",
+    readTime: "7 min",
+    image: "/blog/hack-lead-magnet-1h-ia.svg",
+    imageAlt:
+      "Créer un lead magnet qui convertit en 1 heure avec l'IA : un aimant attire des emails de prospects — illustration Konig IA.",
+  },
+  {
+    slug: "systeme-contenu-ia-attirer-clients",
+    title:
+      "Le système de contenu IA qui attire des clients en pilote automatique (de A à Z)",
+    excerpt:
+      "Transforme une seule idée en un mois de contenu qui attire des clients. Le moteur de contenu IA en 3 étapes : extraction, production, distribution.",
+    category: "Système",
+    date: "2026-08-19",
+    dateLabel: "19 août 2026",
+    readTime: "8 min",
+    image: "/blog/systeme-contenu-ia-attirer-clients.svg",
+    imageAlt:
+      "Le système de contenu IA qui attire des clients : une idée source se décline en plusieurs formats de contenu distribués — illustration Konig IA.",
+  },
+  {
     slug: "ia-ne-remplacera-pas-tes-commerciaux",
     title:
       "Non, l'IA ne remplacera pas tes commerciaux — et croire le contraire tue ton acquisition",

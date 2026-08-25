@@ -1,8 +1,8 @@
 import {
   Flame,
-  Megaphone,
-  BellRing,
-  Filter,
+  Bot,
+  Magnet,
+  PenLine,
   Clock,
   ArrowRight,
   type LucideIcon,
@@ -25,39 +25,39 @@ type Post = {
 const featured: Post = {
   category: "Contre-tendance",
   title:
-    "Non, l'IA ne remplacera pas tes commerciaux — et croire le contraire tue ton acquisition",
+    "« Plus de leads = mieux » ? Non — courir après le volume est en train de tuer ton acquisition",
   excerpt:
-    "Les « AI SDR » promettent des clients en pilote automatique. Les données 2026 prouvent l'inverse : le robot qui spamme fait chuter tes réponses. Ce qui marche vraiment à la place.",
+    "85 % des leads ne convertissent jamais. Pourquoi la course au volume te ruine en temps et en argent, et ce qui marche vraiment à la place.",
   readTime: "9 min",
   date: "Août 2026",
   icon: Flame,
-  href: "/blog/ia-ne-remplacera-pas-tes-commerciaux",
+  href: "/blog/plus-de-leads-nest-pas-mieux",
 };
 
 const posts: Post[] = [
   {
     category: "Actualité IA",
-    title: "ChatGPT lance ses pubs : comment en profiter pour ramener des clients",
+    title: "Claude peut piloter ton navigateur : comment automatiser ton acquisition",
     readTime: "6 min",
     date: "Août 2026",
-    icon: Megaphone,
-    href: "/blog/chatgpt-ads-nouveau-canal-acquisition",
+    icon: Bot,
+    href: "/blog/claude-computer-use-skills-automatiser-acquisition",
   },
   {
     category: "Hack",
-    title: "Réveille ta base dormante avec l'IA : signe sans prospecter à froid",
+    title: "Crée un lead magnet qui convertit en 1 heure avec l'IA",
     readTime: "7 min",
     date: "Août 2026",
-    icon: BellRing,
-    href: "/blog/hack-reactiver-prospects-dormants-ia",
+    icon: Magnet,
+    href: "/blog/hack-lead-magnet-1h-ia",
   },
   {
     category: "Système",
-    title: "Le système en 3 étapes pour un tunnel de vente automatisé",
+    title: "Le système de contenu IA qui attire des clients en pilote automatique",
     readTime: "8 min",
     date: "Août 2026",
-    icon: Filter,
-    href: "/blog/systeme-tunnel-vente-automatise-3-etapes",
+    icon: PenLine,
+    href: "/blog/systeme-contenu-ia-attirer-clients",
   },
 ];
 
