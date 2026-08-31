@@ -15,6 +15,62 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "chatgpt-ne-suffit-pas-pour-ton-contenu",
+    title:
+      "Non, ChatGPT ne suffit pas pour ton contenu — et voici la preuve que le contenu IA brut ne convertit plus",
+    excerpt:
+      "Pièce maîtresse du mois. Tout le monde croit que ChatGPT a réglé le contenu. Les données 2026 disent l'inverse : analyse fouillée de la croyance, et ce qui marche vraiment.",
+    category: "Contre-tendance",
+    date: "2026-09-02",
+    dateLabel: "2 septembre 2026",
+    readTime: "12 min",
+    image: "/blog/chatgpt-ne-suffit-pas-pour-ton-contenu.svg",
+    imageAlt:
+      "ChatGPT ne suffit pas pour ton contenu : une masse de posts identiques et fades face à un contenu distinctif qui se démarque — illustration Konig IA.",
+  },
+  {
+    slug: "claude-in-chrome-deleguer-prospection",
+    title:
+      "Claude s'installe dans ton Chrome : 3 tâches de prospection à lui déléguer dès aujourd'hui",
+    excerpt:
+      "Claude in Chrome est désormais dispo sur tous les plans payants. Ce que ça change et 3 tâches d'acquisition à déléguer à l'IA dans ton navigateur.",
+    category: "Actualité IA",
+    date: "2026-09-02",
+    dateLabel: "2 septembre 2026",
+    readTime: "6 min",
+    image: "/blog/claude-in-chrome-deleguer-prospection.svg",
+    imageAlt:
+      "Claude in Chrome : un assistant IA dans le navigateur exécute des tâches de prospection — illustration Konig IA.",
+  },
+  {
+    slug: "hack-1-temoignage-10-preuves-ia",
+    title:
+      "Le hack pour transformer 1 témoignage client en 10 preuves qui vendent (avec l'IA)",
+    excerpt:
+      "92 % des acheteurs B2B lisent un avis avant d'acheter. Comment transformer un seul témoignage en 10 preuves qui convertissent, avec l'IA. Pas à pas.",
+    category: "Hack",
+    date: "2026-09-01",
+    dateLabel: "1er septembre 2026",
+    readTime: "7 min",
+    image: "/blog/hack-1-temoignage-10-preuves-ia.svg",
+    imageAlt:
+      "Transformer un témoignage client en dix preuves qui vendent avec l'IA : une citation se décline en post, étude de cas, badge et vidéo — illustration Konig IA.",
+  },
+  {
+    slug: "systeme-machine-a-clients-3-leviers",
+    title:
+      "La machine à clients complète : relier contenu, prospection et conversion en un seul système",
+    excerpt:
+      "La plupart des indépendants bricolent 3 leviers isolés. Voici comment les relier en une seule machine à clients qui attire, contacte et convertit.",
+    category: "Système",
+    date: "2026-08-31",
+    dateLabel: "31 août 2026",
+    readTime: "9 min",
+    image: "/blog/systeme-machine-a-clients-3-leviers.svg",
+    imageAlt:
+      "La machine à clients complète : contenu, prospection et conversion reliés en un seul système qui produit des clients — illustration Konig IA.",
+  },
+  {
     slug: "plus-de-leads-nest-pas-mieux",
     title:
       "« Plus de leads = mieux » ? Non — courir après le volume est en train de tuer ton acquisition",

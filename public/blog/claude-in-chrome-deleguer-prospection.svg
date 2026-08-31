@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Claude in Chrome : un assistant IA dans le navigateur exécute des tâches de prospection — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="945" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="945" cy="315" r="150"/>
+    <circle cx="945" cy="315" r="215"/>
+    <circle cx="945" cy="315" r="280"/>
+  </g>
+
+  <!-- fenetre navigateur -->
+  <g>
+    <rect x="700" y="165" width="390" height="300" rx="16" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="2"/>
+    <rect x="700" y="165" width="390" height="40" rx="16" fill="#EAF0FF"/>
+    <rect x="700" y="190" width="390" height="15" fill="#EAF0FF"/>
+    <circle cx="724" cy="185" r="6" fill="#E56A54"/>
+    <circle cx="746" cy="185" r="6" fill="#E7B14C"/>
+    <circle cx="768" cy="185" r="6" fill="#57B36B"/>
+    <rect x="800" y="176" width="220" height="18" rx="9" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="1.5"/>
+    <!-- contenu page -->
+    <g fill="#D9DEEA">
+      <rect x="724" y="232" width="150" height="12" rx="6"/>
+      <rect x="724" y="258" width="230" height="12" rx="6"/>
+      <rect x="724" y="284" width="200" height="12" rx="6"/>
+    </g>
+    <!-- panneau Claude -->
+    <rect x="900" y="222" width="168" height="220" rx="12" fill="#F4F6FF" stroke="#2946C8" stroke-width="2"/>
+    <circle cx="924" cy="248" r="12" fill="url(#gacc)"/>
+    <text x="944" y="253" font-size="14" font-weight="700" fill="#1B2559" font-family="system-ui, sans-serif">Claude</text>
+    <g fill="#2946C8" opacity="0.55">
+      <rect x="918" y="276" width="132" height="9" rx="4.5"/>
+      <rect x="918" y="294" width="110" height="9" rx="4.5"/>
+    </g>
+    <!-- taches cochees -->
+    <g>
+      <circle cx="924" cy="330" r="9" fill="url(#gacc)"/><path d="M920 330 l3 3 l6 -6" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="940" y="325" width="108" height="9" rx="4.5" fill="#2946C8" opacity="0.4"/>
+      <circle cx="924" cy="356" r="9" fill="url(#gacc)"/><path d="M920 356 l3 3 l6 -6" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="940" y="351" width="90" height="9" rx="4.5" fill="#2946C8" opacity="0.4"/>
+      <circle cx="924" cy="382" r="9" fill="#FFFFFF" stroke="#2946C8" stroke-width="2"/>
+      <rect x="940" y="377" width="100" height="9" rx="4.5" fill="#2946C8" opacity="0.25"/>
+    </g>
+    <rect x="918" y="408" width="132" height="22" rx="11" fill="url(#gacc)"/>
+    <text x="984" y="423" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" font-family="system-ui, sans-serif">Exécute</text>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Actualité IA · Agents</text>
+    <text x="90" y="214" font-size="48" font-weight="800" fill="#111A3D">Claude s'installe</text>
+    <text x="90" y="270" font-size="48" font-weight="800" fill="#111A3D">dans ton Chrome.</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">Dispo pour tous les plans payants —</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">3 tâches de prospection à déléguer.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

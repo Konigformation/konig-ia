@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="La machine à clients complète : contenu, prospection et conversion reliés en un seul système qui produit des clients — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="945" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="945" cy="315" r="150"/>
+    <circle cx="945" cy="315" r="215"/>
+    <circle cx="945" cy="315" r="280"/>
+  </g>
+
+  <!-- 3 modules relies -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <!-- contenu -->
+    <g transform="translate(700,255)">
+      <rect width="118" height="120" rx="16" fill="#FFFFFF" stroke="#2946C8" stroke-width="2"/>
+      <circle cx="59" cy="46" r="24" fill="url(#gacc)"/>
+      <path d="M47 40 h24 M47 50 h24 M47 60 h14" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+      <text x="59" y="100" font-size="15" font-weight="700" fill="#1B2559" text-anchor="middle">Contenu</text>
+    </g>
+    <!-- prospection -->
+    <g transform="translate(858,255)">
+      <rect width="118" height="120" rx="16" fill="#FFFFFF" stroke="#2946C8" stroke-width="2"/>
+      <circle cx="59" cy="46" r="24" fill="url(#gacc)"/>
+      <path d="M45 40 h28 v20 h-28 z M45 40 l14 12 l14 -12" stroke="#FFFFFF" stroke-width="3.5" fill="none" stroke-linejoin="round"/>
+      <text x="59" y="100" font-size="15" font-weight="700" fill="#1B2559" text-anchor="middle">Prospection</text>
+    </g>
+    <!-- conversion -->
+    <g transform="translate(1016,255)">
+      <rect width="118" height="120" rx="16" fill="#FFFFFF" stroke="#2946C8" stroke-width="2"/>
+      <circle cx="59" cy="46" r="24" fill="url(#gacc)"/>
+      <path d="M47 46 l9 9 l18 -19" stroke="#FFFFFF" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="59" y="100" font-size="15" font-weight="700" fill="#1B2559" text-anchor="middle">Conversion</text>
+    </g>
+    <!-- connecteurs -->
+    <g stroke="#2946C8" stroke-width="3" stroke-linecap="round">
+      <path d="M818 315 h40"/><path d="M852 309 l8 6 l-8 6"/>
+      <path d="M976 315 h40"/><path d="M1010 309 l8 6 l-8 6"/>
+    </g>
+    <text x="917" y="428" font-size="16" font-weight="700" fill="#1B2559" text-anchor="middle">= 1 machine à clients</text>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Système · Méthode</text>
+    <text x="90" y="214" font-size="48" font-weight="800" fill="#111A3D">La machine à</text>
+    <text x="90" y="270" font-size="48" font-weight="800" fill="#111A3D">clients complète.</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">Relier contenu + prospection +</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">conversion en un seul système.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

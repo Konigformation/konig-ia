@@ -1,8 +1,8 @@
 import {
   Flame,
-  Bot,
-  Magnet,
-  PenLine,
+  Globe,
+  Quote,
+  Workflow,
   Clock,
   ArrowRight,
   type LucideIcon,
@@ -25,39 +25,39 @@ type Post = {
 const featured: Post = {
   category: "Contre-tendance",
   title:
-    "« Plus de leads = mieux » ? Non — courir après le volume est en train de tuer ton acquisition",
+    "Non, ChatGPT ne suffit pas pour ton contenu — la preuve que le contenu IA brut ne convertit plus",
   excerpt:
-    "85 % des leads ne convertissent jamais. Pourquoi la course au volume te ruine en temps et en argent, et ce qui marche vraiment à la place.",
-  readTime: "9 min",
-  date: "Août 2026",
+    "Pièce maîtresse du mois. Tout le monde croit que ChatGPT a réglé le contenu. Les données 2026 disent l'inverse : analyse fouillée, et ce qui marche vraiment.",
+  readTime: "12 min",
+  date: "Sept. 2026",
   icon: Flame,
-  href: "/blog/plus-de-leads-nest-pas-mieux",
+  href: "/blog/chatgpt-ne-suffit-pas-pour-ton-contenu",
 };
 
 const posts: Post[] = [
   {
     category: "Actualité IA",
-    title: "Claude peut piloter ton navigateur : comment automatiser ton acquisition",
+    title: "Claude s'installe dans ton Chrome : 3 tâches de prospection à lui déléguer",
     readTime: "6 min",
-    date: "Août 2026",
-    icon: Bot,
-    href: "/blog/claude-computer-use-skills-automatiser-acquisition",
+    date: "Sept. 2026",
+    icon: Globe,
+    href: "/blog/claude-in-chrome-deleguer-prospection",
   },
   {
     category: "Hack",
-    title: "Crée un lead magnet qui convertit en 1 heure avec l'IA",
+    title: "Transforme 1 témoignage client en 10 preuves qui vendent (avec l'IA)",
     readTime: "7 min",
-    date: "Août 2026",
-    icon: Magnet,
-    href: "/blog/hack-lead-magnet-1h-ia",
+    date: "Sept. 2026",
+    icon: Quote,
+    href: "/blog/hack-1-temoignage-10-preuves-ia",
   },
   {
     category: "Système",
-    title: "Le système de contenu IA qui attire des clients en pilote automatique",
-    readTime: "8 min",
+    title: "La machine à clients complète : relier contenu, prospection et conversion",
+    readTime: "9 min",
     date: "Août 2026",
-    icon: PenLine,
-    href: "/blog/systeme-contenu-ia-attirer-clients",
+    icon: Workflow,
+    href: "/blog/systeme-machine-a-clients-3-leviers",
   },
 ];
 

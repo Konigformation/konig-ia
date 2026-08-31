@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Transformer un témoignage client en dix preuves qui vendent avec l'IA : une citation se décline en post, étude de cas, badge et vidéo — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="945" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="945" cy="315" r="150"/>
+    <circle cx="945" cy="315" r="215"/>
+    <circle cx="945" cy="315" r="280"/>
+  </g>
+
+  <!-- temoignage source -->
+  <g>
+    <rect x="700" y="255" width="130" height="120" rx="14" fill="url(#gacc)"/>
+    <text x="722" y="322" font-size="70" font-weight="800" fill="#FFFFFF" font-family="Georgia, serif">&#8220;</text>
+    <g fill="#FFFFFF" opacity="0.9">
+      <rect x="722" y="330" width="86" height="8" rx="4"/>
+      <rect x="722" y="346" width="64" height="8" rx="4"/>
+    </g>
+    <text x="765" y="400" font-size="14" font-weight="700" fill="#1B2559" text-anchor="middle" font-family="system-ui, sans-serif">1 témoignage</text>
+  </g>
+
+  <!-- branches -->
+  <g stroke="#2946C8" stroke-width="2.5" opacity="0.4" stroke-dasharray="6 8">
+    <path d="M834 280 C 890 250, 905 225, 950 215" fill="none"/>
+    <path d="M834 300 C 890 285, 910 278, 958 275" fill="none"/>
+    <path d="M834 330 C 890 345, 910 352, 958 358" fill="none"/>
+    <path d="M830 350 C 885 390, 905 410, 950 420" fill="none"/>
+  </g>
+
+  <!-- preuves declinees -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <g transform="translate(950,192)">
+      <rect width="118" height="44" rx="10" fill="#FFFFFF" stroke="#2946C8" stroke-width="2"/>
+      <text x="59" y="28" font-size="14" font-weight="600" fill="#1B2559" text-anchor="middle">Post preuve</text>
+    </g>
+    <g transform="translate(962,254)">
+      <rect width="118" height="44" rx="10" fill="#FFFFFF" stroke="#2946C8" stroke-width="2"/>
+      <text x="59" y="28" font-size="14" font-weight="600" fill="#1B2559" text-anchor="middle">Étude de cas</text>
+    </g>
+    <g transform="translate(962,336)">
+      <rect width="118" height="44" rx="10" fill="#FFFFFF" stroke="#2946C8" stroke-width="2"/>
+      <text x="59" y="28" font-size="14" font-weight="600" fill="#1B2559" text-anchor="middle">Badge / logo</text>
+    </g>
+    <g transform="translate(950,398)">
+      <rect width="118" height="44" rx="10" fill="#FFFFFF" stroke="#2946C8" stroke-width="2"/>
+      <text x="59" y="28" font-size="14" font-weight="600" fill="#1B2559" text-anchor="middle">Script vidéo</text>
+    </g>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Hack · Preuve sociale</text>
+    <text x="90" y="214" font-size="50" font-weight="800" fill="#111A3D">1 témoignage,</text>
+    <text x="90" y="270" font-size="50" font-weight="800" fill="#111A3D">10 preuves.</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">Avec l'IA — et 92 % des acheteurs</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">B2B lisent un avis avant d'acheter.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>
