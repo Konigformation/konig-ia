@@ -1,8 +1,8 @@
 import {
   Flame,
-  Globe,
-  Quote,
-  Workflow,
+  Sparkles,
+  MessageCircle,
+  Share2,
   Clock,
   ArrowRight,
   type LucideIcon,
@@ -25,39 +25,39 @@ type Post = {
 const featured: Post = {
   category: "Contre-tendance",
   title:
-    "Non, ChatGPT ne suffit pas pour ton contenu — la preuve que le contenu IA brut ne convertit plus",
+    "Tu n'as pas besoin d'une grosse audience pour vivre de ton activité — et voici la preuve",
   excerpt:
-    "Pièce maîtresse du mois. Tout le monde croit que ChatGPT a réglé le contenu. Les données 2026 disent l'inverse : analyse fouillée, et ce qui marche vraiment.",
-  readTime: "12 min",
+    "Une petite audience engagée bat 50 000 abonnés passifs. Les données 2026 le prouvent, et voici ce qui compte vraiment pour signer des clients.",
+  readTime: "9 min",
   date: "Sept. 2026",
   icon: Flame,
-  href: "/blog/chatgpt-ne-suffit-pas-pour-ton-contenu",
+  href: "/blog/pas-besoin-grosse-audience",
 };
 
 const posts: Post[] = [
   {
     category: "Actualité IA",
-    title: "Claude s'installe dans ton Chrome : 3 tâches de prospection à lui déléguer",
+    title: "GPT-6, Claude Fable 5.1 : la nouvelle vague de modèles IA (et comment en profiter)",
     readTime: "6 min",
     date: "Sept. 2026",
-    icon: Globe,
-    href: "/blog/claude-in-chrome-deleguer-prospection",
+    icon: Sparkles,
+    href: "/blog/nouvelle-generation-ia-septembre-2026",
   },
   {
     category: "Hack",
-    title: "Transforme 1 témoignage client en 10 preuves qui vendent (avec l'IA)",
+    title: "Le hack WhatsApp pour closer tes prospects (95 %+ d'ouverture)",
     readTime: "7 min",
     date: "Sept. 2026",
-    icon: Quote,
-    href: "/blog/hack-1-temoignage-10-preuves-ia",
+    icon: MessageCircle,
+    href: "/blog/hack-whatsapp-closer-prospects",
   },
   {
     category: "Système",
-    title: "La machine à clients complète : relier contenu, prospection et conversion",
-    readTime: "9 min",
-    date: "Août 2026",
-    icon: Workflow,
-    href: "/blog/systeme-machine-a-clients-3-leviers",
+    title: "Transforme chaque client en 2 nouveaux : la recommandation automatisée",
+    readTime: "8 min",
+    date: "Sept. 2026",
+    icon: Share2,
+    href: "/blog/systeme-recommandation-client-automatise",
   },
 ];
 

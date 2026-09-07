@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Une nouvelle génération de modèles IA arrive en septembre 2026 : plusieurs modèles récents, et un système qui les met au travail — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="945" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="945" cy="315" r="150"/>
+    <circle cx="945" cy="315" r="215"/>
+    <circle cx="945" cy="315" r="280"/>
+  </g>
+
+  <!-- badges modeles -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <g transform="translate(712,210)">
+      <rect width="150" height="52" rx="12" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="2"/>
+      <circle cx="28" cy="26" r="12" fill="#2946C8" opacity="0.5"/>
+      <text x="52" y="31" font-size="17" font-weight="700" fill="#5A6488">GPT-6</text>
+    </g>
+    <g transform="translate(742,286)">
+      <rect width="184" height="56" rx="12" fill="url(#gacc)"/>
+      <circle cx="30" cy="28" r="13" fill="#FFFFFF"/>
+      <path d="M24 28 l5 5 l8 -9" stroke="#2946C8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="52" y="34" font-size="18" font-weight="800" fill="#FFFFFF">Claude Fable 5.1</text>
+    </g>
+    <g transform="translate(712,366)">
+      <rect width="170" height="52" rx="12" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="2"/>
+      <circle cx="28" cy="26" r="12" fill="#2946C8" opacity="0.5"/>
+      <text x="52" y="31" font-size="17" font-weight="700" fill="#5A6488">Gemini 3.8</text>
+    </g>
+  </g>
+
+  <!-- etincelles -->
+  <g fill="#2946C8" opacity="0.5">
+    <path d="M950 205 l6 15 l15 6 l-15 6 l-6 15 l-6 -15 l-15 -6 l15 -6 z"/>
+    <path d="M1000 400 l5 12 l12 5 l-12 5 l-5 12 l-5 -12 l-12 -5 l12 -5 z"/>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Actualité IA · Sept. 2026</text>
+    <text x="90" y="214" font-size="48" font-weight="800" fill="#111A3D">Nouvelle vague</text>
+    <text x="90" y="270" font-size="48" font-weight="800" fill="#111A3D">de modèles IA.</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">En profiter pour tes clients —</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">sans courir après le nouveau jouet.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Le hack WhatsApp pour closer ses prospects : une conversation avec 95 pour cent d'ouverture et une réponse rapide — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="945" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="945" cy="315" r="150"/>
+    <circle cx="945" cy="315" r="215"/>
+    <circle cx="945" cy="315" r="280"/>
+  </g>
+
+  <!-- ecran de conversation -->
+  <g>
+    <rect x="770" y="160" width="230" height="300" rx="26" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="2"/>
+    <rect x="770" y="160" width="230" height="46" rx="26" fill="url(#gacc)"/>
+    <rect x="770" y="188" width="230" height="18" fill="url(#gacc)"/>
+    <circle cx="798" cy="183" r="12" fill="#FFFFFF"/>
+    <text x="820" y="188" font-size="14" font-weight="700" fill="#FFFFFF" font-family="system-ui, sans-serif">Prospect</text>
+    <!-- bulle recue -->
+    <rect x="788" y="228" width="130" height="40" rx="12" fill="#EEF1F7"/>
+    <g fill="#B7BECF"><rect x="800" y="240" width="90" height="7" rx="3.5"/><rect x="800" y="252" width="66" height="7" rx="3.5"/></g>
+    <!-- bulle envoyee -->
+    <rect x="852" y="286" width="130" height="40" rx="12" fill="#D8E0FB"/>
+    <g fill="#2946C8" opacity="0.6"><rect x="864" y="298" width="90" height="7" rx="3.5"/><rect x="864" y="310" width="70" height="7" rx="3.5"/></g>
+    <!-- double coche lu -->
+    <path d="M942 330 l4 4 l9 -10 M950 330 l4 4 l9 -10" stroke="#2946C8" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- reponse rapide -->
+    <rect x="788" y="344" width="150" height="40" rx="12" fill="#EEF1F7"/>
+    <g fill="#B7BECF"><rect x="800" y="356" width="110" height="7" rx="3.5"/><rect x="800" y="368" width="80" height="7" rx="3.5"/></g>
+    <text x="885" y="418" font-size="13" font-weight="700" fill="#2946C8" text-anchor="middle" font-family="system-ui, sans-serif">Réponse ≈ 90 s</text>
+  </g>
+
+  <!-- badge 95% -->
+  <g>
+    <circle cx="1030" cy="235" r="46" fill="url(#gacc)"/>
+    <text x="1030" y="230" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle" font-family="system-ui, sans-serif">95%+</text>
+    <text x="1030" y="252" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle" font-family="system-ui, sans-serif">ouverture</text>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Hack · Prospection</text>
+    <text x="90" y="214" font-size="50" font-weight="800" fill="#111A3D">Closer sur</text>
+    <text x="90" y="270" font-size="50" font-weight="800" fill="#111A3D">WhatsApp.</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">95 %+ d'ouverture, réponse en 90 s —</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">sur tes prospects engagés, sans spam.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

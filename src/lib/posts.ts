@@ -15,6 +15,62 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "pas-besoin-grosse-audience",
+    title:
+      "Tu n'as pas besoin d'une grosse audience pour vivre de ton activité — et voici la preuve",
+    excerpt:
+      "Une petite audience engagée bat 50 000 abonnés passifs. Les données 2026 le prouvent, et voici ce qui compte vraiment pour signer des clients.",
+    category: "Contre-tendance",
+    date: "2026-09-09",
+    dateLabel: "9 septembre 2026",
+    readTime: "9 min",
+    image: "/blog/pas-besoin-grosse-audience.svg",
+    imageAlt:
+      "Tu n'as pas besoin d'une grosse audience : une audience massive mais passive face à une petite audience engagée qui achète — illustration Konig IA.",
+  },
+  {
+    slug: "nouvelle-generation-ia-septembre-2026",
+    title:
+      "GPT-6, Claude Fable 5.1 : une nouvelle vague de modèles IA vient de sortir — comment en profiter sans perdre ton temps",
+    excerpt:
+      "Début septembre 2026, une salve de nouveaux modèles (GPT-6, Claude Fable 5.1…) est sortie. Ce qui change vraiment pour ton acquisition, et quoi faire.",
+    category: "Actualité IA",
+    date: "2026-09-09",
+    dateLabel: "9 septembre 2026",
+    readTime: "6 min",
+    image: "/blog/nouvelle-generation-ia-septembre-2026.svg",
+    imageAlt:
+      "Une nouvelle génération de modèles IA arrive en septembre 2026 : plusieurs modèles récents, et un système qui les met au travail — illustration Konig IA.",
+  },
+  {
+    slug: "hack-whatsapp-closer-prospects",
+    title:
+      "Le hack WhatsApp pour closer tes prospects (95 %+ d'ouverture) — sans passer pour un spammeur",
+    excerpt:
+      "WhatsApp affiche 95 %+ d'ouverture contre 20 % pour l'email. Comment l'utiliser pour closer tes prospects engagés, avec la méthode et le cadre légal.",
+    category: "Hack",
+    date: "2026-09-08",
+    dateLabel: "8 septembre 2026",
+    readTime: "7 min",
+    image: "/blog/hack-whatsapp-closer-prospects.svg",
+    imageAlt:
+      "Le hack WhatsApp pour closer ses prospects : une conversation avec 95 pour cent d'ouverture et une réponse rapide — illustration Konig IA.",
+  },
+  {
+    slug: "systeme-recommandation-client-automatise",
+    title:
+      "Le système pour transformer chaque client en 2 nouveaux : la recommandation automatisée",
+    excerpt:
+      "84 % des acheteurs B2B démarrent par une recommandation. Le système en 4 étapes pour transformer tes clients satisfaits en machine à recommandations.",
+    category: "Système",
+    date: "2026-09-07",
+    dateLabel: "7 septembre 2026",
+    readTime: "8 min",
+    image: "/blog/systeme-recommandation-client-automatise.svg",
+    imageAlt:
+      "Le système de recommandation client automatisé : un client satisfait en amène deux, puis quatre, en chaîne — illustration Konig IA.",
+  },
+  {
     slug: "chatgpt-ne-suffit-pas-pour-ton-contenu",
     title:
       "Non, ChatGPT ne suffit pas pour ton contenu — et voici la preuve que le contenu IA brut ne convertit plus",
