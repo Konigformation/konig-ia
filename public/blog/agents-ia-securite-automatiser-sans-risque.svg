@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Sécuriser ses agents IA : un flux d'automatisation protégé par un bouclier face à une menace — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="945" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="945" cy="315" r="150"/>
+    <circle cx="945" cy="315" r="215"/>
+    <circle cx="945" cy="315" r="280"/>
+  </g>
+
+  <!-- bouclier -->
+  <g>
+    <path d="M945 200 l86 30 v76 c0 66 -44 104 -86 122 c-42 -18 -86 -56 -86 -122 v-76 z" fill="url(#gacc)"/>
+    <path d="M913 318 l22 22 l46 -52" stroke="#FFFFFF" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- petits agents proteges autour -->
+  <g fill="#2946C8" opacity="0.7">
+    <circle cx="815" cy="250" r="14"/>
+    <circle cx="815" cy="380" r="14"/>
+    <circle cx="1075" cy="250" r="14"/>
+    <circle cx="1075" cy="380" r="14"/>
+  </g>
+  <g stroke="#2946C8" stroke-width="2" opacity="0.3" stroke-dasharray="5 7">
+    <line x1="829" y1="256" x2="866" y2="276"/>
+    <line x1="829" y1="374" x2="866" y2="354"/>
+    <line x1="1061" y1="256" x2="1024" y2="276"/>
+    <line x1="1061" y1="374" x2="1024" y2="354"/>
+  </g>
+
+  <!-- alerte -->
+  <g transform="translate(1058,200)">
+    <path d="M18 0 l18 32 h-36 z" fill="#E7B14C"/>
+    <rect x="16" y="12" width="4" height="12" rx="2" fill="#1B2559"/>
+    <circle cx="18" cy="28" r="2.4" fill="#1B2559"/>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Actualité IA · Sécurité</text>
+    <text x="90" y="214" font-size="46" font-weight="800" fill="#111A3D">Des agents IA</text>
+    <text x="90" y="270" font-size="46" font-weight="800" fill="#111A3D">détournés.</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">3 règles pour automatiser ton</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">acquisition sans te faire pirater.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

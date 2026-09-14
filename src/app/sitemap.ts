@@ -18,6 +18,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${siteConfig.url}/blog/arrete-de-baisser-tes-prix`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${siteConfig.url}/blog/agents-ia-securite-automatiser-sans-risque`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${siteConfig.url}/blog/hack-analyser-appels-vente-ia`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${siteConfig.url}/blog/systeme-fidelisation-upsell-valeur-client`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: `${siteConfig.url}/blog/pas-besoin-grosse-audience`,
       lastModified: now,
       changeFrequency: "weekly",

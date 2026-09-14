@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Le système de fidélisation et d'upsell : un même client dont la valeur augmente dans le temps grâce aux relances automatisées — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="945" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="945" cy="315" r="150"/>
+    <circle cx="945" cy="315" r="215"/>
+    <circle cx="945" cy="315" r="280"/>
+  </g>
+
+  <!-- barres de valeur croissante -->
+  <g>
+    <rect x="720" y="360" width="52" height="70" rx="8" fill="#C3C9DC"/>
+    <rect x="792" y="315" width="52" height="115" rx="8" fill="#8EA0E0"/>
+    <rect x="864" y="262" width="52" height="168" rx="8" fill="#4C68D6"/>
+    <rect x="936" y="205" width="52" height="225" rx="8" fill="url(#gacc)"/>
+    <text x="746" y="452" font-size="14" font-weight="600" fill="#8A93AC" text-anchor="middle" font-family="system-ui, sans-serif">Vente 1</text>
+    <text x="962" y="452" font-size="14" font-weight="700" fill="#2946C8" text-anchor="middle" font-family="system-ui, sans-serif">+ upsells</text>
+  </g>
+
+  <!-- fleche croissance + repeat -->
+  <path d="M712 350 L1000 195" stroke="#2946C8" stroke-width="3" stroke-dasharray="8 8" opacity="0.5"/>
+  <g transform="translate(1010,175)">
+    <path d="M6 14 a16 16 0 1 1 4 11" stroke="#2946C8" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M2 2 l6 12 l-13 2 z" fill="#2946C8"/>
+  </g>
+
+  <!-- pastille LTV -->
+  <g>
+    <circle cx="1040" cy="330" r="42" fill="#FFFFFF" stroke="#2946C8" stroke-width="2"/>
+    <text x="1040" y="326" font-size="18" font-weight="800" fill="#2946C8" text-anchor="middle" font-family="system-ui, sans-serif">×3</text>
+    <text x="1040" y="346" font-size="11" font-weight="600" fill="#5A6488" text-anchor="middle" font-family="system-ui, sans-serif">de dépense</text>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Système · Fidélisation</text>
+    <text x="90" y="214" font-size="48" font-weight="800" fill="#111A3D">Double la valeur</text>
+    <text x="90" y="270" font-size="48" font-weight="800" fill="#111A3D">de chaque client.</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">Fidélisation + upsell automatisés —</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">5 à 25× moins cher qu'acquérir.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

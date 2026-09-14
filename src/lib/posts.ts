@@ -15,6 +15,62 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "arrete-de-baisser-tes-prix",
+    title:
+      "Arrête de baisser tes prix pour signer : c'est un piège mathématique (la preuve)",
+    excerpt:
+      "Baisser tes prix pour décrocher des clients détruit ta marge bien plus vite que tu ne crois. Les chiffres 2026, et ce qui marche vraiment à la place.",
+    category: "Contre-tendance",
+    date: "2026-09-16",
+    dateLabel: "16 septembre 2026",
+    readTime: "9 min",
+    image: "/blog/arrete-de-baisser-tes-prix.svg",
+    imageAlt:
+      "Arrête de baisser tes prix : une étiquette de prix bradée et barrée face à une offre à sa vraie valeur — illustration Konig IA.",
+  },
+  {
+    slug: "agents-ia-securite-automatiser-sans-risque",
+    title:
+      "Des hackers ont détourné des centaines d'agents IA : 3 règles pour automatiser ton acquisition sans te faire pirater",
+    excerpt:
+      "Une attaque de la semaine a utilisé des agents IA pour compromettre 440 systèmes. Ce que ça t'apprend, et 3 règles pour automatiser sans risque.",
+    category: "Actualité IA",
+    date: "2026-09-16",
+    dateLabel: "16 septembre 2026",
+    readTime: "6 min",
+    image: "/blog/agents-ia-securite-automatiser-sans-risque.svg",
+    imageAlt:
+      "Sécuriser ses agents IA : un flux d'automatisation protégé par un bouclier face à une menace — illustration Konig IA.",
+  },
+  {
+    slug: "hack-analyser-appels-vente-ia",
+    title:
+      "Le hack pour transformer tes appels de vente en script qui close (avec l'IA)",
+    excerpt:
+      "Tes appels de vente sont une mine d'or. Comment les analyser avec l'IA pour bâtir une banque d'objections et un script qui close. Pas à pas, prompts inclus.",
+    category: "Hack",
+    date: "2026-09-15",
+    dateLabel: "15 septembre 2026",
+    readTime: "7 min",
+    image: "/blog/hack-analyser-appels-vente-ia.svg",
+    imageAlt:
+      "Analyser ses appels de vente avec l'IA : un appel transcrit devient un script de closing et une banque d'objections — illustration Konig IA.",
+  },
+  {
+    slug: "systeme-fidelisation-upsell-valeur-client",
+    title:
+      "Le système pour doubler la valeur de chaque client : fidélisation et upsell automatisés",
+    excerpt:
+      "Acquérir coûte 5 à 25× plus que fidéliser. Le système en 4 étapes pour fidéliser et faire de l'upsell en automatique, et doubler la valeur de chaque client.",
+    category: "Système",
+    date: "2026-09-14",
+    dateLabel: "14 septembre 2026",
+    readTime: "8 min",
+    image: "/blog/systeme-fidelisation-upsell-valeur-client.svg",
+    imageAlt:
+      "Le système de fidélisation et d'upsell : un même client dont la valeur augmente dans le temps grâce aux relances automatisées — illustration Konig IA.",
+  },
+  {
     slug: "pas-besoin-grosse-audience",
     title:
       "Tu n'as pas besoin d'une grosse audience pour vivre de ton activité — et voici la preuve",

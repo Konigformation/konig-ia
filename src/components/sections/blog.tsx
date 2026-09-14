@@ -1,8 +1,8 @@
 import {
   Flame,
-  Sparkles,
-  MessageCircle,
-  Share2,
+  Shield,
+  Phone,
+  Repeat,
   Clock,
   ArrowRight,
   type LucideIcon,
@@ -25,39 +25,39 @@ type Post = {
 const featured: Post = {
   category: "Contre-tendance",
   title:
-    "Tu n'as pas besoin d'une grosse audience pour vivre de ton activité — et voici la preuve",
+    "Arrête de baisser tes prix pour signer : c'est un piège mathématique (la preuve)",
   excerpt:
-    "Une petite audience engagée bat 50 000 abonnés passifs. Les données 2026 le prouvent, et voici ce qui compte vraiment pour signer des clients.",
+    "Baisser tes prix pour décrocher des clients détruit ta marge bien plus vite que tu ne crois. Les chiffres 2026, et ce qui marche vraiment à la place.",
   readTime: "9 min",
   date: "Sept. 2026",
   icon: Flame,
-  href: "/blog/pas-besoin-grosse-audience",
+  href: "/blog/arrete-de-baisser-tes-prix",
 };
 
 const posts: Post[] = [
   {
     category: "Actualité IA",
-    title: "GPT-6, Claude Fable 5.1 : la nouvelle vague de modèles IA (et comment en profiter)",
+    title: "Des hackers ont détourné des agents IA : 3 règles pour automatiser sans risque",
     readTime: "6 min",
     date: "Sept. 2026",
-    icon: Sparkles,
-    href: "/blog/nouvelle-generation-ia-septembre-2026",
+    icon: Shield,
+    href: "/blog/agents-ia-securite-automatiser-sans-risque",
   },
   {
     category: "Hack",
-    title: "Le hack WhatsApp pour closer tes prospects (95 %+ d'ouverture)",
+    title: "Transforme tes appels de vente en script qui close (avec l'IA)",
     readTime: "7 min",
     date: "Sept. 2026",
-    icon: MessageCircle,
-    href: "/blog/hack-whatsapp-closer-prospects",
+    icon: Phone,
+    href: "/blog/hack-analyser-appels-vente-ia",
   },
   {
     category: "Système",
-    title: "Transforme chaque client en 2 nouveaux : la recommandation automatisée",
+    title: "Double la valeur de chaque client : fidélisation et upsell automatisés",
     readTime: "8 min",
     date: "Sept. 2026",
-    icon: Share2,
-    href: "/blog/systeme-recommandation-client-automatise",
+    icon: Repeat,
+    href: "/blog/systeme-fidelisation-upsell-valeur-client",
   },
 ];
 
