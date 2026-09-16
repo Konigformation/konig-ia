@@ -13,6 +13,7 @@ export const navLinks = [
   { label: "Le problème", href: "#probleme" },
   { label: "L'audit", href: "#diagnostic-ia" },
   { label: "Accompagnement", href: "#formation" },
+  { label: "Autres", href: "/autres" },
   { label: "Avis", href: "#temoignages" },
   { label: "FAQ", href: "#faq" },
   { label: "Blog", href: "/blog" },

@@ -9,6 +9,8 @@ interface CtaButtonProps {
   size?: "default" | "lg";
   variant?: "solid" | "outline";
   showArrow?: boolean;
+  target?: string;
+  rel?: string;
 }
 
 export function CtaButton({
@@ -18,10 +20,14 @@ export function CtaButton({
   size = "lg",
   variant = "solid",
   showArrow = true,
+  target,
+  rel,
 }: CtaButtonProps) {
   return (
     <Link
       href={href}
+      target={target}
+      rel={rel ?? (target === "_blank" ? "noopener noreferrer" : undefined)}
       className={cn(
         // capitales espacées, angles droits — cf. .btn de la refonte
         "group inline-flex shrink-0 items-center justify-center gap-3 border border-transparent font-bold tracking-[0.22em] whitespace-nowrap uppercase transition-all duration-200 outline-none select-none focus-visible:ring-3 focus-visible:ring-[var(--accent-solid)]/40 active:translate-y-px",
