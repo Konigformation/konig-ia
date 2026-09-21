@@ -121,13 +121,13 @@ export default function AutresPage() {
             rel="noopener noreferrer"
             className="group mt-12 grid overflow-hidden rounded-3xl border border-border bg-card shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[var(--accent-solid)]/40 hover:shadow-xl lg:grid-cols-2"
           >
-            <div className="relative aspect-[16/10] lg:aspect-auto lg:min-h-[420px] bg-[#14182B]">
+            <div className="relative aspect-[16/10] lg:aspect-auto lg:min-h-[420px] bg-[#F4F5F9]">
               <Image
-                src="/autres/post-everyday.svg"
-                alt="Post Everyday — publiez partout, en une seule fois"
+                src="/autres/logo-konig.png"
+                alt="Konig Formation"
                 fill
                 sizes="(max-width: 1024px) 100vw, 600px"
-                className="object-contain"
+                className="object-contain p-8"
               />
               <span className="absolute top-4 left-4 inline-flex items-center gap-1.5 rounded-full bg-background/90 px-3 py-1 text-xs font-semibold text-[var(--accent-solid)] shadow-sm backdrop-blur">
                 <Sparkles className="size-3.5" /> Nouveau
