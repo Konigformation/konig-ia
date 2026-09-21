@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Le tableau de bord d'acquisition : cinq métriques clés suivies pour piloter son acquisition — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="945" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="945" cy="315" r="150"/>
+    <circle cx="945" cy="315" r="215"/>
+    <circle cx="945" cy="315" r="280"/>
+  </g>
+
+  <!-- dashboard -->
+  <g>
+    <rect x="710" y="175" width="330" height="280" rx="16" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="2"/>
+    <rect x="710" y="175" width="330" height="42" rx="16" fill="url(#gacc)"/><rect x="710" y="200" width="330" height="17" fill="url(#gacc)"/>
+    <text x="732" y="203" font-size="15" font-weight="700" fill="#FFFFFF" font-family="system-ui, sans-serif">Pilotage acquisition</text>
+
+    <!-- 4 tuiles KPI -->
+    <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+      <g>
+        <rect x="730" y="235" width="140" height="70" rx="10" fill="#EEF1F7"/>
+        <text x="744" y="262" font-size="12" font-weight="600" fill="#5A6488">Leads / sem.</text>
+        <text x="744" y="290" font-size="24" font-weight="800" fill="#2946C8">42</text>
+      </g>
+      <g>
+        <rect x="880" y="235" width="140" height="70" rx="10" fill="#EEF1F7"/>
+        <text x="894" y="262" font-size="12" font-weight="600" fill="#5A6488">Taux RDV</text>
+        <text x="894" y="290" font-size="24" font-weight="800" fill="#2946C8">18%</text>
+      </g>
+      <g>
+        <rect x="730" y="317" width="140" height="70" rx="10" fill="#EEF1F7"/>
+        <text x="744" y="344" font-size="12" font-weight="600" fill="#5A6488">Taux closing</text>
+        <text x="744" y="372" font-size="24" font-weight="800" fill="#2946C8">31%</text>
+      </g>
+      <g>
+        <rect x="880" y="317" width="140" height="70" rx="10" fill="#EEF1F7"/>
+        <text x="894" y="344" font-size="12" font-weight="600" fill="#5A6488">Coût / client</text>
+        <text x="894" y="372" font-size="24" font-weight="800" fill="#2946C8">−22%</text>
+      </g>
+    </g>
+    <!-- mini courbe -->
+    <path d="M732 430 L790 418 L848 424 L906 405 L964 398 L1018 384" stroke="#2946C8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Système · Pilotage</text>
+    <text x="90" y="214" font-size="48" font-weight="800" fill="#111A3D">Pilote, ne subis</text>
+    <text x="90" y="270" font-size="48" font-weight="800" fill="#111A3D">plus.</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">Les 5 chiffres d'acquisition à</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">suivre chaque semaine.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

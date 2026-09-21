@@ -1,8 +1,8 @@
 import {
   Flame,
-  Shield,
-  Phone,
-  Repeat,
+  Search,
+  Bot,
+  Gauge,
   Clock,
   ArrowRight,
   type LucideIcon,
@@ -25,39 +25,39 @@ type Post = {
 const featured: Post = {
   category: "Contre-tendance",
   title:
-    "Arrête de baisser tes prix pour signer : c'est un piège mathématique (la preuve)",
+    "« Le SEO est mort » : tout le monde te ment — voici la vérité (et ce que ça change)",
   excerpt:
-    "Baisser tes prix pour décrocher des clients détruit ta marge bien plus vite que tu ne crois. Les chiffres 2026, et ce qui marche vraiment à la place.",
+    "68 % des recherches finissent sans clic. Le SEO n'est pas mort : il a changé de terrain. Ce qu'il faut faire maintenant pour être trouvé (et cité par l'IA).",
   readTime: "9 min",
   date: "Sept. 2026",
   icon: Flame,
-  href: "/blog/arrete-de-baisser-tes-prix",
+  href: "/blog/le-seo-est-mort-la-verite",
 };
 
 const posts: Post[] = [
   {
     category: "Actualité IA",
-    title: "Des hackers ont détourné des agents IA : 3 règles pour automatiser sans risque",
+    title: "GPT-6 est là : le prompt « deep research » qui te fait un dossier prospect en 5 min",
     readTime: "6 min",
     date: "Sept. 2026",
-    icon: Shield,
-    href: "/blog/agents-ia-securite-automatiser-sans-risque",
+    icon: Search,
+    href: "/blog/gpt-6-deep-research-dossier-prospect",
   },
   {
     category: "Hack",
-    title: "Transforme tes appels de vente en script qui close (avec l'IA)",
+    title: "Un assistant IA qui répond à tes prospects (et prend des RDV) pendant que tu dors",
     readTime: "7 min",
     date: "Sept. 2026",
-    icon: Phone,
-    href: "/blog/hack-analyser-appels-vente-ia",
+    icon: Bot,
+    href: "/blog/hack-assistant-ia-repond-prospects",
   },
   {
     category: "Système",
-    title: "Double la valeur de chaque client : fidélisation et upsell automatisés",
+    title: "Les 5 chiffres d'acquisition à suivre chaque semaine pour piloter (pas subir)",
     readTime: "8 min",
     date: "Sept. 2026",
-    icon: Repeat,
-    href: "/blog/systeme-fidelisation-upsell-valeur-client",
+    icon: Gauge,
+    href: "/blog/systeme-tableau-de-bord-acquisition",
   },
 ];
 

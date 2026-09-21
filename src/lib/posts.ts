@@ -15,6 +15,62 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "le-seo-est-mort-la-verite",
+    title:
+      "« Le SEO est mort » : tout le monde te ment — voici la vérité (et ce que ça change pour tes clients)",
+    excerpt:
+      "68 % des recherches finissent sans clic. Le SEO n'est pas mort : il a changé de terrain. Ce qu'il faut faire maintenant pour être trouvé (et cité par l'IA).",
+    category: "Contre-tendance",
+    date: "2026-09-23",
+    dateLabel: "23 septembre 2026",
+    readTime: "9 min",
+    image: "/blog/le-seo-est-mort-la-verite.svg",
+    imageAlt:
+      "Le SEO est mort ? La vérité : les recherches finissent sans clic, il faut devenir la réponse citée par l'IA — illustration Konig IA.",
+  },
+  {
+    slug: "gpt-6-deep-research-dossier-prospect",
+    title:
+      "GPT-6 vient de sortir : le prompt « deep research » qui te fait un dossier prospect complet en 5 minutes",
+    excerpt:
+      "OpenAI a lancé GPT-6 Astra. Comment utiliser sa puissance de raisonnement pour préparer un dossier prospect complet en 5 minutes. Prompt inclus.",
+    category: "Actualité IA",
+    date: "2026-09-23",
+    dateLabel: "23 septembre 2026",
+    readTime: "6 min",
+    image: "/blog/gpt-6-deep-research-dossier-prospect.svg",
+    imageAlt:
+      "GPT-6 et le deep research : une loupe analyse un dossier prospect rempli de données en quelques minutes — illustration Konig IA.",
+  },
+  {
+    slug: "hack-assistant-ia-repond-prospects",
+    title:
+      "Le hack pour créer un assistant IA qui répond à tes prospects (et prend des RDV) pendant que tu dors",
+    excerpt:
+      "Suivre un lead en 5 min multiplie par 9 tes chances de le convertir. Comment monter un assistant IA qui répond 24/7 et prend des RDV. Pas à pas.",
+    category: "Hack",
+    date: "2026-09-22",
+    dateLabel: "22 septembre 2026",
+    readTime: "7 min",
+    image: "/blog/hack-assistant-ia-repond-prospects.svg",
+    imageAlt:
+      "Un assistant IA qui répond aux prospects et prend des rendez-vous 24 heures sur 24 — illustration Konig IA.",
+  },
+  {
+    slug: "systeme-tableau-de-bord-acquisition",
+    title:
+      "Le système de pilotage : les 5 chiffres d'acquisition à suivre chaque semaine (et comment les automatiser)",
+    excerpt:
+      "Sans chiffres, tu subis ton acquisition. Les 5 métriques à suivre chaque semaine pour repérer où ça fuit et piloter ta machine à clients.",
+    category: "Système",
+    date: "2026-09-21",
+    dateLabel: "21 septembre 2026",
+    readTime: "8 min",
+    image: "/blog/systeme-tableau-de-bord-acquisition.svg",
+    imageAlt:
+      "Le tableau de bord d'acquisition : cinq métriques clés suivies pour piloter son acquisition — illustration Konig IA.",
+  },
+  {
     slug: "arrete-de-baisser-tes-prix",
     title:
       "Arrête de baisser tes prix pour signer : c'est un piège mathématique (la preuve)",
