@@ -139,7 +139,7 @@ export default function AutresPage() {
                 Outil · Réseaux sociaux
               </span>
               <h2 className="mt-3 text-2xl font-bold tracking-tight text-balance sm:text-3xl">
-                Post Everyday
+                Construire son écosystème IA qui publie sur les réseaux sociaux
               </h2>
               <p className="mt-1 text-lg font-medium text-[var(--accent-solid)]">
                 Publiez partout, en une seule fois.
