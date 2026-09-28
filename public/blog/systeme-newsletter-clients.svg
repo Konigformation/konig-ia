@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Le système de newsletter : une audience d'abonnés que l'on possède, nourrie et convertie en clients — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="945" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="945" cy="315" r="150"/>
+    <circle cx="945" cy="315" r="215"/>
+    <circle cx="945" cy="315" r="280"/>
+  </g>
+
+  <!-- enveloppe newsletter -->
+  <g>
+    <rect x="770" y="205" width="230" height="160" rx="14" fill="#FFFFFF" stroke="#2946C8" stroke-width="2.5"/>
+    <path d="M770 220 l115 80 l115 -80" fill="none" stroke="#2946C8" stroke-width="2.5"/>
+    <rect x="770" y="205" width="230" height="42" rx="14" fill="url(#gacc)"/><rect x="770" y="230" width="230" height="17" fill="url(#gacc)"/>
+    <text x="792" y="233" font-size="15" font-weight="700" fill="#FFFFFF" font-family="system-ui, sans-serif">Ta newsletter</text>
+  </g>
+
+  <!-- abonnes (audience possedee) -->
+  <g fill="#2946C8" opacity="0.75">
+    <circle cx="792" cy="404" r="12"/><circle cx="826" cy="404" r="12"/><circle cx="860" cy="404" r="12"/><circle cx="894" cy="404" r="12"/><circle cx="928" cy="404" r="12"/>
+  </g>
+  <text x="860" y="440" font-size="14" font-weight="600" fill="#5A6488" text-anchor="middle" font-family="system-ui, sans-serif">Audience que tu possèdes</text>
+
+  <!-- conversion ROI -->
+  <g>
+    <circle cx="1010" cy="300" r="52" fill="url(#gacc)"/>
+    <text x="1010" y="296" font-size="24" font-weight="800" fill="#FFFFFF" text-anchor="middle" font-family="system-ui, sans-serif">×36</text>
+    <text x="1010" y="318" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle" font-family="system-ui, sans-serif">de ROI</text>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Système · Email</text>
+    <text x="90" y="214" font-size="46" font-weight="800" fill="#111A3D">La newsletter</text>
+    <text x="90" y="270" font-size="46" font-weight="800" fill="#111A3D">qui convertit.</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">Le seul canal que tu possèdes —</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">jusqu'à 36 € gagnés pour 1 € investi.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

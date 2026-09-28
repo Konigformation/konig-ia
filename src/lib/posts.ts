@@ -15,6 +15,62 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "automatisation-deshumanise-faux",
+    title:
+      "« L'automatisation déshumanise ta relation client » : faux — et voici ce que les données prouvent vraiment",
+    excerpt:
+      "79 % préfèrent l'humain… mais 62 % choisissent un chatbot plutôt qu'attendre. Ce que les gens rejettent, c'est la mauvaise automatisation. La preuve chiffrée.",
+    category: "Contre-tendance",
+    date: "2026-09-30",
+    dateLabel: "30 septembre 2026",
+    readTime: "9 min",
+    image: "/blog/automatisation-deshumanise-faux.svg",
+    imageAlt:
+      "L'automatisation déshumanise ? Faux : une bonne automatisation répond en 1 seconde et rend l'expérience plus humaine — illustration Konig IA.",
+  },
+  {
+    slug: "guerre-des-prix-ia-automatiser-moins-cher",
+    title:
+      "Claude Opus 5.5 et GPT-6 : la guerre des prix de l'IA rend l'automatisation 2× moins chère — comment en profiter",
+    excerpt:
+      "Opus 5.5 et GPT-6 ont fait chuter les prix de l'IA de 40 à 50 %. Ce que cette guerre des prix change pour automatiser ton acquisition, concrètement.",
+    category: "Actualité IA",
+    date: "2026-09-30",
+    dateLabel: "30 septembre 2026",
+    readTime: "6 min",
+    image: "/blog/guerre-des-prix-ia-automatiser-moins-cher.svg",
+    imageAlt:
+      "La guerre des prix de l'IA : les tarifs des modèles chutent, automatiser son acquisition coûte deux fois moins cher — illustration Konig IA.",
+  },
+  {
+    slug: "hack-definir-client-ideal-ia",
+    title:
+      "Le hack pour définir ton client idéal (ICP) avec l'IA en 30 minutes — et arrêter de parler à tout le monde",
+    excerpt:
+      "Parler à tout le monde, c'est ne convertir personne. Comment définir ton client idéal (ICP) avec l'IA en 30 min, pour viser ceux qui achètent. Prompts inclus.",
+    category: "Hack",
+    date: "2026-09-29",
+    dateLabel: "29 septembre 2026",
+    readTime: "7 min",
+    image: "/blog/hack-definir-client-ideal-ia.svg",
+    imageAlt:
+      "Définir son client idéal avec l'IA : une cible avec au centre la fiche du client parfait — illustration Konig IA.",
+  },
+  {
+    slug: "systeme-newsletter-clients",
+    title:
+      "Le système de newsletter qui transforme des abonnés en clients (le seul canal que tu possèdes)",
+    excerpt:
+      "L'email rapporte jusqu'à 36 € pour 1 € investi. Le système de newsletter en 4 étapes pour transformer une audience que tu possèdes en clients réguliers.",
+    category: "Système",
+    date: "2026-09-28",
+    dateLabel: "28 septembre 2026",
+    readTime: "8 min",
+    image: "/blog/systeme-newsletter-clients.svg",
+    imageAlt:
+      "Le système de newsletter : une audience d'abonnés que l'on possède, nourrie et convertie en clients — illustration Konig IA.",
+  },
+  {
     slug: "le-seo-est-mort-la-verite",
     title:
       "« Le SEO est mort » : tout le monde te ment — voici la vérité (et ce que ça change pour tes clients)",

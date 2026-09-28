@@ -1,8 +1,8 @@
 import {
   Flame,
-  Search,
-  Bot,
-  Gauge,
+  TrendingDown,
+  Target,
+  Mail,
   Clock,
   ArrowRight,
   type LucideIcon,
@@ -25,39 +25,39 @@ type Post = {
 const featured: Post = {
   category: "Contre-tendance",
   title:
-    "« Le SEO est mort » : tout le monde te ment — voici la vérité (et ce que ça change)",
+    "« L'automatisation déshumanise ta relation client » : faux — voici ce que prouvent les données",
   excerpt:
-    "68 % des recherches finissent sans clic. Le SEO n'est pas mort : il a changé de terrain. Ce qu'il faut faire maintenant pour être trouvé (et cité par l'IA).",
+    "79 % préfèrent l'humain… mais 62 % choisissent un chatbot plutôt qu'attendre. Ce que les gens rejettent, c'est la mauvaise automatisation. La preuve chiffrée.",
   readTime: "9 min",
   date: "Sept. 2026",
   icon: Flame,
-  href: "/blog/le-seo-est-mort-la-verite",
+  href: "/blog/automatisation-deshumanise-faux",
 };
 
 const posts: Post[] = [
   {
     category: "Actualité IA",
-    title: "GPT-6 est là : le prompt « deep research » qui te fait un dossier prospect en 5 min",
+    title: "Claude Opus 5.5 & GPT-6 : la guerre des prix rend l'automatisation 2× moins chère",
     readTime: "6 min",
     date: "Sept. 2026",
-    icon: Search,
-    href: "/blog/gpt-6-deep-research-dossier-prospect",
+    icon: TrendingDown,
+    href: "/blog/guerre-des-prix-ia-automatiser-moins-cher",
   },
   {
     category: "Hack",
-    title: "Un assistant IA qui répond à tes prospects (et prend des RDV) pendant que tu dors",
+    title: "Définis ton client idéal (ICP) avec l'IA en 30 min — et arrête de parler à tout le monde",
     readTime: "7 min",
     date: "Sept. 2026",
-    icon: Bot,
-    href: "/blog/hack-assistant-ia-repond-prospects",
+    icon: Target,
+    href: "/blog/hack-definir-client-ideal-ia",
   },
   {
     category: "Système",
-    title: "Les 5 chiffres d'acquisition à suivre chaque semaine pour piloter (pas subir)",
+    title: "La newsletter qui transforme des abonnés en clients (le seul canal que tu possèdes)",
     readTime: "8 min",
     date: "Sept. 2026",
-    icon: Gauge,
-    href: "/blog/systeme-tableau-de-bord-acquisition",
+    icon: Mail,
+    href: "/blog/systeme-newsletter-clients",
   },
 ];
 
