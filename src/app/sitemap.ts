@@ -24,6 +24,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${siteConfig.url}/blog/arrete-de-vouloir-etre-partout`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${siteConfig.url}/blog/chatgpt-work-deleguer-acquisition`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${siteConfig.url}/blog/hack-offre-irresistible-ia`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${siteConfig.url}/blog/systeme-lead-scoring-ia`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: `${siteConfig.url}/blog/automatisation-deshumanise-faux`,
       lastModified: now,
       changeFrequency: "weekly",

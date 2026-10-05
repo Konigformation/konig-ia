@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Écrire une offre irrésistible avec l'IA : une offre à forte valeur et faible effort, prête à convertir — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="945" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="945" cy="315" r="150"/>
+    <circle cx="945" cy="315" r="215"/>
+    <circle cx="945" cy="315" r="280"/>
+  </g>
+
+  <!-- paquet offre -->
+  <g>
+    <rect x="828" y="285" width="200" height="140" rx="14" fill="#FFFFFF" stroke="#2946C8" stroke-width="2.5"/>
+    <rect x="828" y="285" width="200" height="46" rx="14" fill="url(#gacc)"/><rect x="828" y="310" width="200" height="21" fill="url(#gacc)"/>
+    <rect x="916" y="262" width="24" height="163" fill="url(#gacc)" opacity="0.9"/>
+    <rect x="828" y="300" width="200" height="16" fill="url(#gacc)" opacity="0.9"/>
+    <!-- noeud -->
+    <path d="M928 262 c -22 -22 -40 2 0 14 c 40 -12 22 -36 0 -14 z" fill="#2946C8"/>
+    <text x="928" y="402" font-size="15" font-weight="700" fill="#1B2559" text-anchor="middle" font-family="system-ui, sans-serif">Ton offre</text>
+  </g>
+
+  <!-- curseurs valeur -->
+  <g font-family="system-ui, sans-serif">
+    <text x="725" y="214" font-size="14" font-weight="700" fill="#2946C8">Valeur perçue</text>
+    <rect x="725" y="224" width="170" height="10" rx="5" fill="#EEF1F7"/><rect x="725" y="224" width="150" height="10" rx="5" fill="url(#gacc)"/><circle cx="875" cy="229" r="9" fill="#2946C8"/>
+    <text x="725" y="256" font-size="14" font-weight="700" fill="#2946C8">Effort / délai</text>
+    <rect x="725" y="266" width="170" height="10" rx="5" fill="#EEF1F7"/><rect x="725" y="266" width="44" height="10" rx="5" fill="url(#gacc)"/><circle cx="769" cy="271" r="9" fill="#2946C8"/>
+  </g>
+
+  <!-- etincelle -->
+  <path d="M1060 275 l6 15 l15 6 l-15 6 l-6 15 l-6 -15 l-15 -6 l15 -6 z" fill="#2946C8" opacity="0.6"/>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Hack · Offre</text>
+    <text x="90" y="214" font-size="46" font-weight="800" fill="#111A3D">Une offre qu'on</text>
+    <text x="90" y="270" font-size="46" font-weight="800" fill="#111A3D">ne peut pas refuser.</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">Construis-la avec l'IA — gros résultat,</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">peu d'effort, risque levé.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

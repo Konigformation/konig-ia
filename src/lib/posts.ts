@@ -15,6 +15,62 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "arrete-de-vouloir-etre-partout",
+    title:
+      "Arrête de vouloir être partout : l'omniprésence te rend invisible (et t'épuise) — la preuve",
+    excerpt:
+      "Pièce maîtresse du mois. « Il faut être partout » est le conseil le plus toxique de 2026 : 78 % des créateurs en burnout. Pourquoi t'éparpiller te tue, et ce qui marche.",
+    category: "Contre-tendance",
+    date: "2026-10-07",
+    dateLabel: "7 octobre 2026",
+    readTime: "12 min",
+    image: "/blog/arrete-de-vouloir-etre-partout.svg",
+    imageAlt:
+      "Arrête de vouloir être partout : une présence éparpillée et pâle sur de nombreux canaux face à la domination d'un seul canal — illustration Konig IA.",
+  },
+  {
+    slug: "chatgpt-work-deleguer-acquisition",
+    title:
+      "L'IA ne te répond plus, elle travaille : comment déléguer une tâche d'acquisition entière à ChatGPT Work",
+    excerpt:
+      "ChatGPT Work tourne désormais sur GPT-6.1 Sol. Comment lui déléguer une tâche d'acquisition complète, de bout en bout, pendant que tu fais autre chose.",
+    category: "Actualité IA",
+    date: "2026-10-07",
+    dateLabel: "7 octobre 2026",
+    readTime: "6 min",
+    image: "/blog/chatgpt-work-deleguer-acquisition.svg",
+    imageAlt:
+      "ChatGPT Work : un agent IA qui exécute une tâche d'acquisition complète en plusieurs étapes, en autonomie — illustration Konig IA.",
+  },
+  {
+    slug: "hack-offre-irresistible-ia",
+    title:
+      "Le hack pour écrire une offre irrésistible avec l'IA (celle qu'on n'a pas envie de refuser)",
+    excerpt:
+      "Ton problème n'est pas ton prix, c'est ton offre. Comment construire une offre irrésistible avec l'IA grâce à l'équation de valeur. Méthode + prompts.",
+    category: "Hack",
+    date: "2026-10-06",
+    dateLabel: "6 octobre 2026",
+    readTime: "7 min",
+    image: "/blog/hack-offre-irresistible-ia.svg",
+    imageAlt:
+      "Écrire une offre irrésistible avec l'IA : une offre à forte valeur et faible effort, prête à convertir — illustration Konig IA.",
+  },
+  {
+    slug: "systeme-lead-scoring-ia",
+    title:
+      "Le système de lead scoring IA : ne parle plus qu'aux prospects prêts à acheter",
+    excerpt:
+      "85 % des leads ne mènent nulle part. Le système de lead scoring IA en 4 étapes pour noter, trier et ne traiter que les prospects qui vont signer.",
+    category: "Système",
+    date: "2026-10-05",
+    dateLabel: "5 octobre 2026",
+    readTime: "8 min",
+    image: "/blog/systeme-lead-scoring-ia.svg",
+    imageAlt:
+      "Le système de lead scoring : des prospects notés et triés en chaud, tiède, froid pour ne parler qu'aux bons — illustration Konig IA.",
+  },
+  {
     slug: "automatisation-deshumanise-faux",
     title:
       "« L'automatisation déshumanise ta relation client » : faux — et voici ce que les données prouvent vraiment",

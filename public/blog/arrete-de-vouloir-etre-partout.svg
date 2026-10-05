@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Arrête de vouloir être partout : une présence éparpillée et pâle sur de nombreux canaux face à la domination d'un seul canal — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="955" cy="335" r="380" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.14">
+    <circle cx="955" cy="335" r="160"/>
+    <circle cx="955" cy="335" r="230"/>
+    <circle cx="955" cy="335" r="300"/>
+  </g>
+
+  <!-- tag flagship -->
+  <g>
+    <rect x="90" y="70" width="200" height="34" rx="17" fill="url(#gacc)"/>
+    <text x="190" y="93" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">PIÈCE MAÎTRESSE</text>
+  </g>
+
+  <!-- éparpillé : plusieurs ronds pâles -->
+  <g fill="#C3C9DC">
+    <circle cx="720" cy="210" r="22"/>
+    <circle cx="790" cy="255" r="22"/>
+    <circle cx="712" cy="300" r="22"/>
+    <circle cx="786" cy="340" r="22"/>
+    <circle cx="720" cy="392" r="22"/>
+    <circle cx="796" cy="430" r="22"/>
+  </g>
+  <g stroke="#C3C9DC" stroke-width="2" opacity="0.6" stroke-dasharray="4 6">
+    <line x1="742" y1="210" x2="768" y2="255"/>
+    <line x1="768" y1="340" x2="742" y2="300"/>
+    <line x1="742" y1="392" x2="774" y2="430"/>
+  </g>
+  <text x="755" y="474" font-size="14" font-weight="600" fill="#8A93AC" text-anchor="middle" font-family="system-ui, sans-serif">Partout = pâle partout</text>
+
+  <!-- fleche -->
+  <path d="M842 320 h40" stroke="#2946C8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M882 320 l-16 -10 M882 320 l-16 10" stroke="#2946C8" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- un canal dominé -->
+  <g>
+    <circle cx="990" cy="320" r="72" fill="url(#gacc)"/>
+    <path d="M960 320 l18 18 l42 -46" stroke="#FFFFFF" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- petits echos autour = "comme partout" -->
+    <circle cx="1088" cy="262" r="10" fill="#2946C8" opacity="0.5"/>
+    <circle cx="1095" cy="330" r="10" fill="#2946C8" opacity="0.5"/>
+    <circle cx="1070" cy="394" r="10" fill="#2946C8" opacity="0.5"/>
+  </g>
+  <text x="992" y="424" font-size="14" font-weight="700" fill="#2946C8" text-anchor="middle" font-family="system-ui, sans-serif">1 canal dominé</text>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="185" font-size="30" font-weight="600" fill="#2946C8">Tout le monde te ment</text>
+    <text x="90" y="252" font-size="50" font-weight="800" fill="#111A3D">« Il faut être</text>
+    <text x="90" y="308" font-size="50" font-weight="800" fill="#111A3D">partout » ? Non.</text>
+    <text x="90" y="360" font-size="22" font-weight="500" fill="#5A6488">T'éparpiller te rend invisible partout.</text>
+    <text x="90" y="390" font-size="22" font-weight="500" fill="#5A6488">78 % des créateurs en burnout. La preuve.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

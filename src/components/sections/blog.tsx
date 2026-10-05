@@ -1,8 +1,8 @@
 import {
   Flame,
-  TrendingDown,
-  Target,
-  Mail,
+  Briefcase,
+  Gift,
+  ListChecks,
   Clock,
   ArrowRight,
   type LucideIcon,
@@ -25,39 +25,39 @@ type Post = {
 const featured: Post = {
   category: "Contre-tendance",
   title:
-    "« L'automatisation déshumanise ta relation client » : faux — voici ce que prouvent les données",
+    "Arrête de vouloir être partout : l'omniprésence te rend invisible (et t'épuise) — la preuve",
   excerpt:
-    "79 % préfèrent l'humain… mais 62 % choisissent un chatbot plutôt qu'attendre. Ce que les gens rejettent, c'est la mauvaise automatisation. La preuve chiffrée.",
-  readTime: "9 min",
-  date: "Sept. 2026",
+    "Pièce maîtresse du mois. « Il faut être partout » est le conseil le plus toxique de 2026 : 78 % des créateurs en burnout. Pourquoi t'éparpiller te tue, et ce qui marche.",
+  readTime: "12 min",
+  date: "Oct. 2026",
   icon: Flame,
-  href: "/blog/automatisation-deshumanise-faux",
+  href: "/blog/arrete-de-vouloir-etre-partout",
 };
 
 const posts: Post[] = [
   {
     category: "Actualité IA",
-    title: "Claude Opus 5.5 & GPT-6 : la guerre des prix rend l'automatisation 2× moins chère",
+    title: "L'IA ne te répond plus, elle travaille : délègue une tâche d'acquisition à ChatGPT Work",
     readTime: "6 min",
-    date: "Sept. 2026",
-    icon: TrendingDown,
-    href: "/blog/guerre-des-prix-ia-automatiser-moins-cher",
+    date: "Oct. 2026",
+    icon: Briefcase,
+    href: "/blog/chatgpt-work-deleguer-acquisition",
   },
   {
     category: "Hack",
-    title: "Définis ton client idéal (ICP) avec l'IA en 30 min — et arrête de parler à tout le monde",
+    title: "Écris une offre irrésistible avec l'IA (celle qu'on n'a pas envie de refuser)",
     readTime: "7 min",
-    date: "Sept. 2026",
-    icon: Target,
-    href: "/blog/hack-definir-client-ideal-ia",
+    date: "Oct. 2026",
+    icon: Gift,
+    href: "/blog/hack-offre-irresistible-ia",
   },
   {
     category: "Système",
-    title: "La newsletter qui transforme des abonnés en clients (le seul canal que tu possèdes)",
+    title: "Le lead scoring IA : ne parle plus qu'aux prospects prêts à acheter",
     readTime: "8 min",
-    date: "Sept. 2026",
-    icon: Mail,
-    href: "/blog/systeme-newsletter-clients",
+    date: "Oct. 2026",
+    icon: ListChecks,
+    href: "/blog/systeme-lead-scoring-ia",
   },
 ];
 
