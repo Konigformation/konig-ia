@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Le système d'onboarding client automatisé : les 30 premiers jours menant un nouveau client à un premier résultat, la fidélité et la recommandation — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="950" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="950" cy="315" r="150"/>
+    <circle cx="950" cy="315" r="215"/>
+    <circle cx="950" cy="315" r="280"/>
+  </g>
+
+  <!-- chemin 30 jours -->
+  <path d="M715 400 C 800 400, 810 300, 890 290 S 990 230, 1055 215"
+        stroke="#2946C8" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 12"/>
+
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <!-- jour 1 : bienvenue -->
+    <circle cx="715" cy="400" r="26" fill="url(#gacc)"/>
+    <path d="M700 400 a15 11 0 0 1 30 0" fill="#FFFFFF"/><circle cx="715" cy="391" r="8" fill="#FFFFFF"/>
+    <text x="715" y="446" font-size="14" font-weight="600" fill="#1B2559" text-anchor="middle">J1 · Bienvenue</text>
+
+    <!-- 1er résultat -->
+    <circle cx="890" cy="290" r="26" fill="url(#gacc)"/>
+    <path d="M878 290 l8 8 l16 -18" stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="890" y="336" font-size="14" font-weight="600" fill="#1B2559" text-anchor="middle">1er résultat</text>
+
+    <!-- J30 : fidèle + reco -->
+    <circle cx="1055" cy="215" r="30" fill="url(#gacc)"/>
+    <path d="M1055 200 c 0 -9 14 -12 18 -3 c 4 -9 18 -6 18 3 c 0 11 -18 21 -18 21 c 0 0 -18 -10 -18 -21 z" fill="#FFFFFF" transform="translate(-18,-2)"/>
+    <text x="1055" y="266" font-size="14" font-weight="700" fill="#2946C8" text-anchor="middle">J30 · fidèle + reco</text>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Système · Onboarding</text>
+    <text x="90" y="214" font-size="46" font-weight="800" fill="#111A3D">Les 30 jours qui</text>
+    <text x="90" y="270" font-size="46" font-weight="800" fill="#111A3D">font revenir.</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">L'onboarding automatisé qui transforme</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">un client en fidèle (et en ambassadeur).</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

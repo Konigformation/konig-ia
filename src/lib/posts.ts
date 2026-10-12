@@ -15,6 +15,62 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "pas-besoin-budget-pub",
+    title:
+      "« Sans budget pub, pas de clients » : faux — et c'est même l'inverse (la preuve chiffrée)",
+    excerpt:
+      "Le coût des pubs a explosé (+222 % en 8 ans). Les boîtes dépendantes du payant paient 2-3× plus cher. Ce qui marche vraiment sans budget, et pourquoi.",
+    category: "Contre-tendance",
+    date: "2026-10-14",
+    dateLabel: "14 octobre 2026",
+    readTime: "9 min",
+    image: "/blog/pas-besoin-budget-pub.svg",
+    imageAlt:
+      "Tu n'as pas besoin d'un budget pub : la publicité payante coûte beaucoup plus cher qu'un système d'acquisition organique — illustration Konig IA.",
+  },
+  {
+    slug: "claude-haiku-5-5-automatiser-masse",
+    title:
+      "Claude Haiku 5.5 vient de sortir : le petit modèle qui automatise les tâches de masse de ton acquisition (pour presque rien)",
+    excerpt:
+      "Claude Haiku 5.5 est ~75 % moins cher que Haiku 4.5. Comment l'utiliser pour trier, qualifier et personnaliser en masse, à un coût quasi nul.",
+    category: "Actualité IA",
+    date: "2026-10-14",
+    dateLabel: "14 octobre 2026",
+    readTime: "6 min",
+    image: "/blog/claude-haiku-5-5-automatiser-masse.svg",
+    imageAlt:
+      "Claude Haiku 5.5 : un petit modèle rapide et bon marché qui traite des tâches d'acquisition en masse pour presque rien — illustration Konig IA.",
+  },
+  {
+    slug: "hack-analyser-concurrent-ia",
+    title:
+      "Le hack pour analyser tes concurrents avec l'IA et te démarquer en 20 minutes",
+    excerpt:
+      "Tes concurrents t'ont déjà montré ce qui marche. Comment analyser leur positionnement et leurs failles avec l'IA pour te démarquer. Prompts inclus.",
+    category: "Hack",
+    date: "2026-10-13",
+    dateLabel: "13 octobre 2026",
+    readTime: "7 min",
+    image: "/blog/hack-analyser-concurrent-ia.svg",
+    imageAlt:
+      "Analyser son concurrent avec l'IA : une loupe révèle le positionnement, les offres et les failles d'un concurrent — illustration Konig IA.",
+  },
+  {
+    slug: "systeme-onboarding-client-automatise",
+    title:
+      "Le système d'onboarding client automatisé : les 30 premiers jours qui font revenir (et recommander)",
+    excerpt:
+      "Un client bien accueilli reste, dépense plus et te recommande. Le système d'onboarding automatisé en 4 étapes pour transformer les 30 premiers jours.",
+    category: "Système",
+    date: "2026-10-12",
+    dateLabel: "12 octobre 2026",
+    readTime: "8 min",
+    image: "/blog/systeme-onboarding-client-automatise.svg",
+    imageAlt:
+      "Le système d'onboarding client automatisé : les 30 premiers jours menant un nouveau client à un premier résultat, la fidélité et la recommandation — illustration Konig IA.",
+  },
+  {
     slug: "arrete-de-vouloir-etre-partout",
     title:
       "Arrête de vouloir être partout : l'omniprésence te rend invisible (et t'épuise) — la preuve",

@@ -1,8 +1,8 @@
 import {
   Flame,
-  Briefcase,
-  Gift,
-  ListChecks,
+  Zap,
+  Swords,
+  UserPlus,
   Clock,
   ArrowRight,
   type LucideIcon,
@@ -25,39 +25,39 @@ type Post = {
 const featured: Post = {
   category: "Contre-tendance",
   title:
-    "Arrête de vouloir être partout : l'omniprésence te rend invisible (et t'épuise) — la preuve",
+    "« Sans budget pub, pas de clients » : faux — et c'est même l'inverse (la preuve chiffrée)",
   excerpt:
-    "Pièce maîtresse du mois. « Il faut être partout » est le conseil le plus toxique de 2026 : 78 % des créateurs en burnout. Pourquoi t'éparpiller te tue, et ce qui marche.",
-  readTime: "12 min",
+    "Le coût des pubs a explosé (+222 % en 8 ans). Les boîtes dépendantes du payant paient 2-3× plus cher. Ce qui marche vraiment sans budget, et pourquoi.",
+  readTime: "9 min",
   date: "Oct. 2026",
   icon: Flame,
-  href: "/blog/arrete-de-vouloir-etre-partout",
+  href: "/blog/pas-besoin-budget-pub",
 };
 
 const posts: Post[] = [
   {
     category: "Actualité IA",
-    title: "L'IA ne te répond plus, elle travaille : délègue une tâche d'acquisition à ChatGPT Work",
+    title: "Claude Haiku 5.5 : le petit modèle qui automatise les tâches de masse (pour presque rien)",
     readTime: "6 min",
     date: "Oct. 2026",
-    icon: Briefcase,
-    href: "/blog/chatgpt-work-deleguer-acquisition",
+    icon: Zap,
+    href: "/blog/claude-haiku-5-5-automatiser-masse",
   },
   {
     category: "Hack",
-    title: "Écris une offre irrésistible avec l'IA (celle qu'on n'a pas envie de refuser)",
+    title: "Analyse tes concurrents avec l'IA et démarque-toi en 20 minutes",
     readTime: "7 min",
     date: "Oct. 2026",
-    icon: Gift,
-    href: "/blog/hack-offre-irresistible-ia",
+    icon: Swords,
+    href: "/blog/hack-analyser-concurrent-ia",
   },
   {
     category: "Système",
-    title: "Le lead scoring IA : ne parle plus qu'aux prospects prêts à acheter",
+    title: "L'onboarding automatisé : les 30 premiers jours qui font revenir (et recommander)",
     readTime: "8 min",
     date: "Oct. 2026",
-    icon: ListChecks,
-    href: "/blog/systeme-lead-scoring-ia",
+    icon: UserPlus,
+    href: "/blog/systeme-onboarding-client-automatise",
   },
 ];
 
