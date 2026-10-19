@@ -1,8 +1,8 @@
 import {
   Flame,
-  Zap,
-  Swords,
-  UserPlus,
+  FileText,
+  Contact,
+  Presentation,
   Clock,
   ArrowRight,
   type LucideIcon,
@@ -25,39 +25,39 @@ type Post = {
 const featured: Post = {
   category: "Contre-tendance",
   title:
-    "« Sans budget pub, pas de clients » : faux — et c'est même l'inverse (la preuve chiffrée)",
+    "« Le cold email est mort » : faux — ce qui est mort, c'est ta façon de le faire (la preuve)",
   excerpt:
-    "Le coût des pubs a explosé (+222 % en 8 ans). Les boîtes dépendantes du payant paient 2-3× plus cher. Ce qui marche vraiment sans budget, et pourquoi.",
+    "Le cold email générique s'effondre (3,4 % de réponse). Mais l'email ciblé cartonne (15-25 %), et 61 % des décideurs B2B le préfèrent. La vérité chiffrée.",
   readTime: "9 min",
   date: "Oct. 2026",
   icon: Flame,
-  href: "/blog/pas-besoin-budget-pub",
+  href: "/blog/le-cold-email-est-mort-faux",
 };
 
 const posts: Post[] = [
   {
     category: "Actualité IA",
-    title: "Claude Haiku 5.5 : le petit modèle qui automatise les tâches de masse (pour presque rien)",
+    title: "Claude débarque dans Google Docs, Sheets et Slides : 3 leviers d'acquisition",
     readTime: "6 min",
     date: "Oct. 2026",
-    icon: Zap,
-    href: "/blog/claude-haiku-5-5-automatiser-masse",
+    icon: FileText,
+    href: "/blog/claude-google-workspace-acquisition",
   },
   {
     category: "Hack",
-    title: "Analyse tes concurrents avec l'IA et démarque-toi en 20 minutes",
+    title: "Transforme ton profil LinkedIn en machine à prospects (avec l'IA, en 1 h)",
     readTime: "7 min",
     date: "Oct. 2026",
-    icon: Swords,
-    href: "/blog/hack-analyser-concurrent-ia",
+    icon: Contact,
+    href: "/blog/hack-profil-linkedin-qui-vend",
   },
   {
     category: "Système",
-    title: "L'onboarding automatisé : les 30 premiers jours qui font revenir (et recommander)",
+    title: "La masterclass automatisée : un webinaire qui attire, éduque et vend à ta place",
     readTime: "8 min",
     date: "Oct. 2026",
-    icon: UserPlus,
-    href: "/blog/systeme-onboarding-client-automatise",
+    icon: Presentation,
+    href: "/blog/systeme-webinaire-automatise",
   },
 ];
 

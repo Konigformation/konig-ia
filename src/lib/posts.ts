@@ -15,6 +15,62 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "le-cold-email-est-mort-faux",
+    title:
+      "« Le cold email est mort » : faux — ce qui est mort, c'est ta façon de le faire (la preuve)",
+    excerpt:
+      "Le cold email générique s'effondre (3,4 % de réponse). Mais l'email ciblé cartonne (15-25 %), et 61 % des décideurs B2B le préfèrent. La vérité chiffrée.",
+    category: "Contre-tendance",
+    date: "2026-10-21",
+    dateLabel: "21 octobre 2026",
+    readTime: "9 min",
+    image: "/blog/le-cold-email-est-mort-faux.svg",
+    imageAlt:
+      "Le cold email est mort ? Faux : le mass spam s'effondre mais l'email ciblé obtient 15 à 25 pour cent de réponse — illustration Konig IA.",
+  },
+  {
+    slug: "claude-google-workspace-acquisition",
+    title:
+      "Claude débarque dans Google Docs, Sheets et Slides : 3 façons d'en faire un levier d'acquisition",
+    excerpt:
+      "Claude est désormais intégré à Google Docs, Sheets et Slides. 3 usages concrets pour accélérer ton acquisition, là où tu travailles déjà.",
+    category: "Actualité IA",
+    date: "2026-10-21",
+    dateLabel: "21 octobre 2026",
+    readTime: "6 min",
+    image: "/blog/claude-google-workspace-acquisition.svg",
+    imageAlt:
+      "Claude dans Google Workspace : un assistant IA aide à rédiger un document, analyser une feuille de calcul et monter une présentation — illustration Konig IA.",
+  },
+  {
+    slug: "hack-profil-linkedin-qui-vend",
+    title:
+      "Le hack pour transformer ton profil LinkedIn en machine à prospects (avec l'IA, en 1 heure)",
+    excerpt:
+      "Ton profil LinkedIn est une page de vente qui tourne 24/7, et tu la gâches. Comment l'optimiser avec l'IA pour qu'il attire et convertisse. Pas à pas.",
+    category: "Hack",
+    date: "2026-10-20",
+    dateLabel: "20 octobre 2026",
+    readTime: "7 min",
+    image: "/blog/hack-profil-linkedin-qui-vend.svg",
+    imageAlt:
+      "Transformer son profil LinkedIn en machine à prospects : un profil optimisé avec accroche, bio et appel à l'action qui attire des contacts — illustration Konig IA.",
+  },
+  {
+    slug: "systeme-webinaire-automatise",
+    title:
+      "Le système de masterclass automatisée : un webinaire qui attire, éduque et vend à ta place",
+    excerpt:
+      "Un bon webinaire convertit jusqu'à 38 % des inscrits. Le système de masterclass automatisée en 4 étapes pour attirer, éduquer et vendre en une session.",
+    category: "Système",
+    date: "2026-10-19",
+    dateLabel: "19 octobre 2026",
+    readTime: "8 min",
+    image: "/blog/systeme-webinaire-automatise.svg",
+    imageAlt:
+      "Le système de webinaire automatisé : une masterclass qui attire une audience, l'éduque et la convertit en clients — illustration Konig IA.",
+  },
+  {
     slug: "pas-besoin-budget-pub",
     title:
       "« Sans budget pub, pas de clients » : faux — et c'est même l'inverse (la preuve chiffrée)",

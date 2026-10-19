@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Transformer son profil LinkedIn en machine à prospects : un profil optimisé avec accroche, bio et appel à l'action qui attire des contacts — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="945" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="945" cy="315" r="150"/>
+    <circle cx="945" cy="315" r="215"/>
+    <circle cx="945" cy="315" r="280"/>
+  </g>
+
+  <!-- carte profil -->
+  <g>
+    <rect x="770" y="175" width="270" height="280" rx="18" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="2"/>
+    <!-- banniere -->
+    <path d="M770 193 a18 18 0 0 1 18 -18 h234 a18 18 0 0 1 18 18 v44 h-270 z" fill="url(#gacc)"/>
+    <!-- photo -->
+    <circle cx="820" cy="246" r="34" fill="#FFFFFF"/>
+    <circle cx="820" cy="246" r="29" fill="#EEF1F7"/>
+    <circle cx="820" cy="238" r="11" fill="#2946C8"/><path d="M804 268 a16 12 0 0 1 32 0" fill="#2946C8"/>
+    <!-- accroche -->
+    <rect x="788" y="292" width="200" height="11" rx="5.5" fill="#1B2559"/>
+    <rect x="788" y="312" width="150" height="9" rx="4.5" fill="#8A93AC"/>
+    <!-- featured / bio -->
+    <rect x="788" y="338" width="224" height="9" rx="4.5" fill="#D9DEEA"/>
+    <rect x="788" y="356" width="200" height="9" rx="4.5" fill="#D9DEEA"/>
+    <!-- CTA -->
+    <rect x="788" y="392" width="224" height="38" rx="10" fill="url(#gacc)"/>
+    <text x="900" y="416" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" font-family="system-ui, sans-serif">Réserver un appel →</text>
+  </g>
+
+  <!-- prospects attirés -->
+  <g fill="#2946C8" opacity="0.7">
+    <circle cx="1078" cy="230" r="13"/><circle cx="1088" cy="300" r="13"/><circle cx="1072" cy="370" r="13"/>
+  </g>
+  <g stroke="#2946C8" stroke-width="2" opacity="0.4" stroke-dasharray="5 7">
+    <line x1="1044" y1="236" x2="1065" y2="232"/>
+    <line x1="1044" y1="300" x2="1075" y2="300"/>
+    <line x1="1044" y1="360" x2="1059" y2="368"/>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Hack · LinkedIn</text>
+    <text x="90" y="214" font-size="46" font-weight="800" fill="#111A3D">Ton profil qui</text>
+    <text x="90" y="270" font-size="46" font-weight="800" fill="#111A3D">vend à ta place.</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">Transforme ton profil LinkedIn en</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">machine à prospects, en 1 heure.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

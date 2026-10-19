@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Le cold email est mort ? Faux : le mass spam s'effondre mais l'email ciblé obtient 15 à 25 pour cent de réponse — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="950" cy="330" r="380" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.14">
+    <circle cx="950" cy="330" r="160"/>
+    <circle cx="950" cy="330" r="230"/>
+    <circle cx="950" cy="330" r="300"/>
+  </g>
+
+  <!-- tag -->
+  <g>
+    <rect x="90" y="70" width="200" height="34" rx="17" fill="url(#gacc)"/>
+    <text x="190" y="93" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">CONTRE-TENDANCE</text>
+  </g>
+
+  <!-- email mass spam (barré) -->
+  <g>
+    <rect x="705" y="235" width="150" height="100" rx="12" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="2"/>
+    <path d="M705 248 l75 52 l75 -52" fill="none" stroke="#C3C9DC" stroke-width="2.5"/>
+    <text x="780" y="358" font-size="14" font-weight="600" fill="#8A93AC" text-anchor="middle" font-family="system-ui, sans-serif">Mass spam · 3,4 %</text>
+    <line x1="699" y1="228" x2="861" y2="342" stroke="#E23B3B" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <!-- email ciblé (vivant, réponses) -->
+  <g>
+    <rect x="905" y="255" width="150" height="100" rx="12" fill="url(#gacc)"/>
+    <path d="M905 268 l75 52 l75 -52" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.8"/>
+    <!-- bulle réponse -->
+    <g transform="translate(1048,240)">
+      <rect width="56" height="40" rx="10" fill="#FFFFFF" stroke="#2946C8" stroke-width="2"/>
+      <path d="M16 40 l-8 12 l0 -12 z" fill="#FFFFFF"/>
+      <circle cx="18" cy="20" r="3" fill="#2946C8"/><circle cx="28" cy="20" r="3" fill="#2946C8"/><circle cx="38" cy="20" r="3" fill="#2946C8"/>
+    </g>
+    <text x="980" y="378" font-size="14" font-weight="700" fill="#2946C8" text-anchor="middle" font-family="system-ui, sans-serif">Ciblé · 15-25 %</text>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="185" font-size="30" font-weight="600" fill="#2946C8">Tout le monde te ment</text>
+    <text x="90" y="252" font-size="50" font-weight="800" fill="#111A3D">« Le cold email</text>
+    <text x="90" y="308" font-size="50" font-weight="800" fill="#111A3D">est mort » ? Non.</text>
+    <text x="90" y="360" font-size="22" font-weight="500" fill="#5A6488">Le spam de masse meurt. L'email ciblé</text>
+    <text x="90" y="390" font-size="22" font-weight="500" fill="#5A6488">cartonne. 61 % des B2B le préfèrent.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

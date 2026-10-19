@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Le système de webinaire automatisé : une masterclass qui attire une audience, l'éduque et la convertit en clients — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="945" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="945" cy="315" r="150"/>
+    <circle cx="945" cy="315" r="215"/>
+    <circle cx="945" cy="315" r="280"/>
+  </g>
+
+  <!-- ecran webinaire -->
+  <g>
+    <rect x="735" y="195" width="320" height="200" rx="16" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="2"/>
+    <rect x="735" y="195" width="320" height="34" rx="16" fill="#EEF1F7"/><rect x="735" y="212" width="320" height="17" fill="#EEF1F7"/>
+    <circle cx="755" cy="212" r="5" fill="#E56A54"/><circle cx="771" cy="212" r="5" fill="#E7B14C"/><circle cx="787" cy="212" r="5" fill="#57B36B"/>
+    <circle cx="1030" cy="212" r="7" fill="#E23B3B"/><text x="1014" y="216" font-size="11" font-weight="700" fill="#E23B3B" text-anchor="end" font-family="system-ui, sans-serif">LIVE</text>
+    <!-- slide dans l'ecran -->
+    <rect x="760" y="252" width="180" height="12" rx="6" fill="#2946C8" opacity="0.5"/>
+    <rect x="760" y="276" width="270" height="9" rx="4.5" fill="#D9DEEA"/>
+    <rect x="760" y="294" width="240" height="9" rx="4.5" fill="#D9DEEA"/>
+    <!-- play -->
+    <circle cx="895" cy="340" r="26" fill="url(#gacc)"/>
+    <path d="M887 328 l18 12 l-18 12 z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- audience -->
+  <g fill="#2946C8" opacity="0.7">
+    <circle cx="770" cy="432" r="10"/><circle cx="800" cy="432" r="10"/><circle cx="830" cy="432" r="10"/><circle cx="860" cy="432" r="10"/><circle cx="890" cy="432" r="10"/>
+  </g>
+  <!-- fleche conversion -->
+  <path d="M960 432 h40" stroke="#2946C8" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M1000 432 l-14 -9 M1000 432 l-14 9" stroke="#2946C8" stroke-width="3.5" stroke-linecap="round"/>
+  <g>
+    <circle cx="1040" cy="432" r="22" fill="url(#gacc)"/>
+    <path d="M1030 432 l6 6 l12 -14" stroke="#FFFFFF" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Système · Webinaire</text>
+    <text x="90" y="214" font-size="46" font-weight="800" fill="#111A3D">Une masterclass</text>
+    <text x="90" y="270" font-size="46" font-weight="800" fill="#111A3D">qui vend pour toi.</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">Attire, éduque et convertit —</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">en automatique, en une seule session.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

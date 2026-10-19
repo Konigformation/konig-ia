@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Claude dans Google Workspace : un assistant IA aide à rédiger un document, analyser une feuille de calcul et monter une présentation — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="945" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="945" cy="315" r="150"/>
+    <circle cx="945" cy="315" r="215"/>
+    <circle cx="945" cy="315" r="280"/>
+  </g>
+
+  <!-- doc -->
+  <g>
+    <rect x="705" y="210" width="130" height="170" rx="12" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="2"/>
+    <g fill="#D9DEEA"><rect x="722" y="234" width="80" height="9" rx="4.5"/><rect x="722" y="254" width="96" height="9" rx="4.5"/><rect x="722" y="274" width="70" height="9" rx="4.5"/><rect x="722" y="294" width="96" height="9" rx="4.5"/></g>
+    <text x="770" y="368" font-size="13" font-weight="700" fill="#5A6488" text-anchor="middle" font-family="system-ui, sans-serif">Docs</text>
+  </g>
+  <!-- sheet -->
+  <g>
+    <rect x="852" y="235" width="120" height="120" rx="12" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="2"/>
+    <g stroke="#C3C9DC" stroke-width="1.5"><line x1="852" y1="270" x2="972" y2="270"/><line x1="852" y1="305" x2="972" y2="305"/><line x1="892" y1="235" x2="892" y2="355"/><line x1="932" y1="235" x2="932" y2="355"/></g>
+    <rect x="856" y="239" width="32" height="27" fill="#2946C8" opacity="0.3"/>
+    <text x="912" y="378" font-size="13" font-weight="700" fill="#5A6488" text-anchor="middle" font-family="system-ui, sans-serif">Sheets</text>
+  </g>
+  <!-- slide -->
+  <g>
+    <rect x="990" y="250" width="110" height="80" rx="10" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="2"/>
+    <rect x="1004" y="266" width="50" height="9" rx="4.5" fill="#2946C8" opacity="0.5"/>
+    <rect x="1004" y="284" width="80" height="7" rx="3.5" fill="#D9DEEA"/><rect x="1004" y="298" width="64" height="7" rx="3.5" fill="#D9DEEA"/>
+    <text x="1045" y="352" font-size="13" font-weight="700" fill="#5A6488" text-anchor="middle" font-family="system-ui, sans-serif">Slides</text>
+  </g>
+
+  <!-- panneau Claude -->
+  <g>
+    <rect x="705" y="405" width="395" height="52" rx="14" fill="#F4F6FF" stroke="#2946C8" stroke-width="2"/>
+    <circle cx="731" cy="431" r="13" fill="url(#gacc)"/>
+    <path d="M725 431 l4 4 l9 -9" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="752" y="436" font-size="15" font-weight="700" fill="#1B2559" font-family="system-ui, sans-serif">Claude rédige, analyse, met en forme</text>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Actualité IA · Oct. 2026</text>
+    <text x="90" y="214" font-size="46" font-weight="800" fill="#111A3D">Claude débarque</text>
+    <text x="90" y="270" font-size="46" font-weight="800" fill="#111A3D">dans Google Docs.</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">3 façons d'en faire un levier</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">d'acquisition — là où tu travailles déjà.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>
