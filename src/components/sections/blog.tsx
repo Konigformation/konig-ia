@@ -1,8 +1,8 @@
 import {
   Flame,
-  FileText,
-  Contact,
-  Presentation,
+  Bot,
+  ScrollText,
+  Handshake,
   Clock,
   ArrowRight,
   type LucideIcon,
@@ -25,39 +25,39 @@ type Post = {
 const featured: Post = {
   category: "Contre-tendance",
   title:
-    "« Le cold email est mort » : faux — ce qui est mort, c'est ta façon de le faire (la preuve)",
+    "« Il faut une grosse équipe (ou une agence) pour scaler » : faux — un solo + IA suffit",
   excerpt:
-    "Le cold email générique s'effondre (3,4 % de réponse). Mais l'email ciblé cartonne (15-25 %), et 61 % des décideurs B2B le préfèrent. La vérité chiffrée.",
+    "L'économie solo pèse 1 700 milliards de dollars. Pourquoi tu n'as pas besoin d'une grosse équipe ni d'une agence pour scaler, et ce qui compte vraiment.",
   readTime: "9 min",
   date: "Oct. 2026",
   icon: Flame,
-  href: "/blog/le-cold-email-est-mort-faux",
+  href: "/blog/pas-besoin-grosse-equipe",
 };
 
 const posts: Post[] = [
   {
     category: "Actualité IA",
-    title: "Claude débarque dans Google Docs, Sheets et Slides : 3 leviers d'acquisition",
+    title: "Claude Duet : l'agent IA qui agit avant que tu demandes (et ce que ça change)",
     readTime: "6 min",
     date: "Oct. 2026",
-    icon: FileText,
-    href: "/blog/claude-google-workspace-acquisition",
+    icon: Bot,
+    href: "/blog/claude-duet-agent-proactif-acquisition",
   },
   {
     category: "Hack",
-    title: "Transforme ton profil LinkedIn en machine à prospects (avec l'IA, en 1 h)",
+    title: "Écris une page de vente qui convertit avec l'IA (en une après-midi)",
     readTime: "7 min",
     date: "Oct. 2026",
-    icon: Contact,
-    href: "/blog/hack-profil-linkedin-qui-vend",
+    icon: ScrollText,
+    href: "/blog/hack-page-de-vente-ia",
   },
   {
     category: "Système",
-    title: "La masterclass automatisée : un webinaire qui attire, éduque et vend à ta place",
+    title: "Le système de partenariats : acquérir des clients via l'audience des autres",
     readTime: "8 min",
     date: "Oct. 2026",
-    icon: Presentation,
-    href: "/blog/systeme-webinaire-automatise",
+    icon: Handshake,
+    href: "/blog/systeme-partenariats-acquisition",
   },
 ];
 

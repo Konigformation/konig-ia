@@ -15,6 +15,62 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "pas-besoin-grosse-equipe",
+    title:
+      "« Il faut une grosse équipe (ou une agence) pour scaler » : faux — voici pourquoi un solo + IA suffit",
+    excerpt:
+      "L'économie solo pèse 1 700 milliards de dollars. Pourquoi tu n'as pas besoin d'une grosse équipe ni d'une agence pour scaler, et ce qui compte vraiment.",
+    category: "Contre-tendance",
+    date: "2026-10-28",
+    dateLabel: "28 octobre 2026",
+    readTime: "9 min",
+    image: "/blog/pas-besoin-grosse-equipe.svg",
+    imageAlt:
+      "Tu n'as pas besoin d'une grosse équipe : une personne équipée d'IA égale une équipe entière — illustration Konig IA.",
+  },
+  {
+    slug: "claude-duet-agent-proactif-acquisition",
+    title:
+      "Claude Duet : l'agent IA qui agit avant que tu demandes — ce que ça change pour ton acquisition",
+    excerpt:
+      "Anthropic lance Claude Duet, un agent IA proactif qui anticipe et propose des actions. Ce que l'ère des agents proactifs change pour ton acquisition.",
+    category: "Actualité IA",
+    date: "2026-10-28",
+    dateLabel: "28 octobre 2026",
+    readTime: "6 min",
+    image: "/blog/claude-duet-agent-proactif-acquisition.svg",
+    imageAlt:
+      "Claude Duet, l'agent IA proactif qui anticipe et propose des actions avant qu'on les demande — illustration Konig IA.",
+  },
+  {
+    slug: "hack-page-de-vente-ia",
+    title:
+      "Le hack pour écrire une page de vente qui convertit avec l'IA (en une après-midi)",
+    excerpt:
+      "Une page de vente, ce n'est pas de la déco : c'est une structure. La méthode et les prompts pour écrire une page qui convertit avec l'IA, section par section.",
+    category: "Hack",
+    date: "2026-10-27",
+    dateLabel: "27 octobre 2026",
+    readTime: "7 min",
+    image: "/blog/hack-page-de-vente-ia.svg",
+    imageAlt:
+      "Écrire une page de vente avec l'IA : une page structurée accroche, preuve, offre et appel à l'action qui convertit — illustration Konig IA.",
+  },
+  {
+    slug: "systeme-partenariats-acquisition",
+    title:
+      "Le système de partenariats : acquérir des clients via l'audience des autres (sans repartir de zéro)",
+    excerpt:
+      "Pourquoi bâtir ton audience seul quand d'autres ont déjà la tienne ? Le système de partenariats en 4 étapes pour acquérir via l'audience des autres.",
+    category: "Système",
+    date: "2026-10-26",
+    dateLabel: "26 octobre 2026",
+    readTime: "8 min",
+    image: "/blog/systeme-partenariats-acquisition.svg",
+    imageAlt:
+      "Le système de partenariats : deux entreprises complémentaires unissent leurs audiences pour générer des clients communs — illustration Konig IA.",
+  },
+  {
     slug: "le-cold-email-est-mort-faux",
     title:
       "« Le cold email est mort » : faux — ce qui est mort, c'est ta façon de le faire (la preuve)",
