@@ -15,6 +15,62 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "arrete-d-attendre-etre-pret",
+    title:
+      "Arrête d'attendre d'être prêt : pourquoi la perfection tue ton acquisition (et ce qui marche)",
+    excerpt:
+      "Tu repousses ton lancement pour « être prêt ». C'est le piège. Pourquoi le perfectionnisme sabote ton acquisition, ce qu'en dit la psychologie, et la méthode du lancement imparfait.",
+    category: "Contre-tendance",
+    date: "2026-11-04",
+    dateLabel: "4 novembre 2026",
+    readTime: "12 min",
+    image: "/blog/arrete-d-attendre-etre-pret.svg",
+    imageAlt:
+      "Arrête d'attendre d'être prêt : un projet poli à l'infini qui ne sort jamais face à un projet lancé imparfait qui grandit — illustration Konig IA.",
+  },
+  {
+    slug: "anthropic-ipo-signal-acquisition",
+    title:
+      "Anthropic entre en bourse (47 Md$) : le signal que l'IA n'est plus une option pour ton acquisition",
+    excerpt:
+      "Anthropic a déposé son dossier d'entrée en bourse avec un run-rate de 47 Md$. Ce que ce signal te dit, et 3 façons d'en profiter avant tout le monde.",
+    category: "Actualité IA",
+    date: "2026-11-04",
+    dateLabel: "4 novembre 2026",
+    readTime: "6 min",
+    image: "/blog/anthropic-ipo-signal-acquisition.svg",
+    imageAlt:
+      "Anthropic entre en bourse à 47 milliards de dollars : le signal que l'IA est devenue une infrastructure incontournable — illustration Konig IA.",
+  },
+  {
+    slug: "hack-accroches-qui-arretent-le-scroll",
+    title:
+      "Le hack des accroches qui arrêtent le scroll : 5 mécaniques (et les prompts) pour capter l'attention",
+    excerpt:
+      "80 % des gens lisent ton accroche, 20 % la suite. Les 5 mécaniques d'accroche qui stoppent le scroll, avec les prompts IA pour les générer en série.",
+    category: "Hack",
+    date: "2026-11-03",
+    dateLabel: "3 novembre 2026",
+    readTime: "7 min",
+    image: "/blog/hack-accroches-qui-arretent-le-scroll.svg",
+    imageAlt:
+      "Le hack des accroches qui arrêtent le scroll : dans un fil d'actualité, un seul post capte l'attention pendant que les autres défilent — illustration Konig IA.",
+  },
+  {
+    slug: "systeme-preuve-sociale-automatise",
+    title:
+      "Le système de preuve sociale automatisé : collecte des témoignages en continu et laisse-les vendre",
+    excerpt:
+      "92 % des acheteurs B2B lisent un avis avant d'acheter, et la preuve peut booster les conversions de +270 %. Le système en 4 étapes pour la collecter et la diffuser.",
+    category: "Système",
+    date: "2026-11-02",
+    dateLabel: "2 novembre 2026",
+    readTime: "8 min",
+    image: "/blog/systeme-preuve-sociale-automatise.svg",
+    imageAlt:
+      "Le système de preuve sociale automatisé : collecter des avis et témoignages en continu et les diffuser dans tout le tunnel — illustration Konig IA.",
+  },
+  {
     slug: "pas-besoin-grosse-equipe",
     title:
       "« Il faut une grosse équipe (ou une agence) pour scaler » : faux — voici pourquoi un solo + IA suffit",

@@ -1,8 +1,8 @@
 import {
   Flame,
-  Bot,
-  ScrollText,
-  Handshake,
+  TrendingUp,
+  MousePointerClick,
+  Star,
   Clock,
   ArrowRight,
   type LucideIcon,
@@ -25,39 +25,39 @@ type Post = {
 const featured: Post = {
   category: "Contre-tendance",
   title:
-    "« Il faut une grosse équipe (ou une agence) pour scaler » : faux — un solo + IA suffit",
+    "Arrête d'attendre d'être prêt : pourquoi la perfection tue ton acquisition (et ce qui marche)",
   excerpt:
-    "L'économie solo pèse 1 700 milliards de dollars. Pourquoi tu n'as pas besoin d'une grosse équipe ni d'une agence pour scaler, et ce qui compte vraiment.",
-  readTime: "9 min",
-  date: "Oct. 2026",
+    "Tu repousses ton lancement pour « être prêt ». C'est le piège. Pourquoi le perfectionnisme sabote ton acquisition, ce qu'en dit la psychologie, et la méthode du lancement imparfait.",
+  readTime: "12 min",
+  date: "Nov. 2026",
   icon: Flame,
-  href: "/blog/pas-besoin-grosse-equipe",
+  href: "/blog/arrete-d-attendre-etre-pret",
 };
 
 const posts: Post[] = [
   {
     category: "Actualité IA",
-    title: "Claude Duet : l'agent IA qui agit avant que tu demandes (et ce que ça change)",
+    title: "Anthropic entre en bourse (47 Md$) : le signal que l'IA n'est plus une option",
     readTime: "6 min",
-    date: "Oct. 2026",
-    icon: Bot,
-    href: "/blog/claude-duet-agent-proactif-acquisition",
+    date: "Nov. 2026",
+    icon: TrendingUp,
+    href: "/blog/anthropic-ipo-signal-acquisition",
   },
   {
     category: "Hack",
-    title: "Écris une page de vente qui convertit avec l'IA (en une après-midi)",
+    title: "Les accroches qui arrêtent le scroll : 5 mécaniques (et les prompts)",
     readTime: "7 min",
-    date: "Oct. 2026",
-    icon: ScrollText,
-    href: "/blog/hack-page-de-vente-ia",
+    date: "Nov. 2026",
+    icon: MousePointerClick,
+    href: "/blog/hack-accroches-qui-arretent-le-scroll",
   },
   {
     category: "Système",
-    title: "Le système de partenariats : acquérir des clients via l'audience des autres",
+    title: "Le système de preuve sociale automatisé : laisse tes clients vendre à ta place",
     readTime: "8 min",
-    date: "Oct. 2026",
-    icon: Handshake,
-    href: "/blog/systeme-partenariats-acquisition",
+    date: "Nov. 2026",
+    icon: Star,
+    href: "/blog/systeme-preuve-sociale-automatise",
   },
 ];
 

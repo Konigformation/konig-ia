@@ -24,6 +24,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${siteConfig.url}/blog/arrete-d-attendre-etre-pret`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${siteConfig.url}/blog/anthropic-ipo-signal-acquisition`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${siteConfig.url}/blog/hack-accroches-qui-arretent-le-scroll`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${siteConfig.url}/blog/systeme-preuve-sociale-automatise`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: `${siteConfig.url}/blog/pas-besoin-grosse-equipe`,
       lastModified: now,
       changeFrequency: "weekly",

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Des accroches qui arrêtent le scroll : dans un fil d'actualité, un post accroche et stoppe le défilement — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="945" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.16">
+    <circle cx="945" cy="315" r="150"/>
+    <circle cx="945" cy="315" r="215"/>
+    <circle cx="945" cy="315" r="280"/>
+  </g>
+
+  <!-- fil : posts fades + un post accrocheur -->
+  <g>
+    <rect x="790" y="170" width="240" height="60" rx="12" fill="#FFFFFF" stroke="#E0E4EE" stroke-width="2" opacity="0.7"/>
+    <g fill="#E0E4EE"><rect x="806" y="188" width="150" height="9" rx="4.5"/><rect x="806" y="204" width="110" height="9" rx="4.5"/></g>
+
+    <!-- post accroche -->
+    <rect x="770" y="250" width="280" height="130" rx="14" fill="#FFFFFF" stroke="#2946C8" stroke-width="3"/>
+    <rect x="786" y="268" width="90" height="20" rx="10" fill="url(#gacc)"/>
+    <text x="831" y="283" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" font-family="system-ui, sans-serif">ACCROCHE</text>
+    <rect x="786" y="300" width="248" height="13" rx="6" fill="#111A3D"/>
+    <rect x="786" y="322" width="210" height="11" rx="5" fill="#8A93AC"/>
+    <rect x="786" y="346" width="150" height="11" rx="5" fill="#D9DEEA"/>
+
+    <rect x="790" y="400" width="240" height="60" rx="12" fill="#FFFFFF" stroke="#E0E4EE" stroke-width="2" opacity="0.7"/>
+    <g fill="#E0E4EE"><rect x="806" y="418" width="150" height="9" rx="4.5"/><rect x="806" y="434" width="130" height="9" rx="4.5"/></g>
+  </g>
+
+  <!-- curseur stop -->
+  <g transform="translate(1040,320)">
+    <path d="M0 0 l0 42 l11 -11 l7 15 l8 -4 l-7 -15 l15 0 z" fill="url(#gacc)" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+  <text x="1058" y="398" font-size="13" font-weight="700" fill="#2946C8" text-anchor="middle" font-family="system-ui, sans-serif">stop !</text>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Hack · Contenu</text>
+    <text x="90" y="214" font-size="46" font-weight="800" fill="#111A3D">Des accroches qui</text>
+    <text x="90" y="270" font-size="46" font-weight="800" fill="#111A3D">arrêtent le scroll.</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">Les formules + les prompts pour faire</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">s'arrêter le pouce. Dès ta prochaine pub.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

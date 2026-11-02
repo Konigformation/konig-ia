@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Arrête d'attendre d'être prêt : un projet poli à l'infini qui ne sort jamais face à un projet lancé imparfait qui grandit — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="955" cy="330" r="380" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.14">
+    <circle cx="955" cy="330" r="160"/>
+    <circle cx="955" cy="330" r="230"/>
+    <circle cx="955" cy="330" r="300"/>
+  </g>
+
+  <!-- tag flagship -->
+  <g>
+    <rect x="90" y="70" width="200" height="34" rx="17" fill="url(#gacc)"/>
+    <text x="190" y="93" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">PIÈCE MAÎTRESSE</text>
+  </g>
+
+  <!-- côté "parfait, jamais lancé" : engrenages qui tournent sur place -->
+  <g>
+    <circle cx="745" cy="300" r="40" fill="none" stroke="#C3C9DC" stroke-width="12"/>
+    <g stroke="#C3C9DC" stroke-width="12"><line x1="745" y1="248" x2="745" y2="262"/><line x1="745" y1="338" x2="745" y2="352"/><line x1="693" y1="300" x2="707" y2="300"/><line x1="783" y1="300" x2="797" y2="300"/></g>
+    <circle cx="800" cy="356" r="24" fill="none" stroke="#C3C9DC" stroke-width="9"/>
+    <!-- boucle infinie -->
+    <path d="M720 365 a30 22 0 1 0 6 -20" stroke="#8A93AC" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M726 345 l-6 20 l18 -6 z" fill="#8A93AC"/>
+    <text x="760" y="412" font-size="14" font-weight="600" fill="#8A93AC" text-anchor="middle" font-family="system-ui, sans-serif">« Parfait » · jamais lancé</text>
+  </g>
+
+  <!-- flèche -->
+  <path d="M858 320 h40" stroke="#2946C8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M898 320 l-16 -10 M898 320 l-16 10" stroke="#2946C8" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- côté "imparfait, lancé, grandit" : fusée + courbe -->
+  <g>
+    <g transform="translate(985,300) rotate(-45)">
+      <path d="M0 -34 c 14 10 14 34 0 50 c -14 -16 -14 -40 0 -50 z" fill="url(#gacc)"/>
+      <circle cx="0" cy="2" r="7" fill="#FFFFFF"/>
+      <path d="M-13 18 l-10 16 l16 -6 z" fill="#2946C8"/>
+      <path d="M13 18 l10 16 l-16 -6 z" fill="#2946C8"/>
+    </g>
+    <path d="M948 390 q20 -30 46 -46" stroke="#2946C8" stroke-width="3" stroke-dasharray="5 6" fill="none" opacity="0.6"/>
+    <text x="1000" y="412" font-size="14" font-weight="700" fill="#2946C8" text-anchor="middle" font-family="system-ui, sans-serif">Lancé imparfait · grandit</text>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="185" font-size="30" font-weight="600" fill="#2946C8">Tout le monde te ment</text>
+    <text x="90" y="252" font-size="48" font-weight="800" fill="#111A3D">Arrête d'attendre</text>
+    <text x="90" y="308" font-size="48" font-weight="800" fill="#111A3D">d'être prêt.</text>
+    <text x="90" y="360" font-size="22" font-weight="500" fill="#5A6488">La perfection tue ton acquisition —</text>
+    <text x="90" y="390" font-size="22" font-weight="500" fill="#5A6488">50 % des retardataires le regrettent.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>
