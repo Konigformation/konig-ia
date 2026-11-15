@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Arrête d'être disponible 24/7 : un indépendant épuisé collé à son téléphone face à un système qui répond à sa place, nuit comprise — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="955" cy="330" r="380" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.14">
+    <circle cx="955" cy="330" r="160"/>
+    <circle cx="955" cy="330" r="230"/>
+    <circle cx="955" cy="330" r="300"/>
+  </g>
+
+  <!-- tag flagship -->
+  <g>
+    <rect x="90" y="70" width="200" height="34" rx="17" fill="url(#gacc)"/>
+    <text x="190" y="93" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">PIÈCE MAÎTRESSE</text>
+  </g>
+
+  <!-- côté épuisé : horloge + notifications qui débordent -->
+  <g>
+    <circle cx="745" cy="300" r="46" fill="none" stroke="#C3C9DC" stroke-width="10"/>
+    <path d="M745 300 v-26 M745 300 l20 10" stroke="#8A93AC" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <!-- cloches de notif -->
+    <g fill="#C3C9DC">
+      <circle cx="700" cy="244" r="13"/><circle cx="792" cy="250" r="11"/><circle cx="702" cy="356" r="10"/>
+    </g>
+    <text x="745" y="392" font-size="14" font-weight="600" fill="#8A93AC" text-anchor="middle" font-family="system-ui, sans-serif">Toi · épuisé · jamais off</text>
+  </g>
+
+  <!-- flèche -->
+  <path d="M858 320 h40" stroke="#2946C8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M898 320 l-16 -10 M898 320 l-16 10" stroke="#2946C8" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- côté système : engrenage + éclair, répond la nuit -->
+  <g>
+    <g transform="translate(985,300)">
+      <circle r="40" fill="url(#gacc)"/>
+      <g stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round">
+        <circle r="15"/>
+        <path d="M0 -26 v-9 M0 35 v-9 M-26 0 h-9 M35 0 h-9"/>
+      </g>
+      <path d="M3 -8 l-8 12 h7 l-3 10 l9 -13 h-7 z" fill="#FFE27A"/>
+    </g>
+    <text x="985" y="392" font-size="14" font-weight="700" fill="#2946C8" text-anchor="middle" font-family="system-ui, sans-serif">Ton système · répond 24/7</text>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="185" font-size="30" font-weight="600" fill="#2946C8">Tout le monde te ment</text>
+    <text x="90" y="252" font-size="48" font-weight="800" fill="#111A3D">Arrête d'être</text>
+    <text x="90" y="308" font-size="48" font-weight="800" fill="#111A3D">disponible 24/7.</text>
+    <text x="90" y="360" font-size="22" font-weight="500" fill="#5A6488">1 indépendant sur 2 pense à tout arrêter —</text>
+    <text x="90" y="390" font-size="22" font-weight="500" fill="#5A6488">à cause de la culture « toujours dispo ».</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

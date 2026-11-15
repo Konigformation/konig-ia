@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Le système de prise de rendez-vous qualifiée automatisée : du lead au créneau réservé sans allers-retours, lead qualifié puis agenda rempli — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="950" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.15">
+    <circle cx="950" cy="315" r="150"/>
+    <circle cx="950" cy="315" r="220"/>
+    <circle cx="950" cy="315" r="290"/>
+  </g>
+
+  <!-- lead -> filtre qualif -> agenda -->
+  <g font-family="system-ui, sans-serif">
+    <!-- lead -->
+    <circle cx="740" cy="300" r="26" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="2"/>
+    <circle cx="740" cy="292" r="8" fill="#8A93AC"/>
+    <path d="M726 314 a14 12 0 0 1 28 0 z" fill="#8A93AC"/>
+    <text x="740" y="352" font-size="13" font-weight="600" fill="#5A6488" text-anchor="middle">Lead</text>
+
+    <!-- flèche -->
+    <path d="M778 300 h30" stroke="#2946C8" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M808 300 l-13 -8 M808 300 l-13 8" stroke="#2946C8" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- filtre qualif -->
+    <g transform="translate(822,268)">
+      <path d="M0 0 h64 l-24 30 v28 l-16 -8 v-20 z" fill="url(#gacc)"/>
+    </g>
+    <text x="854" y="352" font-size="13" font-weight="600" fill="#5A6488" text-anchor="middle">Qualifié</text>
+
+    <!-- flèche -->
+    <path d="M900 300 h30" stroke="#2946C8" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M930 300 l-13 -8 M930 300 l-13 8" stroke="#2946C8" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- agenda -->
+    <g transform="translate(944,262)">
+      <rect width="84" height="76" rx="10" fill="#FFFFFF" stroke="#2946C8" stroke-width="2"/>
+      <rect width="84" height="20" rx="10" fill="#2946C8"/>
+      <rect y="10" width="84" height="10" fill="#2946C8"/>
+      <g fill="#C3C9DC">
+        <rect x="12" y="30" width="14" height="12" rx="2"/><rect x="35" y="30" width="14" height="12" rx="2"/><rect x="58" y="30" width="14" height="12" rx="2"/>
+        <rect x="12" y="48" width="14" height="12" rx="2"/>
+      </g>
+      <rect x="35" y="48" width="37" height="12" rx="2" fill="#2946C8"/>
+    </g>
+    <text x="986" y="352" font-size="13" font-weight="700" fill="#2946C8" text-anchor="middle">RDV réservé</text>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Système · Prise de RDV</text>
+    <text x="90" y="214" font-size="44" font-weight="800" fill="#111A3D">Du lead au créneau</text>
+    <text x="90" y="268" font-size="44" font-weight="800" fill="#111A3D">réservé, tout seul.</text>
+    <text x="90" y="320" font-size="22" font-weight="500" fill="#5A6488">Réagir en 5 min, c'est 21× plus de RDV.</text>
+    <text x="90" y="350" font-size="22" font-weight="500" fill="#5A6488">Le système qui qualifie et remplit l'agenda.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

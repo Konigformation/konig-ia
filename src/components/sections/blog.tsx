@@ -1,8 +1,8 @@
 import {
   Flame,
-  TrendingUp,
-  MousePointerClick,
-  Star,
+  BadgeCheck,
+  Repeat,
+  CalendarCheck,
   Clock,
   ArrowRight,
   type LucideIcon,
@@ -25,39 +25,39 @@ type Post = {
 const featured: Post = {
   category: "Contre-tendance",
   title:
-    "Arrête d'attendre d'être prêt : pourquoi la perfection tue ton acquisition (et ce qui marche)",
+    "Arrête d'être disponible 24/7 : pourquoi la culture du « toujours joignable » sabote ton acquisition",
   excerpt:
-    "Tu repousses ton lancement pour « être prêt ». C'est le piège. Pourquoi le perfectionnisme sabote ton acquisition, ce qu'en dit la psychologie, et la méthode du lancement imparfait.",
+    "1 indépendant sur 2 pense à tout arrêter à cause du « toujours dispo ». Pourquoi ta disponibilité permanente ne prouve rien, et comment un système répond mieux que toi.",
   readTime: "12 min",
   date: "Nov. 2026",
   icon: Flame,
-  href: "/blog/arrete-d-attendre-etre-pret",
+  href: "/blog/arrete-d-etre-disponible-24-7",
 };
 
 const posts: Post[] = [
   {
     category: "Actualité IA",
-    title: "Anthropic entre en bourse (47 Md$) : le signal que l'IA n'est plus une option",
+    title: "ChatGPT ouvre les « agents business » : tes clients vont parler à ton entreprise dans l'IA",
     readTime: "6 min",
     date: "Nov. 2026",
-    icon: TrendingUp,
-    href: "/blog/anthropic-ipo-signal-acquisition",
+    icon: BadgeCheck,
+    href: "/blog/chatgpt-business-agents-visibilite-acquisition",
   },
   {
     category: "Hack",
-    title: "Les accroches qui arrêtent le scroll : 5 mécaniques (et les prompts)",
+    title: "Les relances automatisées : la séquence IA qui récupère tes ventes perdues",
     readTime: "7 min",
     date: "Nov. 2026",
-    icon: MousePointerClick,
-    href: "/blog/hack-accroches-qui-arretent-le-scroll",
+    icon: Repeat,
+    href: "/blog/hack-relances-automatisees-ia",
   },
   {
     category: "Système",
-    title: "Le système de preuve sociale automatisé : laisse tes clients vendre à ta place",
+    title: "La prise de RDV qualifiée automatisée : du lead au créneau réservé, sans aller-retour",
     readTime: "8 min",
     date: "Nov. 2026",
-    icon: Star,
-    href: "/blog/systeme-preuve-sociale-automatise",
+    icon: CalendarCheck,
+    href: "/blog/systeme-prise-rdv-qualifiee-automatisee",
   },
 ];
 

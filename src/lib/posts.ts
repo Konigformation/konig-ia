@@ -15,6 +15,62 @@ export type Post = {
 
 export const posts: Post[] = [
   {
+    slug: "arrete-d-etre-disponible-24-7",
+    title:
+      "Arrête d'être disponible 24/7 : pourquoi la culture du « toujours joignable » sabote ton acquisition",
+    excerpt:
+      "1 indépendant sur 2 pense à tout arrêter à cause du « toujours dispo ». Pourquoi ta disponibilité permanente ne prouve rien, et comment un système répond mieux que toi.",
+    category: "Contre-tendance",
+    date: "2026-11-13",
+    dateLabel: "13 novembre 2026",
+    readTime: "12 min",
+    image: "/blog/arrete-d-etre-disponible-24-7.svg",
+    imageAlt:
+      "Arrête d'être disponible 24/7 : un indépendant épuisé collé à son téléphone face à un système qui répond à sa place, nuit comprise — illustration Konig IA.",
+  },
+  {
+    slug: "chatgpt-business-agents-visibilite-acquisition",
+    title:
+      "ChatGPT ouvre les « agents business » : tes futurs clients vont parler à ton entreprise dans l'IA",
+    excerpt:
+      "OpenAI lance les Business Agents et profils vérifiés dans ChatGPT. Ce que ce nouveau canal change pour ton acquisition, et comment t'y préparer dès maintenant.",
+    category: "Actualité IA",
+    date: "2026-11-13",
+    dateLabel: "13 novembre 2026",
+    readTime: "6 min",
+    image: "/blog/chatgpt-business-agents-visibilite-acquisition.svg",
+    imageAlt:
+      "Les agents business dans ChatGPT : tes futurs clients parleront à ton entreprise directement dans l'IA — illustration Konig IA.",
+  },
+  {
+    slug: "hack-relances-automatisees-ia",
+    title:
+      "Le hack des relances automatisées : la séquence IA qui récupère les ventes que tu laisses filer",
+    excerpt:
+      "Près d'un commercial sur deux ne relance jamais une 2e fois. La séquence de relance en 5 messages (et les prompts) pour récupérer ces ventes avec l'IA.",
+    category: "Hack",
+    date: "2026-11-12",
+    dateLabel: "12 novembre 2026",
+    readTime: "7 min",
+    image: "/blog/hack-relances-automatisees-ia.svg",
+    imageAlt:
+      "Le hack des relances automatisées : une séquence de messages de suivi qui récupère les ventes que la plupart abandonnent après un seul essai — illustration Konig IA.",
+  },
+  {
+    slug: "systeme-prise-rdv-qualifiee-automatisee",
+    title:
+      "Le système de prise de rendez-vous qualifiée : du lead au créneau réservé, sans un seul aller-retour",
+    excerpt:
+      "Répondre en 5 min, c'est jusqu'à 21× plus de chances de qualifier un lead. Le système en 4 étapes pour capter, qualifier et réserver tes RDV automatiquement.",
+    category: "Système",
+    date: "2026-11-11",
+    dateLabel: "11 novembre 2026",
+    readTime: "8 min",
+    image: "/blog/systeme-prise-rdv-qualifiee-automatisee.svg",
+    imageAlt:
+      "Le système de prise de rendez-vous qualifiée automatisée : du lead au créneau réservé sans allers-retours, lead qualifié puis agenda rempli — illustration Konig IA.",
+  },
+  {
     slug: "arrete-d-attendre-etre-pret",
     title:
       "Arrête d'attendre d'être prêt : pourquoi la perfection tue ton acquisition (et ce qui marche)",

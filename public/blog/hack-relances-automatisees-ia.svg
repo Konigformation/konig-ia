@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Le hack des relances automatisées : une séquence de messages de suivi qui récupère les ventes que la plupart abandonnent après un seul essai — illustration Konig IA.">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4F5F9"/>
+      <stop offset="1" stop-color="#EAEDF5"/>
+    </linearGradient>
+    <linearGradient id="gacc" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2946C8"/>
+      <stop offset="1" stop-color="#1B31A0"/>
+    </linearGradient>
+    <radialGradient id="gglow" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2946C8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2946C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#gbg)"/>
+  <circle cx="950" cy="315" r="360" fill="url(#gglow)"/>
+
+  <g stroke="#2946C8" fill="none" opacity="0.15">
+    <circle cx="950" cy="315" r="150"/>
+    <circle cx="950" cy="315" r="220"/>
+    <circle cx="950" cy="315" r="290"/>
+  </g>
+
+  <!-- séquence de relances : enveloppes empilées + coche finale -->
+  <g font-family="system-ui, sans-serif">
+    <g transform="translate(760,200)">
+      <rect width="300" height="46" rx="12" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="2"/>
+      <rect x="16" y="14" width="24" height="18" rx="3" fill="none" stroke="#8A93AC" stroke-width="2"/>
+      <path d="M16 15 l12 9 l12 -9" fill="none" stroke="#8A93AC" stroke-width="2"/>
+      <text x="56" y="29" font-size="14" font-weight="600" fill="#5A6488">J+0 · Premier message</text>
+    </g>
+    <g transform="translate(760,258)">
+      <rect width="300" height="46" rx="12" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="2"/>
+      <rect x="16" y="14" width="24" height="18" rx="3" fill="none" stroke="#8A93AC" stroke-width="2"/>
+      <path d="M16 15 l12 9 l12 -9" fill="none" stroke="#8A93AC" stroke-width="2"/>
+      <text x="56" y="29" font-size="14" font-weight="600" fill="#5A6488">J+2 · Relance valeur</text>
+    </g>
+    <g transform="translate(760,316)">
+      <rect width="300" height="46" rx="12" fill="#FFFFFF" stroke="#C3C9DC" stroke-width="2"/>
+      <rect x="16" y="14" width="24" height="18" rx="3" fill="none" stroke="#8A93AC" stroke-width="2"/>
+      <path d="M16 15 l12 9 l12 -9" fill="none" stroke="#8A93AC" stroke-width="2"/>
+      <text x="56" y="29" font-size="14" font-weight="600" fill="#5A6488">J+5 · Preuve / objection</text>
+    </g>
+    <g transform="translate(760,374)">
+      <rect width="300" height="46" rx="12" fill="url(#gacc)"/>
+      <circle cx="33" cy="23" r="12" fill="#FFFFFF"/>
+      <path d="M27 23 l4 4 l8 -8" stroke="#2946C8" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="56" y="29" font-size="14" font-weight="700" fill="#FFFFFF">J+8 · « Oui, on y va »</text>
+    </g>
+  </g>
+
+  <!-- titre -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="90" y="150" font-size="30" font-weight="600" fill="#2946C8">Hack · Relances IA</text>
+    <text x="90" y="214" font-size="46" font-weight="800" fill="#111A3D">La vente est dans</text>
+    <text x="90" y="270" font-size="46" font-weight="800" fill="#111A3D">la relance.</text>
+    <text x="90" y="322" font-size="22" font-weight="500" fill="#5A6488">La plupart lâchent après 1 message.</text>
+    <text x="90" y="352" font-size="22" font-weight="500" fill="#5A6488">La séquence IA qui récupère tes ventes.</text>
+  </g>
+
+  <text x="90" y="580" font-size="19" font-weight="700" fill="#1B2559"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">Konig IA</text>
+</svg>

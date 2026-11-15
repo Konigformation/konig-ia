@@ -24,6 +24,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${siteConfig.url}/blog/arrete-d-etre-disponible-24-7`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${siteConfig.url}/blog/chatgpt-business-agents-visibilite-acquisition`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${siteConfig.url}/blog/hack-relances-automatisees-ia`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${siteConfig.url}/blog/systeme-prise-rdv-qualifiee-automatisee`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: `${siteConfig.url}/blog/arrete-d-attendre-etre-pret`,
       lastModified: now,
       changeFrequency: "weekly",
